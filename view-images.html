@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: #fff;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #d4af37;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .image-card {
+            background: #2a2a2a;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+        .image-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+        }
+        .image-name {
+            margin-top: 10px;
+            font-size: 14px;
+            text-align: center;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+    <h1>Images from Images Folder</h1>
+    <div class="gallery">
+        <div class="image-card">
+            <img src="images/WhatsApp Image 2026-07-19 at 11.23.26 AM (1).jpeg" alt="Image 1">
+            <div class="image-name">WhatsApp Image 2026-07-19 at 11.23.26 AM (1).jpeg</div>
+        </div>
+        <div class="image-card">
+            <img src="images/WhatsApp Image 2026-07-19 at 11.23.26 AM.jpeg" alt="Image 2">
+            <div class="image-name">WhatsApp Image 2026-07-19 at 11.23.26 AM.jpeg</div>
+        </div>
+        <div class="image-card">
+            <img src="images/WhatsApp Image 2026-07-19 at 11.23.27 AM (1).jpeg" alt="Image 3">
+            <div class="image-name">WhatsApp Image 2026-07-19 at 11.23.27 AM (1).jpeg</div>
+        </div>
+        <div class="image-card">
+            <img src="images/WhatsApp Image 2026-07-19 at 11.23.27 AM.jpeg" alt="Image 4">
+            <div class="image-name">WhatsApp Image 2026-07-19 at 11.23.27 AM.jpeg</div>
+        </div>
+        <div class="image-card">
+            <img src="images/WhatsApp Image 2026-07-19 at 11.23.28 AM (1).jpeg" alt="Image 5">
+            <div class="image-name">WhatsApp Image 2026-07-19 at 11.23.28 AM (1).jpeg</div>
+        </div>
+        <div class="image-card">
+            <img src="images/WhatsApp Image 2026-07-19 at 11.23.28 AM.jpeg" alt="Image 6">
+            <div class="image-name">WhatsApp Image 2026-07-19 at 11.23.28 AM.jpeg</div>
+        </div>
+        <div class="image-card">
+            <img src="images/WhatsApp Image 2026-07-19 at 11.23.29 AM.jpeg" alt="Image 7">
+            <div class="image-name">WhatsApp Image 2026-07-19 at 11.23.29 AM.jpeg</div>
+        </div>
+        <div class="image-card">
+            <img src="images/WhatsApp Image 2026-07-19 at 11.23.31 AM (1).jpeg" alt="Image 8">
+            <div class="image-name">WhatsApp Image 2026-07-19 at 11.23.31 AM (1).jpeg</div>
+        </div>
+        <div class="image-card">
+            <img src="images/WhatsApp Image 2026-07-19 at 11.23.31 AM.jpeg" alt="Image 9">
+            <div class="image-name">WhatsApp Image 2026-07-19 at 11.23.31 AM.jpeg</div>
+        </div>
+        <div class="image-card">
+            <img src="images/WhatsApp Image 2026-07-19 at 11.23.32 AM (1).jpeg" alt="Image 10">
+            <div class="image-name">WhatsApp Image 2026-07-19 at 11.23.32 AM (1).jpeg</div>
+        </div>
+        <div class="image-card">
+            <img src="images/WhatsApp Image 2026-07-19 at 11.23.32 AM.jpeg" alt="Image 11">
+            <div class="image-name">WhatsApp Image 2026-07-19 at 11.23.32 AM.jpeg</div>
+        </div>
+    </div>
+</body>
+</html>
