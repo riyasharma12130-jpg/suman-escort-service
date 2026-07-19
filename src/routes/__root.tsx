@@ -77,6 +77,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "google-site-verification", content: "jxESRVjN5XoFAcmwonYhi6dzJ8GzTTLfTxW2jthxhlE" },
       { title: "Jaipur Call Girls & Escort Service | Book Premium Escorts in Jaipur" },
       { name: "description", content: "Book exclusive call girls and escort service in Jaipur. Premium, verified escorts available 24/7. Call now +91 74148 38654 for discreet booking." },
       { name: "keywords", content: "call girls in Jaipur, Jaipur escort girls, book call girls in Jaipur, escort service Jaipur, premium escorts Jaipur, independent escorts Jaipur, Jaipur call girl booking" },
