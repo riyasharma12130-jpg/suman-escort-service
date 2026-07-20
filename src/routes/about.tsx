@@ -11,8 +11,8 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About Us | Best Escort Service Jaipur & Premium Spa" },
-      { name: "description", content: "Learn more about Jaipur Relax Spa, the most trusted and genuine escort service Jaipur. Located in Sindhi Camp, we provide premium companion services 24/7." },
-      { name: "keywords", content: "about escort service Jaipur, Jaipur relax spa history, genuine call girls in Jaipur, premium spa Jaipur, Sindhi Camp spa" },
+      { name: "description", content: "Learn more about Riya Escort Service, the most trusted and genuine escort service Jaipur. Located in Sindhi Camp, we provide premium companion services 24/7." },
+      { name: "keywords", content: "about escort service Jaipur, riya escort service history, genuine call girls in Jaipur, premium spa Jaipur, Sindhi Camp spa" },
     ],
   }),
 });
@@ -25,7 +25,7 @@ export default function AboutPage() {
     <div className="min-h-screen bg-background text-foreground">
       <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-background/60 border-b border-border">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Jaipur Relax Spa</a>
+          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Riya Escort Service</a>
           <nav className="hidden md:flex gap-10 text-sm text-muted-foreground">
             <a href="/" className="hover:text-primary transition">Home</a>
             <a href="/about" className="text-primary transition">About</a>
@@ -42,7 +42,7 @@ export default function AboutPage() {
       <section className="pt-32 pb-16 bg-radial-glow">
         <div className="mx-auto max-w-4xl px-6 text-center">
           <p className="text-xs uppercase tracking-[0.4em] text-primary mb-4">Our Story</p>
-          <h1 className="font-display text-4xl md:text-6xl font-light mb-8">About Jaipur Relax Spa</h1>
+          <h1 className="font-display text-4xl md:text-6xl font-light mb-8">About Riya Escort Service</h1>
           <p className="text-lg text-muted-foreground leading-relaxed">
             Discover why we are recognized as the premier escort service Jaipur has to offer, delivering unforgettable experiences with genuine and verified companions.
           </p>
@@ -55,7 +55,7 @@ export default function AboutPage() {
             <div>
               <h2 className="font-display text-3xl text-gold-gradient mb-4">The Most Trusted Escort Service Jaipur</h2>
               <p className="mb-4">
-                For years, Jaipur Relax Spa has stood as the gold standard for luxury companionship and premium relaxation in the Pink City. When you are looking for an <strong>escort service Jaipur</strong>, you are not just looking for a meeting; you are seeking a meticulously curated experience that prioritizes your satisfaction, privacy, and safety.
+                For years, Riya Escort Service has stood as the gold standard for luxury companionship and premium relaxation in the Pink City. When you are looking for an <strong>escort service Jaipur</strong>, you are not just looking for a meeting; you are seeking a meticulously curated experience that prioritizes your satisfaction, privacy, and safety.
               </p>
               <p>
                 Located conveniently in the heart of the city at <strong>Sindhi Camp</strong>, our establishment serves as a sanctuary for those looking to escape the mundane. Our deep understanding of what constitutes a truly premium service has allowed us to become the most sought-after destination for gentlemen and travelers alike who want to book call girls in Jaipur.
@@ -95,7 +95,7 @@ export default function AboutPage() {
             <div className="bg-card border border-border p-8 rounded-lg">
               <h2 className="font-display text-3xl text-gold-gradient mb-4">Uncompromising Hygiene & Safety Standards</h2>
               <p className="mb-4">
-                In the luxury adult entertainment and premium spa industry, health and hygiene are non-negotiable. At Jaipur Relax Spa, we have instituted the highest health protocols for both our clients and our companions. Our incall facility in <strong>Sindhi Camp</strong> is sanitized daily, and fresh linens, premium toiletries, and a completely immaculate environment are guaranteed for every single booking.
+                In the luxury adult entertainment and premium spa industry, health and hygiene are non-negotiable. At Riya Escort Service, we have instituted the highest health protocols for both our clients and our companions. Our incall facility in <strong>Sindhi Camp</strong> is sanitized daily, and fresh linens, premium toiletries, and a completely immaculate environment are guaranteed for every single booking.
               </p>
               <p className="mb-4">
                 Furthermore, we prioritize the safety and well-being of our <strong>Jaipur escort girls</strong> just as much as our clients. We operate a secure, verified booking system that protects the identities of everyone involved. This mutual respect creates a stress-free environment where both you and your companion can truly relax and enjoy the moment without any underlying anxieties.
@@ -115,7 +115,7 @@ export default function AboutPage() {
             <div className="bg-card border border-border p-8 rounded-lg">
               <h2 className="font-display text-3xl text-gold-gradient mb-4">Our Philosophy of Luxury Companionship</h2>
               <p className="mb-4">
-                At Jaipur Relax Spa, we believe that true luxury lies in the details and the personalization of service. We reject the "one-size-fits-all" approach that plagues the industry. Instead, we take the time to understand your specific desires, preferences, and fantasies. Whether you seek a dominant, passionate encounter or a sweet, submissive romance, our diverse roster of companions can cater to your exact requirements.
+                At Riya Escort Service, we believe that true luxury lies in the details and the personalization of service. We reject the "one-size-fits-all" approach that plagues the industry. Instead, we take the time to understand your specific desires, preferences, and fantasies. Whether you seek a dominant, passionate encounter or a sweet, submissive romance, our diverse roster of companions can cater to your exact requirements.
               </p>
               <p>
                 We view ourselves not just as a booking agency, but as facilitators of extraordinary experiences. By continuously adapting to the feedback of our elite clientele and maintaining our unwavering standards, we remain the definitive choice for anyone looking to experience the finest <strong>escort service in Jaipur</strong>.
@@ -153,8 +153,8 @@ export default function AboutPage() {
       </section>
 
       <footer className="border-t border-border py-10 text-center text-xs text-muted-foreground">
-        <p className="font-display text-lg text-gold-gradient mb-2">Jaipur Relax Spa</p>
-        <p>© {new Date().getFullYear()} Jaipur Relax Spa & Companion Services · All bookings by appointment</p>
+        <p className="font-display text-lg text-gold-gradient mb-2">Riya Escort Service</p>
+        <p>© {new Date().getFullYear()} Riya Escort Service & Companion Services · All bookings by appointment</p>
       </footer>
     </div>
   );

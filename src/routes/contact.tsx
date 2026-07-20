@@ -26,7 +26,7 @@ export default function ContactPage() {
 
       <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-background/60 border-b border-border">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Jaipur Relax Spa</a>
+          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Riya Escort Service</a>
           <nav className="hidden md:flex gap-10 text-sm text-muted-foreground">
             <a href="/" className="hover:text-primary transition">Home</a>
             <a href="/about" className="hover:text-primary transition">About</a>
@@ -113,7 +113,7 @@ export default function ContactPage() {
             <h2 className="font-display text-2xl mb-6 text-gold-gradient text-center">Communication Policy & Privacy</h2>
             <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
               <p>
-                When you contact Jaipur Relax Spa, you are engaging with the most professional <strong>escort service Jaipur</strong> has to offer. We understand that reaching out for adult companionship requires a high degree of trust, which is why our communication policy is built entirely around your privacy and discretion.
+                When you contact Riya Escort Service, you are engaging with the most professional <strong>escort service Jaipur</strong> has to offer. We understand that reaching out for adult companionship requires a high degree of trust, which is why our communication policy is built entirely around your privacy and discretion.
               </p>
               <p>
                 <strong>Confidentiality Guarantee:</strong> Every WhatsApp message, phone call, and inquiry is treated with strict confidentiality. We never store your contact information for marketing purposes, nor do we share it with third parties. Once your service is completed, your chat history on our end is routinely cleared to protect your identity.
@@ -130,8 +130,8 @@ export default function ContactPage() {
       </section>
 
       <footer className="border-t border-border py-10 text-center text-xs text-muted-foreground">
-        <p className="font-display text-lg text-gold-gradient mb-2">Jaipur Relax Spa</p>
-        <p>© {new Date().getFullYear()} Jaipur Relax Spa & Companion Services · All bookings by appointment</p>
+        <p className="font-display text-lg text-gold-gradient mb-2">Riya Escort Service</p>
+        <p>© {new Date().getFullYear()} Riya Escort Service & Companion Services · All bookings by appointment</p>
       </footer>
     </div>
   );

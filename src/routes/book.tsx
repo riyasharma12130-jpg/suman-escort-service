@@ -10,9 +10,9 @@ export const Route = createFileRoute("/book")({
   component: BookPage,
   head: () => ({
     meta: [
-      { title: "Book The Best Escort Service Jaipur | Jaipur Relax Spa Booking" },
+      { title: "Book The Best Escort Service Jaipur | Riya Escort Service Booking" },
       { name: "description", content: "Book premium escort service Jaipur. Discreet 24/7 booking available in Sindhi Camp and across Jaipur. WhatsApp +91 74148 38654 for immediate confirmation." },
-      { name: "keywords", content: "book escort service Jaipur, Jaipur relax spa booking, call girl booking Jaipur, escort service booking in Sindhi Camp" },
+      { name: "keywords", content: "book escort service Jaipur, riya escort service booking, call girl booking Jaipur, escort service booking in Sindhi Camp" },
     ],
   }),
 });
@@ -26,7 +26,7 @@ export default function BookPage() {
 
       <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-background/60 border-b border-border">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Jaipur Relax Spa</a>
+          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Riya Escort Service</a>
           <nav className="hidden md:flex gap-10 text-sm text-muted-foreground">
             <a href="/" className="hover:text-primary transition">Home</a>
             <a href="/about" className="hover:text-primary transition">About</a>
@@ -127,8 +127,8 @@ export default function BookPage() {
       </section>
 
       <footer className="border-t border-border py-10 text-center text-xs text-muted-foreground">
-        <p className="font-display text-lg text-gold-gradient mb-2">Jaipur Relax Spa</p>
-        <p>© {new Date().getFullYear()} Jaipur Relax Spa & Companion Services · All bookings by appointment</p>
+        <p className="font-display text-lg text-gold-gradient mb-2">Riya Escort Service</p>
+        <p>© {new Date().getFullYear()} Riya Escort Service & Companion Services · All bookings by appointment</p>
       </footer>
     </div>
   );

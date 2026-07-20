@@ -25,7 +25,7 @@ export default function AreasPage() {
     <div className="min-h-screen bg-background text-foreground">
       <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-background/60 border-b border-border">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Jaipur Relax Spa</a>
+          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Riya Escort Service</a>
           <nav className="hidden md:flex gap-10 text-sm text-muted-foreground">
             <a href="/" className="hover:text-primary transition">Home</a>
             <a href="/about" className="hover:text-primary transition">About</a>
@@ -77,7 +77,7 @@ export default function AreasPage() {
             <div className="bg-card border border-border p-8 rounded-lg">
               <h2 className="font-display text-3xl text-gold-gradient mb-4">Raja Park</h2>
               <p>
-                Raja Park is famous for its vibrant food scene and lively atmosphere. After a long day of exploring or business meetings, you might want to unwind. Our premium Jaipur relax spa services extend seamlessly into Raja Park. We provide swift outcall services to all major accommodations in and around the Raja Park area, ensuring you get the relaxation you deserve without any hassle.
+                Raja Park is famous for its vibrant food scene and lively atmosphere. After a long day of exploring or business meetings, you might want to unwind. Our premium riya escort service services extend seamlessly into Raja Park. We provide swift outcall services to all major accommodations in and around the Raja Park area, ensuring you get the relaxation you deserve without any hassle.
               </p>
             </div>
 
@@ -91,7 +91,7 @@ export default function AreasPage() {
             <div className="bg-card border border-border p-8 rounded-lg">
               <h2 className="font-display text-3xl text-gold-gradient mb-4">Mansarovar</h2>
               <p>
-                As one of the largest residential colonies in Asia, Mansarovar is a key service area for Jaipur Relax Spa. We understand that residents and visitors in this expansive area demand prompt and discreet service. Our extensive network allows us to provide rapid outcall <strong>Jaipur escort girls</strong> to any sector of Mansarovar, ensuring your privacy is completely safeguarded in residential settings.
+                As one of the largest residential colonies in Asia, Mansarovar is a key service area for Riya Escort Service. We understand that residents and visitors in this expansive area demand prompt and discreet service. Our extensive network allows us to provide rapid outcall <strong>Jaipur escort girls</strong> to any sector of Mansarovar, ensuring your privacy is completely safeguarded in residential settings.
               </p>
             </div>
 
@@ -122,7 +122,7 @@ export default function AreasPage() {
                 The sprawling, wealthy suburbs of Vaishali Nagar demand a certain standard of luxury, and we are proud to deliver exactly that. Our outcall escort service Jaipur covers Vaishali Nagar, Mansarovar, Bani Park, and Civil Lines comprehensively. We understand that our elite clients reside in these areas, which is why we ensure our VIP companions arrive quickly and discreetly in unmarked vehicles.
               </p>
               <p>
-                No matter where you are located in the city—whether you are near the historic Hawa Mahal, staying near the airport, or relaxing in the outskirts—Jaipur Relax Spa is dedicated to reaching you. We are truly the most extensive and reliable escort service Jaipur has to offer.
+                No matter where you are located in the city—whether you are near the historic Hawa Mahal, staying near the airport, or relaxing in the outskirts—Riya Escort Service is dedicated to reaching you. We are truly the most extensive and reliable escort service Jaipur has to offer.
               </p>
             </div>
 
@@ -148,8 +148,8 @@ export default function AreasPage() {
       </section>
 
       <footer className="border-t border-border py-10 text-center text-xs text-muted-foreground">
-        <p className="font-display text-lg text-gold-gradient mb-2">Jaipur Relax Spa</p>
-        <p>© {new Date().getFullYear()} Jaipur Relax Spa & Companion Services · All bookings by appointment</p>
+        <p className="font-display text-lg text-gold-gradient mb-2">Riya Escort Service</p>
+        <p>© {new Date().getFullYear()} Riya Escort Service & Companion Services · All bookings by appointment</p>
       </footer>
     </div>
   );
