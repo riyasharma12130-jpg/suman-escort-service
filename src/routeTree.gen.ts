@@ -16,6 +16,9 @@ import { Route as AreasRouteImport } from './routes/areas'
 import { Route as AdminRouteImport } from './routes/admin'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as GuidesIndexRouteImport } from './routes/guides/index'
+import { Route as GuidesIncallVsOutcallRouteImport } from './routes/guides/incall-vs-outcall'
+import { Route as GuidesFirstTimeBookingRouteImport } from './routes/guides/first-time-booking'
 
 const LoginRoute = LoginRouteImport.update({
   id: '/login',
@@ -52,6 +55,21 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const GuidesIndexRoute = GuidesIndexRouteImport.update({
+  id: '/guides/',
+  path: '/guides/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GuidesIncallVsOutcallRoute = GuidesIncallVsOutcallRouteImport.update({
+  id: '/guides/incall-vs-outcall',
+  path: '/guides/incall-vs-outcall',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GuidesFirstTimeBookingRoute = GuidesFirstTimeBookingRouteImport.update({
+  id: '/guides/first-time-booking',
+  path: '/guides/first-time-booking',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -61,6 +79,9 @@ export interface FileRoutesByFullPath {
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
   '/login': typeof LoginRoute
+  '/guides/first-time-booking': typeof GuidesFirstTimeBookingRoute
+  '/guides/incall-vs-outcall': typeof GuidesIncallVsOutcallRoute
+  '/guides/': typeof GuidesIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -70,6 +91,9 @@ export interface FileRoutesByTo {
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
   '/login': typeof LoginRoute
+  '/guides/first-time-booking': typeof GuidesFirstTimeBookingRoute
+  '/guides/incall-vs-outcall': typeof GuidesIncallVsOutcallRoute
+  '/guides': typeof GuidesIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -80,13 +104,35 @@ export interface FileRoutesById {
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
   '/login': typeof LoginRoute
+  '/guides/first-time-booking': typeof GuidesFirstTimeBookingRoute
+  '/guides/incall-vs-outcall': typeof GuidesIncallVsOutcallRoute
+  '/guides/': typeof GuidesIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-    '/' | '/about' | '/admin' | '/areas' | '/book' | '/contact' | '/login'
+    | '/'
+    | '/about'
+    | '/admin'
+    | '/areas'
+    | '/book'
+    | '/contact'
+    | '/login'
+    | '/guides/first-time-booking'
+    | '/guides/incall-vs-outcall'
+    | '/guides/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/admin' | '/areas' | '/book' | '/contact' | '/login'
+  to:
+    | '/'
+    | '/about'
+    | '/admin'
+    | '/areas'
+    | '/book'
+    | '/contact'
+    | '/login'
+    | '/guides/first-time-booking'
+    | '/guides/incall-vs-outcall'
+    | '/guides'
   id:
     | '__root__'
     | '/'
@@ -96,6 +142,9 @@ export interface FileRouteTypes {
     | '/book'
     | '/contact'
     | '/login'
+    | '/guides/first-time-booking'
+    | '/guides/incall-vs-outcall'
+    | '/guides/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -106,6 +155,9 @@ export interface RootRouteChildren {
   BookRoute: typeof BookRoute
   ContactRoute: typeof ContactRoute
   LoginRoute: typeof LoginRoute
+  GuidesFirstTimeBookingRoute: typeof GuidesFirstTimeBookingRoute
+  GuidesIncallVsOutcallRoute: typeof GuidesIncallVsOutcallRoute
+  GuidesIndexRoute: typeof GuidesIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -159,6 +211,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/guides/': {
+      id: '/guides/'
+      path: '/guides'
+      fullPath: '/guides/'
+      preLoaderRoute: typeof GuidesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/guides/incall-vs-outcall': {
+      id: '/guides/incall-vs-outcall'
+      path: '/guides/incall-vs-outcall'
+      fullPath: '/guides/incall-vs-outcall'
+      preLoaderRoute: typeof GuidesIncallVsOutcallRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/guides/first-time-booking': {
+      id: '/guides/first-time-booking'
+      path: '/guides/first-time-booking'
+      fullPath: '/guides/first-time-booking'
+      preLoaderRoute: typeof GuidesFirstTimeBookingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -170,6 +243,9 @@ const rootRouteChildren: RootRouteChildren = {
   BookRoute: BookRoute,
   ContactRoute: ContactRoute,
   LoginRoute: LoginRoute,
+  GuidesFirstTimeBookingRoute: GuidesFirstTimeBookingRoute,
+  GuidesIncallVsOutcallRoute: GuidesIncallVsOutcallRoute,
+  GuidesIndexRoute: GuidesIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

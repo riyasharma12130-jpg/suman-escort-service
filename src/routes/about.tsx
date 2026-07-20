@@ -18,7 +18,7 @@ export const Route = createFileRoute("/about")({
 });
 
 export default function AboutPage() {
-  const whatsappNumber = "+91 82095 04484";
+  const whatsappNumber = "+91 74148 38654";
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\s/g, "")}`;
 
   return (
@@ -42,7 +42,13 @@ export default function AboutPage() {
       <section className="pt-32 pb-16 bg-radial-glow">
         <div className="mx-auto max-w-4xl px-6 text-center">
           <p className="text-xs uppercase tracking-[0.4em] text-primary mb-4">Our Story</p>
-          <h1 className="font-display text-4xl md:text-6xl font-light mb-8">About Payal Escort Service</h1>
+          <h1 className="font-display text-4xl md:text-6xl font-light mb-6">About Payal Escort Service</h1>
+          <div className="flex items-center justify-center gap-4 mb-8 text-xs uppercase tracking-widest text-primary/80">
+            <span className="flex items-center gap-2">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+              Written by Payal (Agency Director)
+            </span>
+          </div>
           <p className="text-lg text-muted-foreground leading-relaxed">
             Discover why we are recognized as the premier escort service Jaipur has to offer, delivering unforgettable experiences with genuine and verified companions.
           </p>
@@ -82,11 +88,19 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <div className="bg-card border border-border p-8 rounded-lg">
-              <h2 className="font-display text-3xl text-gold-gradient mb-4">Our Strict Screening Process</h2>
+            <div className="bg-card border border-border p-8 rounded-lg relative overflow-hidden">
+              <div className="absolute top-0 left-0 w-1 h-full bg-primary"></div>
+              <h2 className="font-display text-3xl text-gold-gradient mb-4">Our Strict Screening & Verification Methodology</h2>
+              <p className="mb-4 text-primary font-medium">Yes, we really have met and tested the service of every single companion.</p>
               <p className="mb-4">
-                What truly distinguishes our <strong>escort service Jaipur</strong> from others is our relentless commitment to quality through a stringent vetting process. We do not accept just anyone into our agency. Every model, college girl, and independent companion undergoes a thorough background check and personal interview. We evaluate them not only on their physical beauty but also on their emotional intelligence, conversational skills, and overall elegance.
+                What truly distinguishes our <strong>escort service Jaipur</strong> from others is our relentless commitment to quality through a stringent 4-step vetting process. We do not accept just anyone into our agency. Every model, college girl, and independent companion undergoes a thorough background check and in-person verification at our Sindhi Camp office.
               </p>
+              <ul className="list-disc list-inside mb-4 space-y-2 text-sm">
+                <li><strong>ID & Age Verification:</strong> We ensure all companions are strictly over 18 with valid documentation.</li>
+                <li><strong>Photo Matching:</strong> We take original, unedited photos of the companions in our facility. The photos you see on our site are 100% genuine and verified by us.</li>
+                <li><strong>Interview & Etiquette Test:</strong> We evaluate them not only on their physical beauty but also on their emotional intelligence, conversational skills, and overall elegance.</li>
+                <li><strong>Health & Hygiene Check:</strong> Regular health screenings are mandatory for all our active escorts.</li>
+              </ul>
               <p className="mb-4">
                 When you <strong>book call girls in Jaipur</strong> through us, you are guaranteed to meet a companion who can hold her own in any social setting—from a high-profile corporate dinner in C Scheme to a relaxed, intimate evening in Sindhi Camp. We ensure that our escorts are polite, articulate, and dedicated to providing a Girlfriend Experience (GFE) that feels incredibly natural and unforced.
               </p>

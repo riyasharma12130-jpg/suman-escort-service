@@ -22,9 +22,9 @@ export const Route = createFileRoute("/")({
   component: Landing,
   head: () => ({
     meta: [
-      { title: "Jaipur Escort Service | Jaipur Call Girls Service & Callgirls | Payal" },
-      { name: "description", content: "Looking for the best escort service Jaipur? Visit Payal Escort Service in Sindhi Camp for exclusive and premium relaxation services. Top-rated companion services available 24/7. Call +91 74148 38654." },
-      { name: "keywords", content: "jaipur escort service, jaipur call girls service, jaipur callgirls, escort service in Sindhi Camp, book call girls in Jaipur, call girls in Jaipur, Jaipur escort girls, payal escort service, premium spa Jaipur" },
+      { title: "Jaipur Escort Service | Premium Jaipur Call Girls Nearby Me | Payal" },
+      { name: "description", content: "Looking for Jaipur escort girls nearby me? Visit Payal Jaipur Escort Service for 100% independent call girls, real pics, and VIP premium spa services 24/7." },
+      { name: "keywords", content: "jaipur escort service, jaipur call girls, jaipur escort girls nearby me, independent call girls jaipur, premium escort service jaipur, real pics escort jaipur" },
     ],
   }),
 });
@@ -47,16 +47,16 @@ const services = [
 
 // Escort profiles
 const escorts = [
-  { name: "Ppayal Sharma", age: 24, location: "Jaipur", price: "₹5,000", img: imageList[1], desc: "Premium independent call girl in Jaipur. Elegant, sophisticated, and available for discreet incall and outcall services in C Scheme and Sindhi Camp." },
-  { name: "Isha (Airhostess)", age: 23, location: "Jaipur", price: "₹8,000", img: imageList[9], desc: "Beautiful airhostess escort. Known for a sweet, attentive Girlfriend Experience and late-night hotel visits." },
-  { name: "Anika (Celebrity)", age: 22, location: "Jaipur", price: "₹12,000", img: imageList[10], desc: "High-profile celebrity model for rich clients. Highly exclusive and discreet VIP outcall companionship." },
-  { name: "Ppayalnka (Housewife)", age: 28, location: "Jaipur", price: "₹6,000", img: imageList[2], desc: "Mature and incredibly sensual Bhabhi escort. Perfect for those seeking deep connection and passionate satisfaction." },
-  { name: "Kavya (Independent)", age: 26, location: "Jaipur", price: "₹7,000", img: imageList[3], desc: "Beautiful and highly experienced high-profile escort. Ensures complete satisfaction with Girlfriend Experience (GFE) in Jaipur." },
-  { name: "Meera Singh", age: 23, location: "Jaipur", price: "₹5,500", img: imageList[4], desc: "Sweet, caring, and soft-spoken. Available for both short meetings and full-night romantic companionship in Jaipur." },
-  { name: "Payal Desai", age: 25, location: "Jaipur", price: "₹6,500", img: imageList[5], desc: "Stunning beauty with excellent communication skills. The ideal dinner and date companion for elite gentlemen." },
-  { name: "Vanu (Russian)", age: 21, location: "Jaipur", price: "₹10,000", img: imageList[6], desc: "Exotic VIP Russian escort in Jaipur. Young, energetic, and provides an international standard of luxury companionship." },
-  { name: "Pooja Malhotra", age: 27, location: "Jaipur", price: "₹7,500", img: imageList[7], desc: "Mature, understanding, and incredibly sensual. Provides ultimate relaxation and professional behavior for high-profile clients." },
-  { name: "Sneha Joshi", age: 22, location: "Jaipur", price: "₹5,000", img: imageList[8], desc: "Friendly, approachable, and fun-loving. Ensures a very comfortable and respectful experience for first-time callers." },
+  { name: "Ppayal Sharma", age: 24, location: "Jaipur", price: "₹5,000", img: imageList[1], desc: "Premium independent call girl in Jaipur. Elegant, sophisticated, and available for discreet incall and outcall services in C Scheme and Sindhi Camp.", bestFor: "Luxury Experiences" },
+  { name: "Isha (Airhostess)", age: 23, location: "Jaipur", price: "₹8,000", img: imageList[9], desc: "Beautiful airhostess escort. Known for a sweet, attentive Girlfriend Experience and late-night hotel visits.", bestFor: "Girlfriend Experience" },
+  { name: "Anika (Celebrity)", age: 22, location: "Jaipur", price: "₹12,000", img: imageList[10], desc: "High-profile celebrity model for rich clients. Highly exclusive and discreet VIP outcall companionship.", bestFor: "VIP Clients" },
+  { name: "Ppayalnka (Housewife)", age: 28, location: "Jaipur", price: "₹6,000", img: imageList[2], desc: "Mature and incredibly sensual Bhabhi escort. Perfect for those seeking deep connection and passionate satisfaction.", bestFor: "Sensual Connections" },
+  { name: "Kavya (Independent)", age: 26, location: "Jaipur", price: "₹7,000", img: imageList[3], desc: "Beautiful and highly experienced high-profile escort. Ensures complete satisfaction with Girlfriend Experience (GFE) in Jaipur.", bestFor: "Experienced GFE" },
+  { name: "Meera Singh", age: 23, location: "Jaipur", price: "₹5,500", img: imageList[4], desc: "Sweet, caring, and soft-spoken. Available for both short meetings and full-night romantic companionship in Jaipur.", bestFor: "Romantic Nights" },
+  { name: "Payal Desai", age: 25, location: "Jaipur", price: "₹6,500", img: imageList[5], desc: "Stunning beauty with excellent communication skills. The ideal dinner and date companion for elite gentlemen.", bestFor: "Dinner Dates" },
+  { name: "Vanu (Russian)", age: 21, location: "Jaipur", price: "₹10,000", img: imageList[6], desc: "Exotic VIP Russian escort in Jaipur. Young, energetic, and provides an international standard of luxury companionship.", bestFor: "Exotic Luxury" },
+  { name: "Pooja Malhotra", age: 27, location: "Jaipur", price: "₹7,500", img: imageList[7], desc: "Mature, understanding, and incredibly sensual. Provides ultimate relaxation and professional behavior for high-profile clients.", bestFor: "Stress Relief" },
+  { name: "Sneha Joshi", age: 22, location: "Jaipur", price: "₹5,000", img: imageList[8], desc: "Friendly, approachable, and fun-loving. Ensures a very comfortable and respectful experience for first-time callers.", bestFor: "First-Timers" },
 ];
 
 const WhatsappIcon = ({ className }: { className?: string }) => (
@@ -66,7 +66,7 @@ const WhatsappIcon = ({ className }: { className?: string }) => (
 );
 
 export default function Landing() {
-  const whatsappNumber = "+91 82095 04484";
+  const whatsappNumber = "+91 74148 38654";
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\s/g, "")}`;
   
   const rituals = [
@@ -86,6 +86,7 @@ export default function Landing() {
             <a href="#escorts" className="hover:text-primary transition">Escorts</a>
             <a href="/about" className="hover:text-primary transition">About</a>
             <a href="/areas" className="hover:text-primary transition">Areas</a>
+            <a href="/guides" className="hover:text-primary transition">Guides</a>
             <a href="#rituals" className="hover:text-primary transition">Pricing</a>
             <a href="/contact" className="hover:text-primary transition">Contact</a>
           </nav>
@@ -104,12 +105,12 @@ export default function Landing() {
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center animate-fade-in">
           <p className="mb-6 text-xs uppercase tracking-[0.4em] text-primary">𝗝𝗔𝗜𝗣𝗨𝗥 • 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗘</p>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-light leading-[1.05]">
-            Best Escort Service <span className="italic text-gold-gradient">in Jaipur</span>
+            Jaipur Escort Service <span className="italic text-gold-gradient">&</span>
             <br />
-            Premium Spa & Companions
+            Premium Jaipur Call Girls
           </h1>
           <p className="mt-8 mx-auto max-w-xl text-base md:text-lg text-muted-foreground leading-relaxed">
-            Looking for the best escort service Jaipur? Verified, premium spa and discreet companion service in Sindhi Camp. Available 24/7.
+            Looking for independent <strong>Jaipur escort girls nearby me</strong>? We offer 100% verified, premium spa and discreet companion services with real photos. Available 24/7.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <a href="/book" className="rounded-full bg-primary px-8 py-3.5 text-sm font-medium text-primary-foreground hover:bg-gold transition shadow-[0_0_40px_-10px_var(--gold)]">Book Your Escort</a>
@@ -121,7 +122,30 @@ export default function Landing() {
 
       <section className="py-16 bg-card/20 border-b border-border">
         <div className="mx-auto max-w-5xl px-6 text-muted-foreground leading-relaxed">
-          <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-8 text-center">Welcome to Payal Escort Service: Your Premier Escort Service Jaipur</h2>
+          <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-4 text-center">Welcome to Payal Escort Service: Your #1 Jaipur Escort Service</h2>
+          
+          <div className="flex items-center justify-center gap-4 mb-10 text-xs uppercase tracking-widest text-primary/80 border-b border-border/50 pb-4 max-w-2xl mx-auto">
+            <span className="flex items-center gap-2">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+              By Payal (Agency Director)
+            </span>
+            <span>|</span>
+            <span className="flex items-center gap-2">
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+              Updated: {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}
+            </span>
+          </div>
+
+          <div className="bg-primary/5 border border-primary/20 rounded-lg p-6 mb-10">
+            <h3 className="font-display text-xl text-primary mb-3">TL;DR (Too Long; Didn't Read)</h3>
+            <ul className="list-disc list-inside space-y-2 text-sm">
+              <li><strong>Top-rated Escort Agency</strong> based in Sindhi Camp, Jaipur with 24/7 availability.</li>
+              <li>100% <strong>verified</strong> and independent companions for both Incall (our spa) and Outcall (hotel visits).</li>
+              <li>Focus on absolute <strong>discretion</strong>, hygiene, and a premium "Girlfriend Experience" (GFE).</li>
+              <li>Affordable rates starting at ₹5,000 for standard services up to VIP levels.</li>
+            </ul>
+          </div>
+
           <div className="space-y-6 text-sm md:text-base">
             <p>
               When you are seeking the absolute pinnacle of luxury companionship, you need the most reliable and genuine <strong>escort service Jaipur</strong> has to offer. At Payal Escort Service, located in the prestigious heart of Sindhi Camp, we pride ourselves on delivering an unparalleled experience that transcends the ordinary. Whether you are a business traveler unwinding after a long conference, a tourist looking to add a spark to your vacation, or a local gentleman seeking a discreet and beautiful companion, our agency is your ultimate destination to <strong>book call girls in Jaipur</strong>.
@@ -268,7 +292,10 @@ export default function Landing() {
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {escorts.map((e, i) => (
               <article key={i} className="group relative overflow-hidden rounded-lg bg-card border border-border">
-                <div className="aspect-[3/4] overflow-hidden">
+                <div className="aspect-[3/4] overflow-hidden relative">
+                  <div className="absolute top-3 right-3 z-10 bg-black/60 backdrop-blur-sm text-gold-gradient border border-primary/30 px-3 py-1 text-[10px] uppercase tracking-widest rounded-full">
+                    Best for: {e.bestFor}
+                  </div>
                   <img src={e.img} alt={e.name} loading="lazy" width={600} height={800} className="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
                 </div>
                 <div className="p-5">
@@ -473,6 +500,7 @@ export default function Landing() {
                 <li><a href="/" className="hover:text-primary transition">Jaipur Escorts service</a></li>
                 <li><a href="/areas" className="hover:text-primary transition">Jaipur Russian Escorts</a></li>
                 <li><a href="/areas" className="hover:text-primary transition">Jaipur Punjabi Escorts</a></li>
+                <li><a href="/guides" className="hover:text-primary transition">SEO Guides & Articles</a></li>
                 <li><a href="/areas" className="hover:text-primary transition">Indian Escorts</a></li>
                 <li><a href="/book" className="hover:text-primary transition">Massage in Jaipur</a></li>
                 <li><a href="/areas" className="hover:text-primary transition">Asian Escorts</a></li>

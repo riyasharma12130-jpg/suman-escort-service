@@ -18,7 +18,7 @@ export const Route = createFileRoute("/contact")({
 });
 
 export default function ContactPage() {
-  const whatsappNumber = "+91 82095 04484";
+  const whatsappNumber = "+91 74148 38654";
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\s/g, "")}`;
 
   return (
@@ -51,14 +51,14 @@ export default function ContactPage() {
               <h2 className="font-display text-2xl mb-6 text-gold-gradient">Contact Information</h2>
               <div className="space-y-6">
                 <div>
-                  <h3 className="font-display text-lg mb-2">WhatsApp</h3>
+                  <h3 className="font-display text-lg mb-2">Phone (WhatsApp & Call)</h3>
                   <a href={whatsappLink} target="_blank" rel="noreferrer" className="text-primary hover:text-gold transition">
-                    {whatsappNumber}
+                    +91 74148 38654
                   </a>
                 </div>
                 <div>
-                  <h3 className="font-display text-lg mb-2">Service Areas</h3>
-                  <p className="text-muted-foreground">Jaipur, Rajasthan</p>
+                  <h3 className="font-display text-lg mb-2">Business Address</h3>
+                  <p className="text-muted-foreground">Payal Escort Service<br/>Sindhi Camp, Jaipur<br/>Rajasthan 302001, IN</p>
                 </div>
                 <div>
                   <h3 className="font-display text-lg mb-2">Availability</h3>
@@ -103,10 +103,23 @@ export default function ContactPage() {
               href={whatsappLink} 
               target="_blank" 
               rel="noreferrer"
-              className="inline-block rounded-full bg-[#25D366] px-10 py-4 text-sm font-medium text-white hover:bg-[#25D366]/80 transition shadow-[0_0_60px_-10px_#25D366]"
+              className="inline-block rounded-full bg-[#25D366] px-10 py-4 text-sm font-medium text-white hover:bg-[#25D366]/80 transition shadow-[0_0_60px_-10px_#25D366] mb-12"
             >
               Message Us on WhatsApp
             </a>
+          </div>
+
+          <div className="bg-card border border-border rounded-lg p-2 mt-8 overflow-hidden">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14231.84852378877!2d75.78652431610486!3d26.9205561081523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3fd270d4c81%3A0xc64ef72d4c0627d3!2sSindhi%20Camp%2C%20Jaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1704200000000!5m2!1sen!2sin" 
+              width="100%" 
+              height="350" 
+              style={{border:0, borderRadius: '0.5rem'}} 
+              allowFullScreen={true} 
+              loading="lazy" 
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Google Map Location of Payal Escort Service in Sindhi Camp, Jaipur"
+            ></iframe>
           </div>
 
           <div className="mt-20 bg-card/50 border border-border rounded-lg p-8">
