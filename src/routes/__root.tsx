@@ -78,16 +78,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "google-site-verification", content: "jxESRVjN5XoFAcmwonYhi6dzJ8GzTTLfTxW2jthxhlE" },
-      { title: "Jaipur Call Girls & Escort Service | Book Premium Escorts in Jaipur" },
-      { name: "description", content: "Book exclusive call girls and escort service in Jaipur. Premium, verified escorts available 24/7. Call now +91 74148 38654 for discreet booking." },
-      { name: "keywords", content: "call girls in Jaipur, Jaipur escort girls, book call girls in Jaipur, escort service Jaipur, premium escorts Jaipur, independent escorts Jaipur, Jaipur call girl booking" },
-      { name: "author", content: "Jaipur Escorts" },
-      { property: "og:title", content: "Jaipur Call Girls & Escort Service" },
-      { property: "og:description", content: "Book exclusive call girls and escort service in Jaipur. Premium, verified escorts available 24/7." },
+      { title: "Escort Service Jaipur | Premium Spa & Call Girls in Sindhi Camp" },
+      { name: "description", content: "Looking for the best escort service Jaipur? Visit Jaipur Relax Spa in Sindhi Camp for exclusive and premium relaxation services. Top-rated companion services available 24/7. Call +91 74148 38654." },
+      { name: "keywords", content: "escort service Jaipur, escort service in Sindhi Camp, book call girls in Jaipur, call girls in Jaipur, Jaipur escort girls, Jaipur relax spa, premium spa Jaipur" },
+      { name: "author", content: "Jaipur Relax Spa" },
+      { property: "og:title", content: "Escort Service Jaipur | Premium Spa & Call Girls in Sindhi Camp" },
+      { property: "og:description", content: "Looking for the best escort service Jaipur? Visit Jaipur Relax Spa in Sindhi Camp for exclusive and premium companion services. Available 24/7." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Jaipur Call Girls & Escort Service" },
-      { name: "twitter:description", content: "Book exclusive call girls and escort service in Jaipur. Premium, verified escorts available 24/7." },
+      { name: "twitter:title", content: "Escort Service Jaipur | Premium Spa & Call Girls in Sindhi Camp" },
+      { name: "twitter:description", content: "Looking for the best escort service Jaipur? Visit Jaipur Relax Spa in Sindhi Camp for exclusive and premium companion services. Available 24/7." },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -104,10 +104,40 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 });
 
 function RootShell({ children }: { children: ReactNode }) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Jaipur Relax Spa",
+    "telephone": "+917414838654",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Sindhi Camp",
+      "addressLocality": "Jaipur",
+      "addressRegion": "Rajasthan",
+      "postalCode": "302001",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.92393,
+      "longitude": 75.7937
+    },
+    "areaServed": [
+      "Sindhi Camp, Jaipur",
+      "Jaipur",
+      "C Scheme, Jaipur",
+      "Raja Park, Jaipur",
+      "Vaishali Nagar, Jaipur",
+      "Malviya Nagar, Jaipur"
+    ],
+    "url": "https://jaipurescortgirls.com"
+  };
+
   return (
     <html lang="en">
       <head>
         <HeadContent />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       </head>
       <body>
         {children}
