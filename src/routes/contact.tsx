@@ -131,6 +131,9 @@ export default function ContactPage() {
 
       <footer className="border-t border-border py-10 text-center text-xs text-muted-foreground">
         <p className="font-display text-lg text-gold-gradient mb-2">Riya Escort Service</p>
+        <div className="max-w-3xl mx-auto px-6 mb-4 text-[10px] text-muted-foreground/50 leading-relaxed">
+           <strong>Locations Served in Jaipur:</strong> Sindhi Camp | C-Scheme | Malviya Nagar | Vaishali Nagar | Raja Park | Bani Park | Mansarovar | Tonk Road | Amer | Jal Mahal | JLN Marg | MI Road | Civil Lines | Jagatpura | Vidyadhar Nagar | Bapu Nagar | Jhotwara | Pratap Nagar
+        </div>
         <p>© {new Date().getFullYear()} Riya Escort Service & Companion Services · All bookings by appointment</p>
       </footer>
     </div>
