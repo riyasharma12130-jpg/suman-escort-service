@@ -392,8 +392,26 @@ export default function Landing() {
           <WhatsappIcon className="w-7 h-7" />
         </a>
         <p className="font-display text-lg text-gold-gradient mb-2">Riya Escort Service</p>
-        <div className="max-w-3xl mx-auto px-6 mb-4 text-[10px] text-muted-foreground/50 leading-relaxed">
-           <strong>Locations Served in Jaipur:</strong> Sindhi Camp | C-Scheme | Malviya Nagar | Vaishali Nagar | Raja Park | Bani Park | Mansarovar | Tonk Road | Amer | Jal Mahal | JLN Marg | MI Road | Civil Lines | Jagatpura | Vidyadhar Nagar | Bapu Nagar | Jhotwara | Pratap Nagar
+        <div className="max-w-4xl mx-auto px-6 mb-4 text-xs text-muted-foreground leading-relaxed flex flex-wrap justify-center items-center gap-x-2 gap-y-1">
+           <strong>Locations Served in Jaipur:</strong> 
+           <a href="/areas" className="hover:text-primary transition">Sindhi Camp</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">C-Scheme</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Malviya Nagar</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Vaishali Nagar</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Raja Park</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Bani Park</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Mansarovar</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Tonk Road</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Amer</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Jal Mahal</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">JLN Marg</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">MI Road</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Civil Lines</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Jagatpura</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Vidyadhar Nagar</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Bapu Nagar</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Jhotwara</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Pratap Nagar</a>
         </div>
         <p>© {new Date().getFullYear()} Riya Escort Service & Companion Services · All bookings by appointment</p>
       </footer>
