@@ -18,7 +18,7 @@ export const Route = createFileRoute("/about")({
 });
 
 export default function AboutPage() {
-  const whatsappNumber = "+91 74148 38654";
+  const whatsappNumber = "+91 82095 04484";
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\s/g, "")}`;
 
   return (

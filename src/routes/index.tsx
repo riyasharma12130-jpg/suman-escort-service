@@ -66,7 +66,7 @@ const WhatsappIcon = ({ className }: { className?: string }) => (
 );
 
 export default function Landing() {
-  const whatsappNumber = "+91 74148 38654";
+  const whatsappNumber = "+91 82095 04484";
   const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\s/g, "")}`;
   
   const rituals = [
