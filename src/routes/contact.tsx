@@ -10,9 +10,9 @@ export const Route = createFileRoute("/contact")({
   component: ContactPage,
   head: () => ({
     meta: [
-      { title: "Contact Jaipur Escorts | Call Girls in Jaipur Contact" },
-      { name: "description", content: "Contact Jaipur's premium call girl and escort service. Available 24/7 for discreet booking. WhatsApp +91 74148 38654." },
-      { name: "keywords", content: "contact Jaipur escorts, call girls in Jaipur contact, Jaipur escort service contact" },
+      { title: "Contact Us | Escort Service Jaipur & Premium Spa" },
+      { name: "description", content: "Contact Jaipur's premium escort service in Sindhi Camp. Available 24/7 for discreet booking. WhatsApp +91 74148 38654." },
+      { name: "keywords", content: "contact escort service Jaipur, call girls in Jaipur contact, Jaipur escort service contact, Sindhi Camp spa contact" },
     ],
   }),
 });
@@ -26,11 +26,11 @@ export default function ContactPage() {
 
       <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-background/60 border-b border-border">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Jaipur Escorts</a>
+          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Jaipur Relax Spa</a>
           <nav className="hidden md:flex gap-10 text-sm text-muted-foreground">
             <a href="/" className="hover:text-primary transition">Home</a>
-            <a href="/#services" className="hover:text-primary transition">Services</a>
-            <a href="/#escorts" className="hover:text-primary transition">Escorts</a>
+            <a href="/about" className="hover:text-primary transition">About</a>
+            <a href="/areas" className="hover:text-primary transition">Areas</a>
             <a href="/book" className="hover:text-primary transition">Book</a>
           </nav>
           <a href={whatsappLink} target="_blank" rel="noreferrer" className="flex items-center justify-center w-9 h-9 rounded-full bg-[#25D366] hover:bg-[#25D366]/80 text-white transition shadow-[0_0_15px_-5px_#25D366]" aria-label="WhatsApp Contact">
@@ -112,8 +112,8 @@ export default function ContactPage() {
       </section>
 
       <footer className="border-t border-border py-10 text-center text-xs text-muted-foreground">
-        <p className="font-display text-lg text-gold-gradient mb-2">Jaipur Escorts</p>
-        <p>© {new Date().getFullYear()} Jaipur Call Girls & Escort Service · All bookings by appointment</p>
+        <p className="font-display text-lg text-gold-gradient mb-2">Jaipur Relax Spa</p>
+        <p>© {new Date().getFullYear()} Jaipur Relax Spa & Companion Services · All bookings by appointment</p>
       </footer>
     </div>
   );

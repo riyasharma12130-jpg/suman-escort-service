@@ -10,9 +10,9 @@ export const Route = createFileRoute("/book")({
   component: BookPage,
   head: () => ({
     meta: [
-      { title: "Book Call Girls in Jaipur | Jaipur Escort Booking" },
-      { name: "description", content: "Book premium call girls and escorts in Jaipur. Discreet 24/7 booking available. WhatsApp +91 74148 38654 for immediate confirmation." },
-      { name: "keywords", content: "book call girls in Jaipur, Jaipur escort booking, call girl booking Jaipur, escort service booking" },
+      { title: "Book The Best Escort Service Jaipur | Jaipur Relax Spa Booking" },
+      { name: "description", content: "Book premium escort service Jaipur. Discreet 24/7 booking available in Sindhi Camp and across Jaipur. WhatsApp +91 74148 38654 for immediate confirmation." },
+      { name: "keywords", content: "book escort service Jaipur, Jaipur relax spa booking, call girl booking Jaipur, escort service booking in Sindhi Camp" },
     ],
   }),
 });
@@ -26,11 +26,11 @@ export default function BookPage() {
 
       <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-background/60 border-b border-border">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Jaipur Escorts</a>
+          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Jaipur Relax Spa</a>
           <nav className="hidden md:flex gap-10 text-sm text-muted-foreground">
             <a href="/" className="hover:text-primary transition">Home</a>
-            <a href="/#services" className="hover:text-primary transition">Services</a>
-            <a href="/#escorts" className="hover:text-primary transition">Escorts</a>
+            <a href="/about" className="hover:text-primary transition">About</a>
+            <a href="/areas" className="hover:text-primary transition">Areas</a>
             <a href="/contact" className="hover:text-primary transition">Contact</a>
           </nav>
           <a href={whatsappLink} target="_blank" rel="noreferrer" className="flex items-center justify-center w-9 h-9 rounded-full bg-[#25D366] hover:bg-[#25D366]/80 text-white transition shadow-[0_0_15px_-5px_#25D366]" aria-label="WhatsApp Contact">
@@ -109,8 +109,8 @@ export default function BookPage() {
       </section>
 
       <footer className="border-t border-border py-10 text-center text-xs text-muted-foreground">
-        <p className="font-display text-lg text-gold-gradient mb-2">Jaipur Escorts</p>
-        <p>© {new Date().getFullYear()} Jaipur Call Girls & Escort Service · All bookings by appointment</p>
+        <p className="font-display text-lg text-gold-gradient mb-2">Jaipur Relax Spa</p>
+        <p>© {new Date().getFullYear()} Jaipur Relax Spa & Companion Services · All bookings by appointment</p>
       </footer>
     </div>
   );

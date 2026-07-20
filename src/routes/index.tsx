@@ -82,6 +82,8 @@ export default function Landing() {
           <nav className="hidden md:flex gap-10 text-sm text-muted-foreground">
             <a href="#services" className="hover:text-primary transition">Services</a>
             <a href="#escorts" className="hover:text-primary transition">Escorts</a>
+            <a href="/about" className="hover:text-primary transition">About</a>
+            <a href="/areas" className="hover:text-primary transition">Areas</a>
             <a href="#rituals" className="hover:text-primary transition">Pricing</a>
             <a href="/contact" className="hover:text-primary transition">Contact</a>
           </nav>
