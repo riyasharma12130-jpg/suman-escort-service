@@ -108,6 +108,24 @@ export default function ContactPage() {
               Message Us on WhatsApp
             </a>
           </div>
+
+          <div className="mt-20 bg-card/50 border border-border rounded-lg p-8">
+            <h2 className="font-display text-2xl mb-6 text-gold-gradient text-center">Communication Policy & Privacy</h2>
+            <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
+              <p>
+                When you contact Jaipur Relax Spa, you are engaging with the most professional <strong>escort service Jaipur</strong> has to offer. We understand that reaching out for adult companionship requires a high degree of trust, which is why our communication policy is built entirely around your privacy and discretion.
+              </p>
+              <p>
+                <strong>Confidentiality Guarantee:</strong> Every WhatsApp message, phone call, and inquiry is treated with strict confidentiality. We never store your contact information for marketing purposes, nor do we share it with third parties. Once your service is completed, your chat history on our end is routinely cleared to protect your identity.
+              </p>
+              <p>
+                <strong>Response Time:</strong> Our customer support team is available 24/7. When you want to <strong>book call girls in Jaipur</strong>, we know that time is of the essence. We strive to respond to all WhatsApp inquiries within minutes, providing you with real-time updates on companion availability, recent photos, and travel times for outcall services to areas like C Scheme, Malviya Nagar, and Sindhi Camp.
+              </p>
+              <p>
+                Please note that we do not entertain time-wasters, bargainers, or individuals looking for explicit chat services. Our communication lines are dedicated solely to serious clients looking to book genuine, premium companions for real-world encounters. 
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 

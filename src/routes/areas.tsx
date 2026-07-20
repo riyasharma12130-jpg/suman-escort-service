@@ -81,6 +81,41 @@ export default function AreasPage() {
               </p>
             </div>
 
+            <div className="bg-card border border-border p-8 rounded-lg">
+              <h2 className="font-display text-3xl text-gold-gradient mb-4">Bani Park</h2>
+              <p>
+                Bani Park is synonymous with heritage hotels and colonial-era architecture. Many of our elite clients who visit Jaipur for leisure choose to stay in this historically rich neighborhood. We offer our bespoke outcall <strong>escort service in Jaipur</strong> directly to these heritage properties. When you want to experience the royal treatment in the royal city, our sophisticated call girls are the perfect addition to your Bani Park itinerary.
+              </p>
+            </div>
+
+            <div className="bg-card border border-border p-8 rounded-lg">
+              <h2 className="font-display text-3xl text-gold-gradient mb-4">Mansarovar</h2>
+              <p>
+                As one of the largest residential colonies in Asia, Mansarovar is a key service area for Jaipur Relax Spa. We understand that residents and visitors in this expansive area demand prompt and discreet service. Our extensive network allows us to provide rapid outcall <strong>Jaipur escort girls</strong> to any sector of Mansarovar, ensuring your privacy is completely safeguarded in residential settings.
+              </p>
+            </div>
+
+            <div className="bg-card border border-border p-8 rounded-lg">
+              <h2 className="font-display text-3xl text-gold-gradient mb-4">Tonk Road</h2>
+              <p>
+                Tonk Road is a major arterial route lined with top-tier corporate hotels and business centers. For business travelers attending conferences or corporate events here, finding a moment of relaxation is crucial. We specialize in providing highly professional and articulate companions to luxury hotels along Tonk Road, guaranteeing an evening of stress-free, premium companionship.
+              </p>
+            </div>
+
+            <div className="bg-card border border-border p-8 rounded-lg">
+              <h2 className="font-display text-3xl text-gold-gradient mb-4">Amer & Jal Mahal</h2>
+              <p>
+                The areas surrounding Amer Fort and Jal Mahal boast some of the most luxurious and secluded resorts in Rajasthan. Our VIP clients often request outcall services to these majestic locations. We coordinate seamlessly to ensure our elite companions arrive discreetly at these distant, high-end resorts, providing an unparalleled romantic and luxurious experience against the backdrop of Jaipur's heritage.
+              </p>
+            </div>
+
+            <div className="bg-card border border-border p-8 rounded-lg">
+              <h2 className="font-display text-3xl text-gold-gradient mb-4">JLN Marg</h2>
+              <p>
+                Jawaharlal Nehru Marg is home to 5-star properties, universities, and massive commercial hubs. Whether you are staying at a luxury hotel near the World Trade Park or a boutique property along the marg, our <strong>escort service Jaipur</strong> is perfectly positioned to serve you. We guarantee fast, discreet, and verified outcall services across the entire JLN Marg stretch.
+              </p>
+            </div>
+
             <div className="bg-card border border-border p-8 rounded-lg md:col-span-2">
               <h2 className="font-display text-3xl text-gold-gradient mb-4">Vaishali Nagar & Beyond</h2>
               <p className="mb-4">

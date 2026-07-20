@@ -117,6 +117,49 @@ export default function Landing() {
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-xs uppercase tracking-[0.3em] text-muted-foreground">Scroll</div>
       </section>
 
+      <section className="py-16 bg-card/20 border-b border-border">
+        <div className="mx-auto max-w-5xl px-6 text-muted-foreground leading-relaxed">
+          <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-8 text-center">Welcome to Jaipur Relax Spa: Your Premier Escort Service Jaipur</h2>
+          <div className="space-y-6 text-sm md:text-base">
+            <p>
+              When you are seeking the absolute pinnacle of luxury companionship, you need the most reliable and genuine <strong>escort service Jaipur</strong> has to offer. At Jaipur Relax Spa, located in the prestigious heart of Sindhi Camp, we pride ourselves on delivering an unparalleled experience that transcends the ordinary. Whether you are a business traveler unwinding after a long conference, a tourist looking to add a spark to your vacation, or a local gentleman seeking a discreet and beautiful companion, our agency is your ultimate destination to <strong>book call girls in Jaipur</strong>.
+            </p>
+            <p>
+              Our establishment is not just an agency; it is a sanctuary of premium relaxation. We understand that our elite clients demand perfection, which is why every single profile in our gallery represents a stunning, educated, and verified companion. Unlike other services, we do not use fake photos or misleading descriptions. When you search for the best <strong>Jaipur escort girls</strong>, you expect transparency, hygiene, and absolute discretion—and that is exactly what we guarantee. From our luxurious incall facilities in Sindhi Camp to our swift and discreet outcall services across C Scheme, Malviya Nagar, and Vaishali Nagar, we have meticulously designed every aspect of our service to ensure your complete satisfaction.
+            </p>
+            <p>
+              What truly sets us apart as the top-ranking <strong>escort service Jaipur</strong> is our holistic approach. We combine the therapeutic, stress-relieving benefits of a high-end spa with the thrilling, intimate companionship of Jaipur's most beautiful women. Our VIP companions are trained to be the perfect dates, whether you need an elegant partner for a corporate dinner, an adventurous guide for exploring the Pink City, or a passionate lover for a private evening behind closed doors. Booking with Jaipur Relax Spa is not just a transaction; it is an investment in an unforgettable memory.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16">
+        <div className="mx-auto max-w-5xl px-6">
+          <h2 className="font-display text-3xl md:text-5xl font-light text-center mb-12">Understanding Our Premium Services: Incall vs Outcall</h2>
+          <div className="grid md:grid-cols-2 gap-12 text-muted-foreground">
+            <div className="bg-card border border-border p-8 rounded-lg shadow-lg">
+              <h3 className="font-display text-2xl text-gold-gradient mb-4">Luxurious Incall Services in Sindhi Camp</h3>
+              <p className="mb-4 text-sm md:text-base leading-relaxed">
+                Our incall service is the epitome of convenience and luxury. Situated centrally in Sindhi Camp, our private spa facility is designed to offer maximum comfort and absolute privacy. When you choose to visit us, you are stepping into a safe, hygienic, and highly discreet environment. The rooms are equipped with premium amenities, ambient lighting, and immaculate hygiene standards, ensuring that your time with our beautiful <strong>call girls in Jaipur</strong> is utterly flawless.
+              </p>
+              <p className="text-sm md:text-base leading-relaxed">
+                Choosing our incall option means you do not have to worry about the logistics of hosting. You simply arrive at our secure Sindhi Camp location, complete the secure payment process, and immediately begin your session of premium spa relaxation and intimate companionship. It is the perfect choice for those who demand immediate service without the hassle of preparing their own space.
+              </p>
+            </div>
+            <div className="bg-card border border-border p-8 rounded-lg shadow-lg">
+              <h3 className="font-display text-2xl text-gold-gradient mb-4">Discreet Outcall Services Across Jaipur</h3>
+              <p className="mb-4 text-sm md:text-base leading-relaxed">
+                For those who prefer the comfort of their own surroundings, our <strong>escort service Jaipur</strong> offers a highly reliable outcall option. Whether you are staying in a 5-star hotel in C Scheme, a luxury resort in Amer, or a private residence in Malviya Nagar or Vaishali Nagar, our companions will travel directly to your doorstep. We prioritize your privacy above all else; our escorts arrive in unmarked vehicles and conduct themselves with the utmost professionalism.
+              </p>
+              <p className="text-sm md:text-base leading-relaxed">
+                Our outcall booking process is highly streamlined. Once you verify your location and complete the advance booking confirmation, your chosen companion is immediately dispatched. We understand the value of your time, which is why we guarantee prompt arrivals and transparent communication throughout the process. Experience the luxury of Jaipur Relax Spa without ever leaving your room.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="relative py-32 bg-radial-glow">
         <div className="mx-auto max-w-3xl px-6 text-center">
           <p className="text-xs uppercase tracking-[0.4em] text-primary mb-6">Why Choose Us</p>
@@ -206,6 +249,46 @@ export default function Landing() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="py-24 bg-card/30 border-y border-border">
+        <div className="mx-auto max-w-4xl px-6">
+          <div className="text-center mb-16">
+            <p className="text-xs uppercase tracking-[0.4em] text-primary mb-4">FAQ</p>
+            <h2 className="font-display text-4xl md:text-5xl font-light">Frequently Asked Questions</h2>
+            <p className="text-muted-foreground mt-4">Everything you need to know before booking your companion.</p>
+          </div>
+          <div className="space-y-6">
+            <div className="bg-card border border-border p-6 rounded-lg">
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">How do I book an escort service in Jaipur with you?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Booking is extremely simple and discreet. Just contact us via WhatsApp at +91 74148 38654. Browse our gallery, select your preferred companion, provide your location (for outcall) or choose to visit us in Sindhi Camp (for incall). After a small advance payment to confirm your genuine intent, your booking is locked in.</p>
+            </div>
+            <div className="bg-card border border-border p-6 rounded-lg">
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Are the photos of the call girls in Jaipur 100% genuine?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Absolutely. We pride ourselves on complete transparency. The photos you see are of the exact companions you will meet. We do not use fake internet pictures or heavily manipulated images. What you see is precisely what you get.</p>
+            </div>
+            <div className="bg-card border border-border p-6 rounded-lg">
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Is the service safe and discreet?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Your privacy is our number one priority. All client data is strictly confidential and permanently deleted after the service. Our companions are trained professionals who understand the importance of discretion, especially for our high-profile and VIP clients.</p>
+            </div>
+            <div className="bg-card border border-border p-6 rounded-lg">
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Which areas in Jaipur do you serve?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Our primary incall spa is located in Sindhi Camp. For outcall services, we cover the entirety of Jaipur, including C Scheme, Malviya Nagar, Vaishali Nagar, Raja Park, Bani Park, Mansarovar, and all major luxury hotels and resorts across the Pink City.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16">
+        <div className="mx-auto max-w-5xl px-6 text-sm text-muted-foreground leading-relaxed space-y-4">
+          <h2 className="font-display text-2xl text-gold-gradient mb-4">The Ultimate Guide to Jaipur Escort Services</h2>
+          <p>
+            Finding a reliable <strong>escort service Jaipur</strong> can often feel overwhelming due to the sheer number of unreliable agencies operating online. However, by choosing Jaipur Relax Spa, you are opting for the most verified, trusted, and premium agency in the state of Rajasthan. Our expansive network of high-class independent escorts, college girls, models, and air hostesses ensures that regardless of your specific tastes or fantasies, we have the perfect companion waiting for you. When men search to <strong>book call girls in Jaipur</strong>, they are looking for more than just physical intimacy; they seek emotional connection, intellectual stimulation, and a truly girlfriend-like experience (GFE). We rigorously train our companions to provide exactly this, elevating your encounter from a mere transaction to a memorable, deeply satisfying relationship.
+          </p>
+          <p>
+            Our strategic location in <strong>Sindhi Camp</strong> gives us a massive logistical advantage. It allows us to manage our incall facilities with unparalleled efficiency while simultaneously dispatching our outcall companions to any corner of the city within minutes. Whether you are craving a soothing full-body massage to relieve tension or desire a wild, passionate night to remember, our versatile companions are ready to fulfill your every whim. Do not settle for subpar services when the best <strong>Jaipur escort girls</strong> are just a WhatsApp message away. We guarantee 100% satisfaction, uncompromising hygiene, and a level of luxury that has made us the undisputed leaders in the Jaipur adult entertainment and spa industry.
+          </p>
         </div>
       </section>
 

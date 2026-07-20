@@ -105,6 +105,24 @@ export default function BookPage() {
               </div>
             </div>
           </div>
+          <div className="mt-16 bg-card border border-border rounded-lg p-8">
+            <h2 className="font-display text-2xl mb-6 text-gold-gradient">Important Booking Guidelines</h2>
+            <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
+              <p>
+                As the leading <strong>escort service Jaipur</strong>, we maintain strict guidelines to ensure the safety and satisfaction of both our clients and our companions. Please read these terms carefully before proceeding with your booking.
+              </p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li><strong>Age Verification:</strong> You must be at least 18 years of old to use our services. Valid ID may be required upon request.</li>
+                <li><strong>Advance Payment:</strong> A nominal advance payment is required to confirm all outcall bookings. This ensures the genuine intent of the client and secures the companion's time. The remaining balance is to be paid directly to the companion upon arrival.</li>
+                <li><strong>Respect and Decency:</strong> We have a zero-tolerance policy for abuse, harassment, or non-consensual behavior. Our companions are professionals and expect to be treated with utmost respect. Any violation of this will result in immediate termination of the service without refund.</li>
+                <li><strong>Substance Policy:</strong> The use of illegal narcotics during the service is strictly prohibited. Intoxicated clients may be refused service at the discretion of the companion.</li>
+                <li><strong>Privacy:</strong> We guarantee 100% discretion. In return, we expect our clients to respect the privacy of our companions. No unauthorized photography or recording is permitted under any circumstances.</li>
+              </ul>
+              <p className="mt-4">
+                By contacting us to <strong>book call girls in Jaipur</strong>, you automatically agree to abide by these guidelines. We are committed to providing a safe, luxurious, and unforgettable experience for all parties involved.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 

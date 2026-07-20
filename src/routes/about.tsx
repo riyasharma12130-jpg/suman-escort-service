@@ -82,6 +82,46 @@ export default function AboutPage() {
               </p>
             </div>
 
+            <div className="bg-card border border-border p-8 rounded-lg">
+              <h2 className="font-display text-3xl text-gold-gradient mb-4">Our Strict Screening Process</h2>
+              <p className="mb-4">
+                What truly distinguishes our <strong>escort service Jaipur</strong> from others is our relentless commitment to quality through a stringent vetting process. We do not accept just anyone into our agency. Every model, college girl, and independent companion undergoes a thorough background check and personal interview. We evaluate them not only on their physical beauty but also on their emotional intelligence, conversational skills, and overall elegance.
+              </p>
+              <p className="mb-4">
+                When you <strong>book call girls in Jaipur</strong> through us, you are guaranteed to meet a companion who can hold her own in any social setting—from a high-profile corporate dinner in C Scheme to a relaxed, intimate evening in Sindhi Camp. We ensure that our escorts are polite, articulate, and dedicated to providing a Girlfriend Experience (GFE) that feels incredibly natural and unforced.
+              </p>
+            </div>
+
+            <div className="bg-card border border-border p-8 rounded-lg">
+              <h2 className="font-display text-3xl text-gold-gradient mb-4">Uncompromising Hygiene & Safety Standards</h2>
+              <p className="mb-4">
+                In the luxury adult entertainment and premium spa industry, health and hygiene are non-negotiable. At Jaipur Relax Spa, we have instituted the highest health protocols for both our clients and our companions. Our incall facility in <strong>Sindhi Camp</strong> is sanitized daily, and fresh linens, premium toiletries, and a completely immaculate environment are guaranteed for every single booking.
+              </p>
+              <p className="mb-4">
+                Furthermore, we prioritize the safety and well-being of our <strong>Jaipur escort girls</strong> just as much as our clients. We operate a secure, verified booking system that protects the identities of everyone involved. This mutual respect creates a stress-free environment where both you and your companion can truly relax and enjoy the moment without any underlying anxieties.
+              </p>
+            </div>
+
+            <div>
+              <h2 className="font-display text-3xl text-gold-gradient mb-4">A Premium Spa Experience</h2>
+              <p className="mb-4">
+                Beyond being a premier escort service Jaipur, we are a holistic relaxation destination. Our facilities in Sindhi Camp are equipped to provide you with a transcendent spa experience. From the moment you step through our doors, you will be enveloped in an atmosphere of luxury and tranquility. 
+              </p>
+              <p>
+                Our services are tailored to melt away stress and leave you rejuvenated. By combining the therapeutic benefits of a premium spa with the enchanting company of our exclusive call girls in Jaipur, we guarantee an experience that satisfies both body and mind. It is this unique synthesis of wellness and companionship that has cemented our reputation at the very top.
+              </p>
+            </div>
+
+            <div className="bg-card border border-border p-8 rounded-lg">
+              <h2 className="font-display text-3xl text-gold-gradient mb-4">Our Philosophy of Luxury Companionship</h2>
+              <p className="mb-4">
+                At Jaipur Relax Spa, we believe that true luxury lies in the details and the personalization of service. We reject the "one-size-fits-all" approach that plagues the industry. Instead, we take the time to understand your specific desires, preferences, and fantasies. Whether you seek a dominant, passionate encounter or a sweet, submissive romance, our diverse roster of companions can cater to your exact requirements.
+              </p>
+              <p>
+                We view ourselves not just as a booking agency, but as facilitators of extraordinary experiences. By continuously adapting to the feedback of our elite clientele and maintaining our unwavering standards, we remain the definitive choice for anyone looking to experience the finest <strong>escort service in Jaipur</strong>.
+              </p>
+            </div>
+
             <div>
               <h2 className="font-display text-3xl text-gold-gradient mb-4">Why Sindhi Camp?</h2>
               <p className="mb-4">
