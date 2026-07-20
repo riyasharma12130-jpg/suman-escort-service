@@ -131,6 +131,22 @@ export default function AboutPage() {
                 Being based in Sindhi Camp means our incall facilities are easily reachable, and our outcall companions can navigate to any major hotel or residence in Jaipur with minimal delay. When you book with us, you are booking a service that is deeply rooted in the local infrastructure, ensuring promptness and reliability every single time.
               </p>
             </div>
+
+            <div className="bg-card border border-border p-8 rounded-lg">
+              <h2 className="font-display text-3xl text-gold-gradient mb-4">Our Diverse Companionship Types</h2>
+              <p className="mb-4">
+                We understand that every client has unique desires. Riya Escort Service boasts the most diverse gallery in Rajasthan. We offer:
+              </p>
+              <ul className="list-disc pl-5 space-y-2 text-sm text-muted-foreground">
+                <li><strong>High Profile Models:</strong> Perfect for high-end corporate events, elite parties, or when you simply want the absolute best.</li>
+                <li><strong>College Girls:</strong> Ideal for clients seeking a fresh, energetic, and passionate Girlfriend Experience (GFE).</li>
+                <li><strong>Russian & Foreign VIPs:</strong> For those who desire an exotic, international standard of luxury companionship right here in Jaipur.</li>
+                <li><strong>Independent Housewives:</strong> Offering a mature, deeply understanding, and intensely satisfying private encounter.</li>
+              </ul>
+              <p className="mt-4">
+                No matter your preference, every single profile on our platform is 100% verified. What you see is exactly who will arrive at your door.
+              </p>
+            </div>
           </div>
         </div>
       </section>

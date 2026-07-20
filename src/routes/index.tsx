@@ -47,14 +47,14 @@ const services = [
 
 // Escort profiles
 const escorts = [
-  { name: "Priya Sharma", age: 24, location: "Jaipur", price: "₹5,000", img: imageList[1], desc: "Elegant and sophisticated, available for incall and outcall services." },
-  { name: "Ananya Patel", age: 22, location: "Jaipur", price: "₹6,000", img: imageList[2], desc: "Charming and friendly, perfect companion for your evening." },
-  { name: "Kavya Reddy", age: 26, location: "Jaipur", price: "₹7,000", img: imageList[3], desc: "Beautiful and experienced, ensures complete satisfaction." },
-  { name: "Meera Singh", age: 23, location: "Jaipur", price: "₹5,500", img: imageList[4], desc: "Sweet and caring, available for both short and long durations." },
-  { name: "Riya Desai", age: 25, location: "Jaipur", price: "₹6,500", img: imageList[5], desc: "Stunning beauty with excellent communication skills." },
-  { name: "Neha Kapoor", age: 21, location: "Jaipur", price: "₹4,500", img: imageList[6], desc: "Young and energetic, perfect for a memorable experience." },
-  { name: "Pooja Malhotra", age: 27, location: "Jaipur", price: "₹7,500", img: imageList[7], desc: "Mature and understanding, provides ultimate relaxation." },
-  { name: "Sneha Joshi", age: 22, location: "Jaipur", price: "₹5,000", img: imageList[8], desc: "Friendly and approachable, ensures a comfortable experience." },
+  { name: "Priya Sharma", age: 24, location: "Jaipur", price: "₹5,000", img: imageList[1], desc: "Premium independent call girl in Jaipur. Elegant, sophisticated, and available for discreet incall and outcall services in C Scheme and Sindhi Camp." },
+  { name: "Ananya Patel", age: 22, location: "Jaipur", price: "₹6,000", img: imageList[2], desc: "Charming college student model. Perfect VIP companion for your evening dates and private hotel visits in Malviya Nagar." },
+  { name: "Kavya Reddy", age: 26, location: "Jaipur", price: "₹7,000", img: imageList[3], desc: "Beautiful and highly experienced high-profile escort. Ensures complete satisfaction with Girlfriend Experience (GFE) in Jaipur." },
+  { name: "Meera Singh", age: 23, location: "Jaipur", price: "₹5,500", img: imageList[4], desc: "Sweet, caring, and soft-spoken. Available for both short meetings and full-night romantic companionship in Jaipur." },
+  { name: "Riya Desai", age: 25, location: "Jaipur", price: "₹6,500", img: imageList[5], desc: "Stunning beauty with excellent communication skills. The ideal dinner and date companion for elite gentlemen." },
+  { name: "Vanu (Russian)", age: 21, location: "Jaipur", price: "₹10,000", img: imageList[6], desc: "Exotic VIP Russian escort in Jaipur. Young, energetic, and provides an international standard of luxury companionship." },
+  { name: "Pooja Malhotra", age: 27, location: "Jaipur", price: "₹7,500", img: imageList[7], desc: "Mature, understanding, and incredibly sensual. Provides ultimate relaxation and professional behavior for high-profile clients." },
+  { name: "Sneha Joshi", age: 22, location: "Jaipur", price: "₹5,000", img: imageList[8], desc: "Friendly, approachable, and fun-loving. Ensures a very comfortable and respectful experience for first-time callers." },
 ];
 
 const WhatsappIcon = ({ className }: { className?: string }) => (
@@ -156,6 +156,61 @@ export default function Landing() {
                 Our outcall booking process is highly streamlined. Once you verify your location and complete the advance booking confirmation, your chosen companion is immediately dispatched. We understand the value of your time, which is why we guarantee prompt arrivals and transparent communication throughout the process. Experience the luxury of Riya Escort Service without ever leaving your room.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-card/10">
+        <div className="mx-auto max-w-5xl px-6">
+          <h2 className="font-display text-3xl md:text-5xl font-light text-center mb-12">8 Reasons to Choose Riya Escort Service</h2>
+          <div className="grid md:grid-cols-2 gap-8 text-muted-foreground">
+            <div>
+              <h3 className="font-display text-xl text-gold-gradient mb-2">1. Verified Independent Call Girls</h3>
+              <p className="text-sm">We offer genuine and verified independent escorts in Jaipur for a safe and premium experience. No fake profiles, ever.</p>
+            </div>
+            <div>
+              <h3 className="font-display text-xl text-gold-gradient mb-2">2. 100% Privacy & Confidential Service</h3>
+              <p className="text-sm">Your personal details and booking information remain completely private and secure. We delete all chat histories post-service.</p>
+            </div>
+            <div>
+              <h3 className="font-display text-xl text-gold-gradient mb-2">3. Available in All Jaipur Locations</h3>
+              <p className="text-sm">We cover all major areas including Malviya Nagar, Vaishali Nagar, Mansarovar, C-Scheme, Jagatpura, and MI Road.</p>
+            </div>
+            <div>
+              <h3 className="font-display text-xl text-gold-gradient mb-2">4. Attractive & Professional Companions</h3>
+              <p className="text-sm">Choose from a diverse gallery of Russian Escorts, VIP Escorts, College Girls, and High Profile Models.</p>
+            </div>
+            <div>
+              <h3 className="font-display text-xl text-gold-gradient mb-2">5. Quick Booking Support</h3>
+              <p className="text-sm">Easy, instant booking through WhatsApp with immediate response support from our dedicated team.</p>
+            </div>
+            <div>
+              <h3 className="font-display text-xl text-gold-gradient mb-2">6. Affordable to Luxury Packages</h3>
+              <p className="text-sm">From budget-friendly companionship to premium VIP experiences, we cater to all budgets without compromising quality.</p>
+            </div>
+            <div>
+              <h3 className="font-display text-xl text-gold-gradient mb-2">7. 24/7 Service Availability</h3>
+              <p className="text-sm">Day and night booking available across Jaipur. Whether it's a late-night hotel visit or a midday spa session, we are ready.</p>
+            </div>
+            <div>
+              <h3 className="font-display text-xl text-gold-gradient mb-2">8. Friendly & Respectful Experience</h3>
+              <p className="text-sm">Professional behavior with a focus on providing comfortable, Girlfriend Experience (GFE) companionship.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16">
+        <div className="mx-auto max-w-5xl px-6 text-center">
+          <h2 className="font-display text-3xl md:text-5xl font-light mb-8">Premium Services Include</h2>
+          <div className="flex flex-wrap justify-center gap-4 text-sm text-primary">
+            <span className="px-4 py-2 border border-primary/30 rounded-full">Luxury Companion Services</span>
+            <span className="px-4 py-2 border border-primary/30 rounded-full">Night Companion Bookings</span>
+            <span className="px-4 py-2 border border-primary/30 rounded-full">Full Night Experiences</span>
+            <span className="px-4 py-2 border border-primary/30 rounded-full">Hotel Companion Services</span>
+            <span className="px-4 py-2 border border-primary/30 rounded-full">VIP Lifestyle Companionship</span>
+            <span className="px-4 py-2 border border-primary/30 rounded-full">Corporate Event Dates</span>
+            <span className="px-4 py-2 border border-primary/30 rounded-full">Girlfriend Experience (GFE)</span>
           </div>
         </div>
       </section>
@@ -275,6 +330,30 @@ export default function Landing() {
             <div className="bg-card border border-border p-6 rounded-lg">
               <h3 className="font-display text-xl mb-2 text-gold-gradient">Which areas in Jaipur do you serve?</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">Our primary incall spa is located in Sindhi Camp. For outcall services, we cover the entirety of Jaipur, including C Scheme, Malviya Nagar, Vaishali Nagar, Raja Park, Bani Park, Mansarovar, and all major luxury hotels and resorts across the Pink City.</p>
+            </div>
+            <div className="bg-card border border-border p-6 rounded-lg">
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Are independent call girls available in Jaipur?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Yes, our agency exclusively works with premium, independent call girls. This ensures you get a highly personalized, un-rushed, and genuine experience without the constraints of typical parlor services.</p>
+            </div>
+            <div className="bg-card border border-border p-6 rounded-lg">
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Do you offer hotel visit services in Jaipur?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Absolutely. Our outcall service is designed specifically for hotel visits. We regularly dispatch companions to 4-star and 5-star hotels across Jaipur. Our escorts arrive discreetly directly to your room.</p>
+            </div>
+            <div className="bg-card border border-border p-6 rounded-lg">
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Are Russian escorts available in Jaipur?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Yes, we maintain a highly exclusive roster of VIP foreign and Russian escorts for clients seeking an exotic luxury experience in the Pink City.</p>
+            </div>
+            <div className="bg-card border border-border p-6 rounded-lg">
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">What is the average price for escort service in Jaipur?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Our prices are very competitive for the premium quality we provide. Incall services typically start around ₹5,000 for short sessions, while VIP and full-night outcall services range from ₹8,000 to ₹25,000 depending on the specific companion and duration.</p>
+            </div>
+            <div className="bg-card border border-border p-6 rounded-lg">
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Is advance booking available for Jaipur escorts?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Yes, we highly encourage advance booking, especially for weekends, holidays, or if you wish to reserve a specific VIP escort for a full night or multi-day trip.</p>
+            </div>
+            <div className="bg-card border border-border p-6 rounded-lg">
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">How can clients avoid fake escort services in Jaipur?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">The internet is unfortunately full of scams. To avoid fake services, never send large upfront amounts of money before seeing a companion. Riya Escort Service operates with a minimal token advance just to secure the booking, with the rest paid directly to the companion in person. We also offer 100% genuine photos.</p>
             </div>
           </div>
         </div>

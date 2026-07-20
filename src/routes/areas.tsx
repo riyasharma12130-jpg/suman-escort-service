@@ -127,6 +127,24 @@ export default function AreasPage() {
             </div>
 
           </div>
+
+          <div className="mt-16 bg-card border border-border rounded-lg p-8">
+            <h2 className="font-display text-3xl text-gold-gradient mb-6 text-center">Available in All Jaipur Locations: Logistics & Delivery</h2>
+            <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
+              <p>
+                As the most prominent <strong>escort service Jaipur</strong> has to offer, Riya Escort Service has established a highly efficient logistics network to ensure our companions can reach you anywhere in the city promptly and safely. Whether you are staying at a luxury resort on the outskirts or a business hotel in the city center, our premium call girls are just a booking away.
+              </p>
+              <p>
+                <strong>Central Business Districts:</strong> For clients in areas like C-Scheme, MI Road, and Civil Lines, we guarantee extremely fast arrival times. These areas are the hubs of corporate travel, and we understand that businessmen often have tight schedules. Our VIP escorts can arrive at your hotel within 30-45 minutes of booking confirmation.
+              </p>
+              <p>
+                <strong>Residential Hubs:</strong> We provide discreet outcall services to massive residential colonies like Mansarovar, Vaishali Nagar, and Malviya Nagar. We understand the paramount importance of privacy when visiting residential addresses. Our companions arrive dressed elegantly and inconspicuously, ensuring absolute discretion for your peace of mind.
+              </p>
+              <p>
+                <strong>Tourist & Heritage Zones:</strong> For tourists staying near Amer, Jal Mahal, or the old walled city, our <strong>Jaipur escort girls</strong> offer the perfect companionship for sightseeing by day and passionate romance by night. We coordinate carefully with clients in these areas to navigate traffic and ensure timely arrivals to heritage properties and luxury resorts.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
