@@ -48,8 +48,10 @@ const services = [
 // Escort profiles
 const escorts = [
   { name: "Priya Sharma", age: 24, location: "Jaipur", price: "₹5,000", img: imageList[1], desc: "Premium independent call girl in Jaipur. Elegant, sophisticated, and available for discreet incall and outcall services in C Scheme and Sindhi Camp." },
-  { name: "Ananya Patel", age: 22, location: "Jaipur", price: "₹6,000", img: imageList[2], desc: "Charming college student model. Perfect VIP companion for your evening dates and private hotel visits in Malviya Nagar." },
-  { name: "Kavya Reddy", age: 26, location: "Jaipur", price: "₹7,000", img: imageList[3], desc: "Beautiful and highly experienced high-profile escort. Ensures complete satisfaction with Girlfriend Experience (GFE) in Jaipur." },
+  { name: "Isha (Airhostess)", age: 23, location: "Jaipur", price: "₹8,000", img: imageList[9], desc: "Beautiful airhostess escort. Known for a sweet, attentive Girlfriend Experience and late-night hotel visits." },
+  { name: "Anika (Celebrity)", age: 22, location: "Jaipur", price: "₹12,000", img: imageList[10], desc: "High-profile celebrity model for rich clients. Highly exclusive and discreet VIP outcall companionship." },
+  { name: "Priyanka (Housewife)", age: 28, location: "Jaipur", price: "₹6,000", img: imageList[2], desc: "Mature and incredibly sensual Bhabhi escort. Perfect for those seeking deep connection and passionate satisfaction." },
+  { name: "Kavya (Independent)", age: 26, location: "Jaipur", price: "₹7,000", img: imageList[3], desc: "Beautiful and highly experienced high-profile escort. Ensures complete satisfaction with Girlfriend Experience (GFE) in Jaipur." },
   { name: "Meera Singh", age: 23, location: "Jaipur", price: "₹5,500", img: imageList[4], desc: "Sweet, caring, and soft-spoken. Available for both short meetings and full-night romantic companionship in Jaipur." },
   { name: "Riya Desai", age: 25, location: "Jaipur", price: "₹6,500", img: imageList[5], desc: "Stunning beauty with excellent communication skills. The ideal dinner and date companion for elite gentlemen." },
   { name: "Vanu (Russian)", age: 21, location: "Jaipur", price: "₹10,000", img: imageList[6], desc: "Exotic VIP Russian escort in Jaipur. Young, energetic, and provides an international standard of luxury companionship." },
@@ -307,6 +309,54 @@ export default function Landing() {
         </div>
       </section>
 
+      <section className="py-16 bg-card/20">
+        <div className="mx-auto max-w-5xl px-6 text-muted-foreground leading-relaxed space-y-12">
+          <div>
+            <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-6">What is Escort Service Jaipur?</h2>
+            <p className="mb-4">
+              Now, you can kick-start and build a new relationship with a <strong>Jaipur escort</strong> who is good at everything. The hottest experiences are possible with a cute and sexy partner complementing your energy. A companion must always be passionate and energetic because, without these features, a relationship can't reach a stable mode. For this reason, the real meaning of <strong>escort service Jaipur</strong> reflects ultimate pampering and wild-level intimacy with a professional partner. These services are extremely durable, luxurious, and designed for ultimate satisfaction.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-6">Explore Top Categories of Jaipur Escorts</h2>
+            <p className="mb-4">
+              This time you can enjoy quality time with a girl according to your exact requirements. We have a complete checklist of the top categories of <strong>Jaipur escort services</strong> to ensure you find the perfect match.
+            </p>
+            <div className="grid md:grid-cols-2 gap-6 mt-6">
+              <div className="bg-card border border-border p-6 rounded-lg shadow-lg">
+                <h3 className="font-display text-xl text-primary mb-2">Build a New Fascination – Russian Escorts</h3>
+                <p className="text-sm">Fascination can be more than your imagination. It's time to hunt the real wild desires with <strong>Russian escorts in Jaipur</strong>. These girls are bold in every single move. When your primary focus is high-energy, you need to book Russian call girls because they are full of stamina for wild and mature actions.</p>
+              </div>
+              <div className="bg-card border border-border p-6 rounded-lg shadow-lg">
+                <h3 className="font-display text-xl text-primary mb-2">Cuties & Naughty – Young College Girls</h3>
+                <p className="text-sm">The next category is vibrant: young <strong>college girls escorts in Jaipur</strong>. They are mind-blowing with high-energy goals. They are superb at performing actions with sweetness and ensuring satisfying hookups.</p>
+              </div>
+              <div className="bg-card border border-border p-6 rounded-lg shadow-lg">
+                <h3 className="font-display text-xl text-primary mb-2">Maturity is High-End – Sexy Bhabhi & Housewives</h3>
+                <p className="text-sm">Believe in fantasy because a mature Bhabhi can accomplish all your goals at once. <strong>Desi Indian Bhabhi Escorts</strong> in Jaipur are mind-blowing for better performance and mood. If you need a mature woman for intense connection, housewife escorts are the perfect choice.</p>
+              </div>
+              <div className="bg-card border border-border p-6 rounded-lg shadow-lg">
+                <h3 className="font-display text-xl text-primary mb-2">Only For Rich Clients – VIP & Model Escorts</h3>
+                <p className="text-sm">Rich clients from affluent backgrounds need amazing girls with VIP culture. We have a special category of <strong>VIP call girls in Jaipur</strong>. These model escorts have beautiful, well-maintained figures and provide a premium, Girlfriend Experience (GFE).</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-6">How to Book Call Girls in Jaipur?</h2>
+            <ol className="list-decimal list-inside space-y-2 ml-4">
+              <li>Open Google on your smartphone and search for our services.</li>
+              <li>Visit our official Riya Escort Service website.</li>
+              <li>Explore our massive gallery and choose girls and services according to your taste.</li>
+              <li>Use the WhatsApp and Calling options mentioned on our site.</li>
+              <li>Finalize the profile, confirm with a token advance, and share your hotel/room details.</li>
+              <li>Enjoy maximum satisfaction!</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
       <section className="py-24 bg-card/30 border-y border-border">
         <div className="mx-auto max-w-4xl px-6">
           <div className="text-center mb-16">
@@ -315,6 +365,14 @@ export default function Landing() {
             <p className="text-muted-foreground mt-4">Everything you need to know before booking your companion.</p>
           </div>
           <div className="space-y-6">
+            <div className="bg-card border border-border p-6 rounded-lg">
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">What kind of services can I expect from Jaipur escort service?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">A client is always thinking of hiring an escort who is powerful and beautiful. You can expect a wide range of services including Girlfriend Experience (GFE), full body massage, dinner dates, long drives, and passionate companionship tailored to your desires.</p>
+            </div>
+            <div className="bg-card border border-border p-6 rounded-lg">
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Can I get a full body massage from escort service Jaipur?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Yes, many of our escorts are trained to give full body massages. It is highly recommended to book a full-night service or extended duration to ensure you have enough time to enjoy both a relaxing massage and intimate companionship.</p>
+            </div>
             <div className="bg-card border border-border p-6 rounded-lg">
               <h3 className="font-display text-xl mb-2 text-gold-gradient">How do I book an escort service in Jaipur with you?</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">Booking is extremely simple and discreet. Just contact us via WhatsApp at +91 74148 38654. Browse our gallery, select your preferred companion, provide your location (for outcall) or choose to visit us in Sindhi Camp (for incall). After a small advance payment to confirm your genuine intent, your booking is locked in.</p>
@@ -392,6 +450,47 @@ export default function Landing() {
           <WhatsappIcon className="w-7 h-7" />
         </a>
         <p className="font-display text-lg text-gold-gradient mb-2">Riya Escort Service</p>
+        
+        <div className="max-w-5xl mx-auto px-6 mb-8 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left border-t border-border/50 pt-8 mt-8">
+            <div>
+              <h4 className="text-primary font-display text-lg mb-4">Categories</h4>
+              <ul className="space-y-2 text-xs">
+                <li><a href="/areas" className="hover:text-primary transition">Housewife Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">College Girls Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Airhostess Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Independent Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">VIP Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Celebrity Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Busty Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Cheap Escorts Girls</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-primary font-display text-lg mb-4">Quick Links</h4>
+              <ul className="space-y-2 text-xs">
+                <li><a href="/book" className="hover:text-primary transition">Call Girls in Jaipur</a></li>
+                <li><a href="/" className="hover:text-primary transition">Jaipur Escorts service</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Jaipur Russian Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Jaipur Punjabi Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Indian Escorts</a></li>
+                <li><a href="/book" className="hover:text-primary transition">Massage in Jaipur</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Asian Escorts</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-primary font-display text-lg mb-4">Other Escorts City</h4>
+              <ul className="space-y-2 text-xs">
+                <li><a href="#" className="hover:text-primary transition">Delhi Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Bangalore Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Mumbai Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Udaipur Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Alwar Escorts</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
         <div className="max-w-4xl mx-auto px-6 mb-4 text-xs text-muted-foreground leading-relaxed flex flex-wrap justify-center items-center gap-x-2 gap-y-1">
            <strong>Locations Served in Jaipur:</strong> 
            <a href="/areas" className="hover:text-primary transition">Sindhi Camp</a> <span>|</span>
