@@ -22,9 +22,9 @@ export const Route = createFileRoute("/")({
   component: Landing,
   head: () => ({
     meta: [
-      { title: "Escort Service Jaipur | Premium Spa & Call Girls in Sindhi Camp" },
+      { title: "Jaipur Escort Service | Jaipur Call Girls Service & Callgirls | Payal" },
       { name: "description", content: "Looking for the best escort service Jaipur? Visit Payal Escort Service in Sindhi Camp for exclusive and premium relaxation services. Top-rated companion services available 24/7. Call +91 74148 38654." },
-      { name: "keywords", content: "escort service Jaipur, escort service in Sindhi Camp, book call girls in Jaipur, call girls in Jaipur, Jaipur escort girls, payal escort service, premium spa Jaipur" },
+      { name: "keywords", content: "jaipur escort service, jaipur call girls service, jaipur callgirls, escort service in Sindhi Camp, book call girls in Jaipur, call girls in Jaipur, Jaipur escort girls, payal escort service, premium spa Jaipur" },
     ],
   }),
 });
