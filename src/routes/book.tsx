@@ -10,8 +10,8 @@ export const Route = createFileRoute("/book")({
   component: BookPage,
   head: () => ({
     meta: [
-      { title: "Book The Best Escort Service Jaipur | Payal Escort Service Booking" },
-      { name: "description", content: "Book premium escort service Jaipur. Discreet 24/7 booking available in Sindhi Camp and across Jaipur. WhatsApp +91 74148 38654 for immediate confirmation." },
+      { title: "Book VIP Jaipur Escorts | Cash On Delivery Call Girls" },
+      { name: "description", content: "Book genuine Jaipur call girls & VIP escorts safely. 24/7 booking available for hotel outcalls and incalls with complete privacy and Cash on Delivery (COD)." },
       { name: "keywords", content: "book escort service Jaipur, payal escort service booking, call girl booking Jaipur, escort service booking in Sindhi Camp" },
     ],
   }),

@@ -10,8 +10,8 @@ export const Route = createFileRoute("/contact")({
   component: ContactPage,
   head: () => ({
     meta: [
-      { title: "Contact Us | Escort Service Jaipur & Premium Spa" },
-      { name: "description", content: "Contact Jaipur's premium escort service in Sindhi Camp. Available 24/7 for discreet booking. WhatsApp +91 74148 38654." },
+      { title: "Contact Us | Book Jaipur Call Girls (No Advance Payment)" },
+      { name: "description", content: "Contact the top Jaipur escorts agency for discreet booking. We offer genuine call girls with 100% Cash on Delivery (COD) and zero advance payment. WhatsApp +91 74148 38654." },
       { name: "keywords", content: "contact escort service Jaipur, call girls in Jaipur contact, Jaipur escort service contact, Sindhi Camp spa contact" },
     ],
   }),

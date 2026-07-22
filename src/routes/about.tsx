@@ -10,8 +10,8 @@ export const Route = createFileRoute("/about")({
   component: AboutPage,
   head: () => ({
     meta: [
-      { title: "About Us | Best Escort Service Jaipur & Premium Spa" },
-      { name: "description", content: "Learn more about Payal Escort Service, the most trusted and genuine escort service Jaipur. Located in Sindhi Camp, we provide premium companion services 24/7." },
+      { title: "About Us | Jaipur Escorts Agency & Independent Call Girls" },
+      { name: "description", content: "Learn more about Payal Escort Service, the most trusted and genuine Jaipur escorts agency. We provide 100% independent call girls with real pics and no advance payment." },
       { name: "keywords", content: "about escort service Jaipur, payal escort service history, genuine call girls in Jaipur, premium spa Jaipur, Sindhi Camp spa" },
     ],
   }),

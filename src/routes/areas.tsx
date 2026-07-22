@@ -10,8 +10,8 @@ export const Route = createFileRoute("/areas")({
   component: AreasPage,
   head: () => ({
     meta: [
-      { title: "Areas Served | Escort Service Jaipur in Sindhi Camp, C Scheme & More" },
-      { name: "description", content: "Looking for an escort service Jaipur near you? We serve Sindhi Camp, C Scheme, Malviya Nagar, Raja Park, and all major areas in Jaipur. Outcall & Incall available." },
+      { title: "Jaipur Escorts Locations | Sindhi Camp & C Scheme Call Girls" },
+      { name: "description", content: "Looking for independent call girls near you? We serve all major areas including Sindhi Camp, C Scheme, and luxury hotels across Jaipur with genuine VIP models." },
       { name: "keywords", content: "escort service Jaipur, escort service in Sindhi Camp, escort service C Scheme, call girls Malviya Nagar, Jaipur escort service near me" },
     ],
   }),
