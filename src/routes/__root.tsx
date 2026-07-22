@@ -82,6 +82,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Looking for Jaipur escort girls nearby me? Visit Payal Jaipur Escort Service for 100% independent call girls, real pics, and VIP premium spa services 24/7. Call +91 74148 38654." },
       { name: "keywords", content: "jaipur escort service, jaipur call girls, jaipur escort girls nearby me, independent call girls jaipur, Jaipur escort girls, payal escort service, premium spa Jaipur" },
       { name: "author", content: "Payal Escort Service" },
+      { property: "og:site_name", content: "Payal Escort Service" },
       { property: "og:title", content: "Jaipur Escort Service | Premium Jaipur Call Girls Nearby Me" },
       { property: "og:description", content: "Looking for Jaipur escort girls nearby me? Visit Payal Jaipur Escort Service for 100% independent call girls, real pics, and VIP premium spa services 24/7. Call +91 74148 38654." },
       { property: "og:type", content: "website" },
@@ -91,7 +92,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" },
@@ -106,9 +107,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 function RootShell({ children }: { children: ReactNode }) {
   const schema = {
     "@context": "https://schema.org",
-    "@type": "HealthAndBeautyBusiness",
-    "name": "Payal Escort Service",
-    "telephone": "+917414838654",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "Payal Escort Service",
+        "url": "https://jaipurescortgirls.vercel.app/"
+      },
+      {
+        "@type": "HealthAndBeautyBusiness",
+        "name": "Payal Escort Service",
+        "telephone": "+917414838654",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Sindhi Camp",
@@ -134,6 +142,8 @@ function RootShell({ children }: { children: ReactNode }) {
     "sameAs": [
       "https://www.facebook.com/payalescortservice",
       "https://www.instagram.com/payalescortservice"
+    ]
+      }
     ]
   };
 
