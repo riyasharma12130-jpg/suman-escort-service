@@ -478,6 +478,83 @@ export default function Landing() {
         </div>
       </section>
 
+      <section className="py-16 bg-card/30 border-y border-border">
+        <div className="mx-auto max-w-5xl px-6">
+          <div className="text-center mb-12">
+            <p className="text-xs uppercase tracking-[0.4em] text-primary mb-4">PRICING</p>
+            <h2 className="font-display text-3xl md:text-5xl font-light">Jaipur Call Girls Rate List</h2>
+            <p className="text-muted-foreground mt-4">Transparent pricing for all categories. Cash on Delivery available.</p>
+          </div>
+          <div className="overflow-x-auto">
+            <table className="w-full border border-border rounded-lg overflow-hidden text-sm">
+              <thead>
+                <tr className="bg-primary/10 text-primary">
+                  <th className="text-left p-4 font-display text-base">Girl Category</th>
+                  <th className="text-center p-4 font-display text-base">Short Time (1-2 hrs)</th>
+                  <th className="text-center p-4 font-display text-base">Full Night</th>
+                </tr>
+              </thead>
+              <tbody className="text-muted-foreground">
+                <tr className="border-t border-border">
+                  <td className="p-4 font-medium text-foreground">Indian Call Girl</td>
+                  <td className="p-4 text-center">₹5,000</td>
+                  <td className="p-4 text-center">₹12,000</td>
+                </tr>
+                <tr className="border-t border-border bg-card/50">
+                  <td className="p-4 font-medium text-foreground">Housewife / Bhabhi Escorts</td>
+                  <td className="p-4 text-center">₹6,000</td>
+                  <td className="p-4 text-center">₹15,000</td>
+                </tr>
+                <tr className="border-t border-border">
+                  <td className="p-4 font-medium text-foreground">Young College Call Girl</td>
+                  <td className="p-4 text-center">₹7,000</td>
+                  <td className="p-4 text-center">₹18,000</td>
+                </tr>
+                <tr className="border-t border-border bg-card/50">
+                  <td className="p-4 font-medium text-foreground">Celebrity / Model Escorts</td>
+                  <td className="p-4 text-center">₹12,000</td>
+                  <td className="p-4 text-center">₹25,000</td>
+                </tr>
+                <tr className="border-t border-border">
+                  <td className="p-4 font-medium text-foreground">Russian Call Girls</td>
+                  <td className="p-4 text-center">₹15,000</td>
+                  <td className="p-4 text-center">₹30,000</td>
+                </tr>
+                <tr className="border-t border-border bg-card/50">
+                  <td className="p-4 font-medium text-foreground">Air Hostess Escorts</td>
+                  <td className="p-4 text-center">₹10,000</td>
+                  <td className="p-4 text-center">₹22,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-muted-foreground mt-4 text-center">* Prices may vary based on duration, specific companion, and services. Cash Payment (COD) is always accepted.</p>
+        </div>
+      </section>
+
+      <section className="py-16">
+        <div className="mx-auto max-w-5xl px-6 text-sm text-muted-foreground leading-relaxed space-y-6">
+          <h2 className="font-display text-3xl md:text-4xl text-gold-gradient mb-6 text-center">जयपुर कॉल गर्ल्स सर्विस - सबसे भरोसेमंद एस्कॉर्ट एजेंसी</h2>
+          <p>
+            जयपुर की सबसे प्रीमियम और भरोसेमंद <strong>कॉल गर्ल्स सर्विस</strong> में आपका स्वागत है। पायल एस्कॉर्ट सर्विस जयपुर की सबसे पुरानी और विश्वसनीय एजेंसी है। हम आपको 100% असली और वेरिफाइड <strong>इंडिपेंडेंट कॉल गर्ल्स</strong> प्रदान करते हैं। हमारी सभी लड़कियां खूबसूरत, शिक्षित और प्रोफेशनल हैं। चाहे आप बिजनेस ट्रिप पर हों या अकेलापन महसूस कर रहे हों, हमारी <strong>जयपुर कॉल गर्ल्स</strong> आपकी हर फैंटेसी को पूरा करने के लिए हमेशा तैयार हैं।
+          </p>
+          <p>
+            हमारे पास Indian Call Girls, Russian Call Girls, College Girls, Desi Bhabhi, Housewife Escorts और कई तरह की कॉल गर्ल्स मौजूद हैं। ये ना सिर्फ आपके मूड को खुशहाल बनाएंगी, बल्कि हर समय आपको संतुष्टि और प्लेजर देने के लिए तैयार रहेंगी। बुकिंग बेहद आसान है – बस हमारे WhatsApp नंबर <strong>+91 74148 38654</strong> पर कॉल या मैसेज करें।
+          </p>
+          <h3 className="font-display text-2xl text-primary mt-8">जयपुर में कॉल गर्ल्स बुक करने के फायदे</h3>
+          <p>
+            जब आप हमारी <strong>जयपुर एस्कॉर्ट सर्विस</strong> से कॉल गर्ल्स बुक करते हैं, तो आपको कई शानदार फायदे मिलते हैं। जैसे - प्री-बुकिंग, सर्विस से पहले लड़की से मिलने का विकल्प, डिनर डेट, कॉफी डेट, होटल विजिट, और फुल नाइट सर्विस। हम 100% <strong>कैश पेमेंट (COD)</strong> स्वीकार करते हैं। कोई एडवांस पेमेंट नहीं, कोई ऑनलाइन ट्रांजैक्शन नहीं – बस कैश दें और सर्विस का आनंद लें।
+          </p>
+          <p>
+            हमारी सभी एस्कॉर्ट्स का नियमित स्वास्थ्य परीक्षण होता है, जिससे आपको 100% सुरक्षित और बेहतरीन अनुभव मिलता है। हमारे पास बंगाली, नेपाली, कश्मीरी, पंजाबी, रूसी और भारतीय सुंदरियों की एक शानदार रेंज उपलब्ध है। <strong>सिंधी कैंप, सी-स्कीम, मालवीय नगर, वैशाली नगर, राजा पार्क, बानी पार्क, मानसरोवर</strong> और जयपुर के सभी प्रमुख इलाकों में हमारी सर्विस उपलब्ध है।
+          </p>
+          <h3 className="font-display text-2xl text-primary mt-8">24/7 उपलब्ध - अभी बुक करें!</h3>
+          <p>
+            अगर आप <strong>जयपुर में कॉल गर्ल्स</strong> की तलाश में हैं, तो अब आपकी खोज खत्म हुई। हमारी हाई-क्लास कॉल गर्ल्स जयपुर की सबसे टॉप और सेलेक्टेड लड़कियां हैं। बुकिंग के सिर्फ 30 मिनट में आपके पास पहुंच जाती हैं। इनकॉल और आउटकॉल दोनों सेवाएं उपलब्ध हैं। तो बिना किसी झिझक के अभी कॉल करें: <strong>+91 74148 38654</strong>
+          </p>
+        </div>
+      </section>
+
       <section className="relative py-32 border-t border-border">
         <div className="mx-auto max-w-3xl px-6 text-center">
           <p className="text-xs uppercase tracking-[0.4em] text-primary mb-6">Ready to Book</p>
@@ -562,7 +639,14 @@ export default function Landing() {
            <a href="/areas" className="hover:text-primary transition">Jhotwara</a> <span>|</span>
            <a href="/areas" className="hover:text-primary transition">Pratap Nagar</a>
         </div>
-        <p>© {new Date().getFullYear()} Payal Escort Service & Companion Services · All bookings by appointment</p>
+
+        <div className="max-w-5xl mx-auto px-6 mb-6 w-full">
+          <p className="text-[10px] text-muted-foreground/60 leading-relaxed text-center">
+            Call Girl In Jaipur ☛ Call Girl Near Me ☛ Call Girl Number In Jaipur ☛ Escort Service In Jaipur ☛ Call Girls In Jaipur ☛ Escort Service Jaipur ☛ Jaipur Escorts ☛ Jaipur Escort Service ☛ Call Girl Contact Number Jaipur ☛ Call Girls Near Me ☛ Jaipur Escort ☛ Low Price Call Girl in Jaipur ☛ Call Girls Jaipur ☛ Call Girls Number Jaipur ☛ Escorts In Jaipur ☛ Call Girl Service Jaipur ☛ Best Escort Service Jaipur ☛ Low Price Call Girls Jaipur ☛ Jaipur Call Girl Service ☛ Cheap Call Girl Near Me ☛ Jaipur Call Girl Number ☛ Call Girls Service In Jaipur ☛ Near me Call Girl ☛ Call Girl Phone Number Jaipur ☛ Low Rate Call Girls Jaipur ☛ Night Call Girl Jaipur ☛ Escort Call Girl Jaipur ☛ Cheapest Call Girl Jaipur ☛ Independent Call Girl Jaipur ☛ Russian Call Girls Jaipur ☛ Housewife Escorts Jaipur ☛ College Call Girls Jaipur ☛ VIP Escorts Jaipur ☛ Cash Payment Call Girls Jaipur ☛ Hotel Call Girl Jaipur ☛ Call Girls WhatsApp Number Jaipur ☛ कॉल गर्ल जयपुर ☛ जयपुर एस्कॉर्ट सर्विस ☛ जयपुर कॉल गर्ल नंबर ☛ कॉल गर्ल नियर मी ☛ जयपुर में कॉल गर्ल ☛ सस्ती कॉल गर्ल जयपुर ☛ इंडिपेंडेंट कॉल गर्ल जयपुर ☛ रशियन कॉल गर्ल जयपुर ☛ हाउसवाइफ एस्कॉर्ट जयपुर ☛ VIP कॉल गर्ल जयपुर ☛ कैश पेमेंट कॉल गर्ल जयपुर ☛ होटल कॉल गर्ल जयपुर
+          </p>
+        </div>
+
+        <p>© {new Date().getFullYear()} Payal Escort Service &amp; Companion Services · All bookings by appointment</p>
       </footer>
     </div>
   );
