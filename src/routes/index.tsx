@@ -370,7 +370,33 @@ export default function Landing() {
             </div>
           </div>
 
-          <div>
+          <div className="mt-16 text-sm md:text-base text-muted-foreground leading-relaxed space-y-8">
+            <h2 className="font-display text-3xl md:text-5xl font-light text-center mb-10">A Combine Package of Lust and Relaxation By Sexy Jaipur Call Girl Service</h2>
+            
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-card border border-border p-6 rounded-lg shadow-lg">
+                <h3 className="font-display text-xl text-primary mb-3">Hotel Night With Russian Call Girl Near Me</h3>
+                <p>We encourage our clients to get physical service at the hotel. Comfort, privacy, and a luxurious feel can be delivered easily. We have special arrangements for VIP Russian Jaipur Call Girl Service. Enjoy a passionate hotel night with international standard companionship.</p>
+              </div>
+              <div className="bg-card border border-border p-6 rounded-lg shadow-lg">
+                <h3 className="font-display text-xl text-primary mb-3">Foreplay and Roleplay Call Girls in Jaipur</h3>
+                <p>Foreplay is the essential part of intimacy. However, it gets much more exciting with roleplay. Roleplay gives you the liberty to be anyone to the lady. You can act as a doctor, plumber, or delivery boy. Our skilled independent Jaipur Call Girls will cooperate fully with your fantasies.</p>
+              </div>
+              <div className="bg-card border border-border p-6 rounded-lg shadow-lg">
+                <h3 className="font-display text-xl text-primary mb-3">Erotic B2B Massage From Independent Jaipur Call Girls</h3>
+                <p>The city of nightlife hardly gets you what you want without stress. To relax deeply, we bring you the premium massage Jaipur Call Girl Service. Booking this service gives you a combination of therapeutic B2B massage and intense, beautiful companionship for a highly affordable price.</p>
+              </div>
+            </div>
+
+            <div className="bg-card border border-border p-8 rounded-lg shadow-lg mt-12 text-center">
+              <h2 className="font-display text-2xl text-gold-gradient mb-4">100% Cash Payment & Cash on Delivery Service</h2>
+              <p className="max-w-3xl mx-auto">
+                We highly encourage our clients to choose the <strong>Cash Payment</strong> option. We are the premier Jaipur Call Girls Agency offering Cash on Delivery service to give you the ultimate freedom and privacy. No credit card statements, no digital trails—just pure, untracked entertainment. Simply book your Independent Call Girl in Jaipur, wait for her arrival at your hotel or residence, and pay directly in cash before the service begins. It is safe, discreet, and reliable.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-16">
             <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-6">How to Book Call Girls in Jaipur?</h2>
             <ol className="list-decimal list-inside space-y-2 ml-4">
               <li>Open Google on your smartphone and search for our services.</li>
@@ -417,28 +443,24 @@ export default function Landing() {
               <p className="text-sm text-muted-foreground leading-relaxed">Our primary incall spa is located in Sindhi Camp. For outcall services, we cover the entirety of Jaipur, including C Scheme, Malviya Nagar, Vaishali Nagar, Raja Park, Bani Park, Mansarovar, and all major luxury hotels and resorts across the Pink City.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
-              <h3 className="font-display text-xl mb-2 text-gold-gradient">Are independent call girls available in Jaipur?</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">Yes, our agency exclusively works with premium, independent call girls. This ensures you get a highly personalized, un-rushed, and genuine experience without the constraints of typical parlor services.</p>
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Do Call Girls in Jaipur are Available for the Outcall?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Yes, as we have mentioned, we provide premium companions for discreet outcall services across all major areas of Jaipur.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
-              <h3 className="font-display text-xl mb-2 text-gold-gradient">Do you offer hotel visit services in Jaipur?</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">Absolutely. Our outcall service is designed specifically for hotel visits. We regularly dispatch companions to 4-star and 5-star hotels across Jaipur. Our escorts arrive discreetly directly to your room.</p>
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Do you provide call girls Near hotels?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Yes, we have special arrangements for 4-star and 5-star hotels like The Roseate, Rambagh Palace, and others. Our call girls arrive discreetly directly to your room.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
-              <h3 className="font-display text-xl mb-2 text-gold-gradient">Are Russian escorts available in Jaipur?</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">Yes, we maintain a highly exclusive roster of VIP foreign and Russian escorts for clients seeking an exotic luxury experience in the Pink City.</p>
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Does Same Day Booking and Service Available?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Yes, same day booking and immediate service are always available 24x7.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
-              <h3 className="font-display text-xl mb-2 text-gold-gradient">What is the average price for escort service in Jaipur?</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">Our prices are very competitive for the premium quality we provide. Incall services typically start around ₹5,000 for short sessions, while VIP and full-night outcall services range from ₹8,000 to ₹25,000 depending on the specific companion and duration.</p>
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Can I Request For Personalized Jaipur Call Girls Near Me?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Yes, we offer highly personalized services including roleplay, B2B massage, and Girlfriend Experience tailored to your exact fantasies.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
-              <h3 className="font-display text-xl mb-2 text-gold-gradient">Is advance booking available for Jaipur escorts?</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">Yes, we highly encourage advance booking, especially for weekends, holidays, or if you wish to reserve a specific VIP escort for a full night or multi-day trip.</p>
-            </div>
-            <div className="bg-card border border-border p-6 rounded-lg">
-              <h3 className="font-display text-xl mb-2 text-gold-gradient">How can clients avoid fake escort services in Jaipur?</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">The internet is unfortunately full of scams. To avoid fake services, never send large upfront amounts of money before seeing a companion. Payal Escort Service operates with a minimal token advance just to secure the booking, with the rest paid directly to the companion in person. We also offer 100% genuine photos.</p>
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Do You Accept the Cash Payment Method?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Yes, we accept cash payment methods (Cash on Delivery). You just have to hand it over to the companion immediately before the service begins for complete privacy and peace of mind.</p>
             </div>
           </div>
         </div>
