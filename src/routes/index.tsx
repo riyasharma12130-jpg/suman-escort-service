@@ -22,8 +22,8 @@ export const Route = createFileRoute("/")({
   component: Landing,
   head: () => ({
     meta: [
-      { title: "Jaipur Escort Service | Premium Jaipur Call Girls Nearby Me | Payal" },
-      { name: "description", content: "Looking for Jaipur escort girls nearby me? Visit Payal Jaipur Escort Service for 100% independent call girls, real pics, and VIP premium spa services 24/7." },
+      { title: "Jaipur Escorts: 100% Independent Call Girls with Real Pics" },
+      { name: "description", content: "Enjoy Jaipur Escorts with a trusted agency. Get real Jaipur call girls & VIP models 24/7. Cash on Delivery (COD) and No Advance Payment required." },
       { name: "keywords", content: "jaipur escort service, jaipur call girls, jaipur escort girls nearby me, independent call girls jaipur, premium escort service jaipur, real pics escort jaipur" },
     ],
   }),
