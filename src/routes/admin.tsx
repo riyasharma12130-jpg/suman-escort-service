@@ -12,7 +12,7 @@ export const Route = createFileRoute("/admin")({
 function AdminRoute() {
   const navigate = useNavigate();
   const [telegramLink, setTelegramLink] = useState("");
-  const [whatsappNumber, setWhatsappNumber] = useState("");
+  const [telegramHandle, setTelegramHandle] = useState("");
   const [isSaved, setIsSaved] = useState(false);
 
   useEffect(() => {
@@ -23,19 +23,19 @@ function AdminRoute() {
 
     // Load existing settings
     const savedTelegram = localStorage.getItem("telegramLink");
-    const savedWhatsapp = localStorage.getItem("whatsappNumber");
+    const savedTelegram = localStorage.getItem("telegramHandle");
     
     if (savedTelegram) setTelegramLink(savedTelegram);
     else setTelegramLink("https://t.me/SEJAL_REDDY_02"); // Default fallback
     
-    if (savedWhatsapp) setWhatsappNumber(savedWhatsapp);
-    else setWhatsappNumber("+1 (555) 018 · 2240"); // Default fallback
+    if (savedTelegram) setTelegramHandle(savedTelegram);
+    else setTelegramHandle("+1 (555) 018 · 2240"); // Default fallback
   }, [navigate]);
 
   const handleSave = (e: React.FormEvent) => {
     e.preventDefault();
     localStorage.setItem("telegramLink", telegramLink);
-    localStorage.setItem("whatsappNumber", whatsappNumber);
+    localStorage.setItem("telegramHandle", telegramHandle);
     setIsSaved(true);
     setTimeout(() => setIsSaved(false), 3000);
   };
@@ -82,11 +82,11 @@ function AdminRoute() {
                 <p className="text-xs text-muted-foreground">This is the link used for the "Check Reviews" button.</p>
               </div>
               <div className="space-y-2">
-                <Label htmlFor="whatsapp">WhatsApp / Phone Number</Label>
+                <Label htmlFor="telegram">Telegram Handle</Label>
                 <Input 
-                  id="whatsapp" 
-                  value={whatsappNumber}
-                  onChange={(e) => setWhatsappNumber(e.target.value)}
+                  id="telegram" 
+                  value={telegramHandle}
+                  onChange={(e) => setTelegramHandle(e.target.value)}
                   placeholder="+91 9876543210"
                   required
                   className="bg-background/50"

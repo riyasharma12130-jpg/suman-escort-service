@@ -59,15 +59,15 @@ const escorts = [
   { name: "Sneha Joshi", age: 22, location: "Bangalore", price: "₹5,000", img: imageList[8], desc: "Friendly, approachable, and fun-loving. Ensures a very comfortable and respectful experience for first-time callers.", bestFor: "First-Timers" },
 ];
 
-const WhatsappIcon = ({ className }: { className?: string }) => (
+const TelegramIcon = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 24 24" className={className || "w-5 h-5"} fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 1 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+    <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.14-.26.26-.532.26l.214-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.87 4.326-2.962-.924c-.643-.204-.656-.643.136-.953l11.57-4.458c.538-.196 1.006.128.757 1.074z"/>
   </svg>
 );
 
 export default function Landing() {
-  const whatsappNumber = "+91 74148 38654";
-  const whatsappLink = `https://wa.me/${whatsappNumber.replace(/\s/g, "")}`;
+  const telegramHandle = "@Sonal_0101";
+  const telegramLink = "https://t.me/Sonal_0101";
   
   const rituals = [
     { time: "60", unit: "MIN", label: "Quick Service", price: "₹4,000" },
@@ -91,8 +91,8 @@ export default function Landing() {
             <a href="/contact" className="hover:text-primary transition">Contact</a>
           </nav>
           <div className="flex items-center gap-4">
-            <a href={whatsappLink} target="_blank" rel="noreferrer" className="flex items-center justify-center w-9 h-9 rounded-full bg-[#25D366] hover:bg-[#25D366]/80 text-white transition shadow-[0_0_15px_-5px_#25D366]" aria-label="WhatsApp Contact">
-              <WhatsappIcon className="w-5 h-5" />
+            <a href={telegramLink} target="_blank" rel="noreferrer" className="flex items-center justify-center w-9 h-9 rounded-full bg-[#0088cc] hover:bg-[#0088cc]/80 text-white transition shadow-[0_0_15px_-5px_#0088cc]" aria-label="Telegram Contact">
+              <TelegramIcon className="w-5 h-5" />
             </a>
             <a href="/book" className="rounded-full border border-primary/40 px-5 py-2 text-sm text-primary hover:bg-primary hover:text-primary-foreground transition">Book Now</a>
           </div>
@@ -208,7 +208,7 @@ export default function Landing() {
             </div>
             <div>
               <h3 className="font-display text-xl text-gold-gradient mb-2">5. Quick Booking Support</h3>
-              <p className="text-sm">Easy, instant booking through WhatsApp with immediate response support from our dedicated team.</p>
+              <p className="text-sm">Easy, instant booking through Telegram with immediate response support from our dedicated team.</p>
             </div>
             <div>
               <h3 className="font-display text-xl text-gold-gradient mb-2">6. Affordable to Luxury Packages</h3>
@@ -402,7 +402,7 @@ export default function Landing() {
               <li>Open Google on your smartphone and search for our services.</li>
               <li>Visit our official Kavya Escort Service website.</li>
               <li>Explore our massive gallery and choose girls and services according to your taste.</li>
-              <li>Use the WhatsApp and Calling options mentioned on our site.</li>
+              <li>Use the Telegram and Calling options mentioned on our site.</li>
               <li>Finalize the profile, confirm with a token advance, and share your hotel/room details.</li>
               <li>Enjoy maximum satisfaction!</li>
             </ol>
@@ -428,7 +428,7 @@ export default function Landing() {
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
               <h3 className="font-display text-xl mb-2 text-gold-gradient">How do I book an escort service in Bangalore with you?</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">Booking is extremely simple and discreet. Just contact us via WhatsApp at +91 74148 38654. Browse our gallery, select your preferred companion, provide your location (for outcall) or choose to visit us in Koramangala (for incall). After a small advance payment to confirm your genuine intent, your booking is locked in.</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">Booking is extremely simple and discreet. Just contact us via Telegram at @Sonal_0101. Browse our gallery, select your preferred companion, provide your location (for outcall) or choose to visit us in Koramangala (for incall). After a small advance payment to confirm your genuine intent, your booking is locked in.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
               <h3 className="font-display text-xl mb-2 text-gold-gradient">Are the photos of the call girls in Bangalore 100% genuine?</h3>
@@ -473,7 +473,7 @@ export default function Landing() {
             Finding a reliable <strong>escort service Bangalore</strong> can often feel overwhelming due to the sheer number of unreliable agencies operating online. However, by choosing Kavya Escort Service, you are opting for the most verified, trusted, and premium agency in the state of Karnataka. Our expansive network of high-class independent escorts, college girls, models, and air hostesses ensures that regardless of your specific tastes or fantasies, we have the perfect companion waiting for you. When men search to <strong>book call girls in Bangalore</strong>, they are looking for more than just physical intimacy; they seek emotional connection, intellectual stimulation, and a truly girlfriend-like experience (GFE). We rigorously train our companions to provide exactly this, elevating your encounter from a mere transaction to a memorable, deeply satisfying relationship.
           </p>
           <p>
-            Our strategic location in <strong>Koramangala</strong> gives us a massive logistical advantage. It allows us to manage our incall facilities with unparalleled efficiency while simultaneously dispatching our outcall companions to any corner of the city within minutes. Whether you are craving a soothing full-body massage to relieve tension or desire a wild, passionate night to remember, our versatile companions are ready to fulfill your every whim. Do not settle for subpar services when the best <strong>Bangalore escort girls</strong> are just a WhatsApp message away. We guarantee 100% satisfaction, uncompromising hygiene, and a level of luxury that has made us the undisputed leaders in the Bangalore adult entertainment and spa industry.
+            Our strategic location in <strong>Koramangala</strong> gives us a massive logistical advantage. It allows us to manage our incall facilities with unparalleled efficiency while simultaneously dispatching our outcall companions to any corner of the city within minutes. Whether you are craving a soothing full-body massage to relieve tension or desire a wild, passionate night to remember, our versatile companions are ready to fulfill your every whim. Do not settle for subpar services when the best <strong>Bangalore escort girls</strong> are just a Telegram message away. We guarantee 100% satisfaction, uncompromising hygiene, and a level of luxury that has made us the undisputed leaders in the Bangalore adult entertainment and spa industry.
           </p>
         </div>
       </section>
@@ -539,7 +539,7 @@ export default function Landing() {
             बैंगलोर की सबसे प्रीमियम और भरोसेमंद <strong>कॉल गर्ल्स सर्विस</strong> में आपका स्वागत है। कावया एस्कॉर्ट सर्विस बैंगलोर की सबसे पुरानी और विश्वसनीय एजेंसी है। हम आपको 100% असली और वेरिफाइड <strong>इंडिपेंडेंट कॉल गर्ल्स</strong> प्रदान करते हैं। हमारी सभी लड़कियां खूबसूरत, शिक्षित और प्रोफेशनल हैं। चाहे आप IT बिजनेस ट्रिप पर हों या अकेलापन महसूस कर रहे हों, हमारी <strong>बैंगलोर कॉल गर्ल्स</strong> आपकी हर फैंटेसी को पूरा करने के लिए हमेशा तैयार हैं।
           </p>
           <p>
-            हमारे पास Indian Call Girls, Kannada Call Girls, Russian Call Girls, College Girls, Desi Bhabhi, Housewife Escorts और कई तरह की कॉल गर्ल्स मौजूद हैं। ये ना सिर्फ आपके मूड को खुशहाल बनाएंगी, बल्कि हर समय आपको संतुष्टि और प्लेजर देने के लिए तैयार रहेंगी। बुकिंग बेहद आसान है – बस हमारे WhatsApp नंबर <strong>+91 74148 38654</strong> पर कॉल या मैसेज करें।
+            हमारे पास Indian Call Girls, Kannada Call Girls, Russian Call Girls, College Girls, Desi Bhabhi, Housewife Escorts और कई तरह की कॉल गर्ल्स मौजूद हैं। ये ना सिर्फ आपके मूड को खुशहाल बनाएंगी, बल्कि हर समय आपको संतुष्टि और प्लेजर देने के लिए तैयार रहेंगी। बुकिंग बेहद आसान है – बस हमारे Telegram हैंडल <strong>@Sonal_0101</strong> पर कॉल या मैसेज करें।
           </p>
           <h3 className="font-display text-2xl text-primary mt-8">बैंगलोर में कॉल गर्ल्स बुक करने के फायदे</h3>
           <p>
@@ -568,10 +568,10 @@ export default function Landing() {
         <div className="mx-auto max-w-3xl px-6 text-center">
           <p className="text-xs uppercase tracking-[0.4em] text-primary mb-6">Ready to Book</p>
           <h2 className="font-display text-4xl md:text-6xl font-light leading-tight mb-6">Book The Best Escort Service Bangalore Now</h2>
-          <p className="text-muted-foreground mb-10">Discreet booking available 24/7. Call or WhatsApp us directly.</p>
+          <p className="text-muted-foreground mb-10">Discreet booking available 24/7. Call or Telegram us directly.</p>
           <div className="flex flex-col items-center gap-4">
-            <a href={whatsappLink} target="_blank" rel="noreferrer" className="inline-block rounded-full bg-[#25D366] px-10 py-4 text-sm font-medium text-white hover:bg-[#25D366]/80 transition shadow-[0_0_60px_-10px_#25D366]">
-              WhatsApp: {whatsappNumber}
+            <a href={telegramLink} target="_blank" rel="noreferrer" className="inline-block rounded-full bg-[#0088cc] px-10 py-4 text-sm font-medium text-white hover:bg-[#0088cc]/80 transition shadow-[0_0_60px_-10px_#25D366]">
+              Telegram: {telegramHandle}
             </a>
             <a href="/book" className="inline-block rounded-full border border-primary/40 px-10 py-4 text-sm font-medium text-primary hover:bg-primary hover:text-primary-foreground transition">
               View Booking Options
@@ -581,8 +581,8 @@ export default function Landing() {
       </section>
 
       <footer className="border-t border-border py-10 text-center text-xs text-muted-foreground relative flex flex-col items-center">
-        <a href={whatsappLink} target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-[#25D366] hover:bg-[#25D366]/80 text-white transition mb-6 shadow-[0_0_20px_-5px_#25D366]" aria-label="WhatsApp Contact">
-          <WhatsappIcon className="w-7 h-7" />
+        <a href={telegramLink} target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-[#0088cc] hover:bg-[#0088cc]/80 text-white transition mb-6 shadow-[0_0_20px_-5px_#0088cc]" aria-label="Telegram Contact">
+          <TelegramIcon className="w-7 h-7" />
         </a>
         <p className="font-display text-lg text-gold-gradient mb-2">Kavya Escort Service Bangalore</p>
         

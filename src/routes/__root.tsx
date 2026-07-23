@@ -189,7 +189,7 @@ function RootShell({ children }: { children: ReactNode }) {
             "name": "How to book call girls in Bangalore?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Simply call or WhatsApp +91 74148 38654. Share your preferred time, location, and companion preference. Our team responds within minutes and arranges a verified companion at your location within 30-45 minutes."
+              "text": "Simply call or Telegram @Sonal_0101. Share your preferred time, location, and companion preference. Our team responds within minutes and arranges a verified companion at your location within 30-45 minutes."
             }
           },
           {
