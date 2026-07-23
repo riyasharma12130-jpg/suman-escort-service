@@ -10,9 +10,9 @@ export const Route = createFileRoute("/contact")({
   component: ContactPage,
   head: () => ({
     meta: [
-      { title: "Contact Us | Book Jaipur Call Girls (No Advance Payment)" },
-      { name: "description", content: "Contact the top Jaipur escorts agency for discreet booking. We offer genuine call girls with 100% Cash on Delivery (COD) and zero advance payment. WhatsApp +91 74148 38654." },
-      { name: "keywords", content: "contact escort service Jaipur, call girls in Jaipur contact, Jaipur escort service contact, Sindhi Camp spa contact" },
+      { title: "Contact Us | Book Bangalore Call Girls (No Advance Payment)" },
+      { name: "description", content: "Contact the top Bangalore escorts agency for discreet booking. We offer genuine call girls with 100% Cash on Delivery (COD) and zero advance payment. WhatsApp +91 74148 38654." },
+      { name: "keywords", content: "contact escort service Bangalore, call girls in Bangalore contact, Bangalore escort service contact, Koramangala spa contact" },
     ],
   }),
 });
@@ -26,7 +26,7 @@ export default function ContactPage() {
 
       <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-background/60 border-b border-border">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Payal Escort Service</a>
+          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Kavya Escort Service</a>
           <nav className="hidden md:flex gap-10 text-sm text-muted-foreground">
             <a href="/" className="hover:text-primary transition">Home</a>
             <a href="/about" className="hover:text-primary transition">About</a>
@@ -58,7 +58,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-display text-lg mb-2">Business Address</h3>
-                  <p className="text-muted-foreground">Payal Escort Service<br />Sindhi Camp, Jaipur<br />Rajasthan 302001, IN</p>
+                  <p className="text-muted-foreground">Kavya Escort Service<br />Koramangala, Bangalore<br />Karnataka 560001, IN</p>
                 </div>
                 <div>
                   <h3 className="font-display text-lg mb-2">Availability</h3>
@@ -96,7 +96,7 @@ export default function ContactPage() {
                 </li>
                 <li className="flex gap-3">
                   <span className="text-primary">✓</span>
-                  <span>Discreet Hotel Outcall service across Jaipur</span>
+                  <span>Discreet Hotel Outcall service across Bangalore</span>
                 </li>
               </ul>
             </div>
@@ -115,14 +115,14 @@ export default function ContactPage() {
 
           <div className="bg-card border border-border rounded-lg p-2 mt-8 overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14231.84852378877!2d75.78652431610486!3d26.9205561081523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3fd270d4c81%3A0xc64ef72d4c0627d3!2sSindhi%20Camp%2C%20Jaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1704200000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124409.68916327344!2d77.53123842106392!3d12.983944605994263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1704200000000!5m2!1sen!2sin"
               width="100%"
               height="350"
               style={{ border: 0, borderRadius: '0.5rem' }}
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Google Map Location of Payal Escort Service in Sindhi Camp, Jaipur"
+              title="Google Map Location of Kavya Escort Service in Koramangala, Bangalore"
             ></iframe>
           </div>
 
@@ -130,13 +130,13 @@ export default function ContactPage() {
             <h2 className="font-display text-2xl mb-6 text-gold-gradient text-center">Communication Policy & Privacy</h2>
             <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
               <p>
-                When you contact Payal Escort Service, you are engaging with the most professional <strong>escort service Jaipur</strong> has to offer. We understand that reaching out for adult companionship requires a high degree of trust, which is why our communication policy is built entirely around your privacy and discretion.
+                When you contact Kavya Escort Service, you are engaging with the most professional <strong>escort service Bangalore</strong> has to offer. We understand that reaching out for adult companionship requires a high degree of trust, which is why our communication policy is built entirely around your privacy and discretion.
               </p>
               <p>
                 <strong>Confidentiality Guarantee:</strong> Every WhatsApp message, phone call, and inquiry is treated with strict confidentiality. We never store your contact information for marketing purposes, nor do we share it with third parties. Once your service is completed, your chat history on our end is routinely cleared to protect your identity.
               </p>
               <p>
-                <strong>Response Time:</strong> Our customer support team is available 24/7. When you want to <strong>book call girls in Jaipur</strong>, we know that time is of the essence. We strive to respond to all WhatsApp inquiries within minutes, providing you with real-time updates on companion availability, recent photos, and travel times for outcall services to areas like C Scheme, Malviya Nagar, and Sindhi Camp.
+                <strong>Response Time:</strong> Our customer support team is available 24/7. When you want to <strong>book call girls in Bangalore</strong>, we know that time is of the essence. We strive to respond to all WhatsApp inquiries within minutes, providing you with real-time updates on companion availability, recent photos, and travel times for outcall services to areas like Indiranagar, Whitefield, and Koramangala.
               </p>
               <p>
                 Please note that we do not entertain time-wasters, bargainers, or individuals looking for explicit chat services. Our communication lines are dedicated solely to serious clients looking to book genuine, premium companions for real-world encounters.
@@ -146,30 +146,122 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <footer className="border-t border-border py-10 text-center text-xs text-muted-foreground">
-        <p className="font-display text-lg text-gold-gradient mb-2">Payal Escort Service</p>
-        <div className="max-w-4xl mx-auto px-6 mb-4 text-xs text-muted-foreground leading-relaxed flex flex-wrap justify-center items-center gap-x-2 gap-y-1">
-          <strong>Locations Served in Jaipur:</strong>
-          <a href="/areas" className="hover:text-primary transition">Sindhi Camp</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">C-Scheme</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">Malviya Nagar</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">Vaishali Nagar</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">Raja Park</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">Bani Park</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">Mansarovar</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">Tonk Road</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">Amer</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">Jal Mahal</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">JLN Marg</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">MI Road</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">Civil Lines</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">Jagatpura</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">Vidyadhar Nagar</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">Bapu Nagar</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">Jhotwara</a> <span>|</span>
-          <a href="/areas" className="hover:text-primary transition">Pratap Nagar</a>
+      <footer className="border-t border-border py-10 text-center text-xs text-muted-foreground relative flex flex-col items-center">
+        <a href={whatsappLink} target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-[#25D366] hover:bg-[#25D366]/80 text-white transition mb-6 shadow-[0_0_20px_-5px_#25D366]" aria-label="WhatsApp Contact">
+          <WhatsappIcon className="w-7 h-7" />
+        </a>
+        <p className="font-display text-lg text-gold-gradient mb-2">Kavya Escort Service Bangalore</p>
+        
+        <div className="max-w-6xl mx-auto px-6 mb-8 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-left border-t border-border/50 pt-8 mt-8">
+            <div>
+              <h4 className="text-primary font-display text-lg mb-4">Escort Categories</h4>
+              <ul className="space-y-2 text-xs">
+                <li><a href="/areas" className="hover:text-primary transition">Housewife Escorts Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">College Girls Escorts Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Airhostess Escorts Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Independent Escorts Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">VIP Call Girls Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Celebrity Escorts Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Russian Escorts Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Kannada Call Girls Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Model Escorts Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Mallu Call Girls Bangalore</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-primary font-display text-lg mb-4">Bangalore Locations</h4>
+              <ul className="space-y-2 text-xs">
+                <li><a href="/areas" className="hover:text-primary transition">Koramangala Call Girls</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Indiranagar Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Whitefield Call Girls</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">MG Road Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Electronic City Call Girls</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">HSR Layout Call Girls</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">BTM Layout Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Marathahalli Call Girls</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Manyata Tech Park Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Hebbal Call Girls</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-primary font-display text-lg mb-4">Quick Links</h4>
+              <ul className="space-y-2 text-xs">
+                <li><a href="/" className="hover:text-primary transition">Bangalore Escort Service</a></li>
+                <li><a href="/book" className="hover:text-primary transition">Call Girls in Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Escort Service in Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Call Girl Near Me</a></li>
+                <li><a href="/book" className="hover:text-primary transition">Massage Service Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Hotel Call Girl Bangalore</a></li>
+                <li><a href="/guides" className="hover:text-primary transition">Guides & Articles</a></li>
+                <li><a href="/about" className="hover:text-primary transition">About Us</a></li>
+                <li><a href="/contact" className="hover:text-primary transition">Contact Us</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-primary font-display text-lg mb-4">Other Cities</h4>
+              <ul className="space-y-2 text-xs">
+                <li><a href="#" className="hover:text-primary transition">Delhi Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Mumbai Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Chennai Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Hyderabad Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Pune Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Kolkata Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Goa Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Jaipur Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Chandigarh Escorts</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <p>© {new Date().getFullYear()} Payal Escort Service & Companion Services · All bookings by appointment</p>
+
+        <div className="max-w-5xl mx-auto px-6 mb-4 text-xs text-muted-foreground leading-relaxed flex flex-wrap justify-center items-center gap-x-2 gap-y-1">
+           <strong>Locations Served in Bangalore:</strong> 
+           <a href="/areas" className="hover:text-primary transition">Koramangala</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Indiranagar</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Whitefield</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Electronic City</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">MG Road</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">HSR Layout</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">BTM Layout</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">JP Nagar</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Jayanagar</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Marathahalli</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Hebbal</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Bellandur</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Sarjapur Road</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Yelahanka</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Manyata Tech Park</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Bannerghatta Road</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Brigade Road</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">UB City</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Majestic</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Shivajinagar</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Old Airport Road</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Outer Ring Road</a>
+        </div>
+
+        <div className="max-w-5xl mx-auto px-6 mb-4 text-xs text-muted-foreground leading-relaxed flex flex-wrap justify-center items-center gap-x-2 gap-y-1">
+           <strong>5-Star Hotels We Serve:</strong> 
+           <span>The Leela Palace</span> <span>|</span>
+           <span>ITC Gardenia</span> <span>|</span>
+           <span>Taj West End</span> <span>|</span>
+           <span>The Oberoi</span> <span>|</span>
+           <span>JW Marriott</span> <span>|</span>
+           <span>Sheraton Grand</span> <span>|</span>
+           <span>Radisson Blu</span> <span>|</span>
+           <span>Conrad Bangalore</span> <span>|</span>
+           <span>Shangri-La</span> <span>|</span>
+           <span>Ritz-Carlton</span>
+        </div>
+
+        <div className="max-w-5xl mx-auto px-6 mb-6 w-full">
+          <p className="text-[10px] text-muted-foreground/60 leading-relaxed text-center">
+            Call Girl In Bangalore ☛ Call Girl Near Me ☛ Call Girl Number In Bangalore ☛ Escort Service In Bangalore ☛ Call Girls In Bangalore ☛ Escort Service Bangalore ☛ Bangalore Escorts ☛ Bangalore Escort Service ☛ Call Girl Contact Number Bangalore ☛ Call Girls Near Me ☛ Bangalore Escort ☛ Low Price Call Girl in Bangalore ☛ Call Girls Bangalore ☛ Koramangala Call Girls ☛ Indiranagar Escorts ☛ Whitefield Call Girls ☛ Electronic City Call Girls ☛ MG Road Escorts ☛ HSR Layout Call Girls ☛ BTM Layout Escorts ☛ Marathahalli Call Girls ☛ JP Nagar Call Girls ☛ Jayanagar Escorts ☛ Hebbal Call Girls ☛ Bellandur Escorts ☛ Sarjapur Road Call Girls ☛ Manyata Tech Park Call Girls ☛ Kannada Call Girl ☛ Russian Call Girls Bangalore ☛ Housewife Escorts Bangalore ☛ College Call Girls Bangalore ☛ VIP Escorts Bangalore ☛ Cash Payment Call Girls Bangalore ☛ Hotel Call Girl Bangalore ☛ Independent Call Girl Bangalore ☛ Model Escorts Bangalore ☛ Celebrity Escorts Bangalore ☛ Air Hostess Escorts Bangalore ☛ Cheap Call Girl Bangalore ☛ Night Call Girl Bangalore ☛ Best Escort Service Bangalore ☛ Bangalore Call Girl Service ☛ Full Night Escort Bangalore ☛ Incall Escort Bangalore ☛ Outcall Escort Bangalore ☛ Massage Service Bangalore ☛ कॉल गर्ल बैंगलोर ☛ बैंगलोर एस्कॉर्ट सर्विस ☛ बैंगलोर कॉल गर्ल नंबर ☛ कॉल गर्ल नियर मी ☛ बैंगलोर में कॉल गर्ल ☛ सस्ती कॉल गर्ल बैंगलोर ☛ इंडिपेंडेंट कॉल गर्ल बैंगलोर ☛ रशियन कॉल गर्ल बैंगलोर ☛ हाउसवाइफ एस्कॉर्ट बैंगलोर ☛ VIP कॉल गर्ल बैंगलोर ☛ कैश पेमेंट कॉल गर्ल बैंगलोर ☛ होटल कॉल गर्ल बैंगलोर ☛ ಬೆಂಗಳೂರು ಕಾಲ್ ಗರ್ಲ್ ☛ ಬೆಂಗಳೂರು ಎಸ್ಕಾರ್ಟ್ ಸೇವೆ ☛ ಕನ್ನಡ ಕಾಲ್ ಗರ್ಲ್ ☛ ಕೊರಮಂಗಲ ಕಾಲ್ ಗರ್ಲ್ ☛ ಇಂದಿರಾನಗರ ಎಸ್ಕಾರ್ಟ್
+          </p>
+        </div>
+
+        <p>© {new Date().getFullYear()} Kavya Escort Service &amp; Companion Services · All bookings by appointment</p>
       </footer>
     </div>
   );

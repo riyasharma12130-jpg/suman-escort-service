@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin
 Disallow: /login
 
-Sitemap: https://jaipurescortgirls.vercel.app/sitemap.xml
+Sitemap: https://kavyaescortbangalore.vercel.app/sitemap.xml

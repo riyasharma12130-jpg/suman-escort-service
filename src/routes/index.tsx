@@ -2,17 +2,17 @@ import { createFileRoute } from "@tanstack/react-router";
 
 // Using local images from the images folder
 const imageList = [
-  "/images/WhatsApp Image 2026-07-19 at 11.23.26 AM.jpeg",
-  "/images/WhatsApp Image 2026-07-19 at 11.23.26 AM (1).jpeg",
-  "/images/WhatsApp Image 2026-07-19 at 11.23.27 AM.jpeg",
-  "/images/WhatsApp Image 2026-07-19 at 11.23.27 AM (1).jpeg",
-  "/images/WhatsApp Image 2026-07-19 at 11.23.28 AM (1).jpeg",
-  "/images/WhatsApp Image 2026-07-19 at 11.23.28 AM.jpeg",
-  "/images/WhatsApp Image 2026-07-19 at 11.23.29 AM.jpeg",
-  "/images/WhatsApp Image 2026-07-19 at 11.23.31 AM (1).jpeg",
-  "/images/WhatsApp Image 2026-07-19 at 11.23.31 AM.jpeg",
-  "/images/WhatsApp Image 2026-07-19 at 11.23.32 AM (1).jpeg",
-  "/images/WhatsApp Image 2026-07-19 at 11.23.32 AM.jpeg",
+  "/images/photo_2026-07-19_09-01-00.jpg",
+  "/images/photo_2026-07-21_11-46-32.jpg",
+  "/images/photo_2026-07-21_23-06-59.jpg",
+  "/images/photo_2026-07-21_23-07-03.jpg",
+  "/images/photo_2026-07-23_21-16-06.jpg",
+  "/images/photo_2026-07-23_22-48-34.jpg",
+  "/images/photo_2026-07-23_23-02-06.jpg",
+  "/images/photo_2026-07-23_23-02-09.jpg",
+  "/images/photo_2026-07-23_23-02-10.jpg",
+  "/images/photo_2026-07-19_09-01-00.jpg",
+  "/images/photo_2026-07-21_11-46-32.jpg",
 ];
 
 // Hero image
@@ -22,17 +22,17 @@ export const Route = createFileRoute("/")({
   component: Landing,
   head: () => ({
     meta: [
-      { title: "Jaipur Escorts: 100% Independent Call Girls with Real Pics" },
-      { name: "description", content: "Enjoy Jaipur Escorts with a trusted agency. Get real Jaipur call girls & VIP models 24/7. Cash on Delivery (COD) and No Advance Payment required." },
-      { name: "keywords", content: "jaipur escort service, jaipur call girls, jaipur escort girls nearby me, independent call girls jaipur, premium escort service jaipur, real pics escort jaipur" },
+      { title: "Bangalore Call Girls | ₹3,000/Hr | Kavya Escort Service Bangalore 24/7" },
+      { name: "description", content: "Book verified call girls in Bangalore from ₹3,000/hr. 500+ real profiles, 100% privacy, 24/7 escort service across Koramangala, Indiranagar, Whitefield & all Bangalore areas. Cash payment, no advance." },
+      { name: "keywords", content: "bangalore escort service, bangalore call girls, call girls in bangalore, escort service in bangalore, koramangala call girls, indiranagar escorts, whitefield call girls, MG road escorts, electronic city call girls, kannada call girl, independent call girls bangalore, russian escorts bangalore, VIP call girls bangalore, housewife escorts bangalore, college call girls bangalore, air hostess escorts bangalore, hotel call girl bangalore, call girl near me, call girl service bangalore, cheap call girl bangalore, cash payment call girls bangalore, night call girl bangalore, best escort service bangalore, bangalore call girl number, escort near me, call girl service near me, independent escort bangalore, model escorts bangalore, celebrity escorts bangalore, massage service bangalore, full night escort bangalore, incall escort bangalore, outcall escort bangalore, HSR layout call girls, BTM layout call girls, marathahalli escorts, JP nagar call girls, jayanagar escorts, hebbal call girls, bellandur escorts, sarjapur road call girls, yelahanka escorts, manyata tech park call girls, bannerghatta road escorts, brigade road call girls, majestic escorts, bangalore escort agency, कॉल गर्ल बैंगलोर, बैंगलोर एस्कॉर्ट सर्विस, बैंगलोर कॉल गर्ल नंबर, कॉल गर्ल नियर मी" },
     ],
   }),
 });
 
 // Indian escort names
 const escortNames = [
-  "Ppayal Sharma", "Ananya Patel", "Kavya Reddy", "Meera Singh", 
-  "Payal Desai", "Neha Kapoor", "Pooja Malhotra", "Sneha Joshi",
+  "Kavya Sharma", "Ananya Patel", "Kavya Reddy", "Meera Singh", 
+  "Kavya Desai", "Neha Kapoor", "Pooja Malhotra", "Sneha Joshi",
   "Divya Mehta", "Swati Verma", "Tanvi Agarwal", "Muskan Kaur",
   "Aarohi Gupta", "Ishita Roy", "Anjali Mishra",
   "Kritika Sinha", "Nandini Bose", "Yamini Patel", "Trisha Reddy"
@@ -40,23 +40,23 @@ const escortNames = [
 
 // Service offerings
 const services = [
-  { name: "Incall Service", desc: "Discreet service at our premium location in Sindhi Camp, Jaipur. Booking confirm with advance payment.", duration: "Available 24/7", price: "₹5,000", img: imageList[1] },
-  { name: "Outcall Service", desc: "Service at your hotel or residence in Jaipur. Complete privacy guaranteed.", duration: "Available 24/7", price: "₹8,000", img: imageList[2] },
+  { name: "Incall Service", desc: "Discreet service at our premium location in Koramangala, Bangalore. Booking confirm with advance payment.", duration: "Available 24/7", price: "₹5,000", img: imageList[1] },
+  { name: "Outcall Service", desc: "Service at your hotel or residence in Bangalore. Complete privacy guaranteed.", duration: "Available 24/7", price: "₹8,000", img: imageList[2] },
   { name: "VIP Service", desc: "Exclusive premium service with top escorts. Ultimate satisfaction assured.", duration: "By appointment", price: "₹15,000", img: imageList[3] },
 ];
 
 // Escort profiles
 const escorts = [
-  { name: "Ppayal Sharma", age: 24, location: "Jaipur", price: "₹5,000", img: imageList[1], desc: "Premium independent call girl in Jaipur. Elegant, sophisticated, and available for discreet incall and outcall services in C Scheme and Sindhi Camp.", bestFor: "Luxury Experiences" },
-  { name: "Isha (Airhostess)", age: 23, location: "Jaipur", price: "₹8,000", img: imageList[9], desc: "Beautiful airhostess escort. Known for a sweet, attentive Girlfriend Experience and late-night hotel visits.", bestFor: "Girlfriend Experience" },
-  { name: "Anika (Celebrity)", age: 22, location: "Jaipur", price: "₹12,000", img: imageList[10], desc: "High-profile celebrity model for rich clients. Highly exclusive and discreet VIP outcall companionship.", bestFor: "VIP Clients" },
-  { name: "Ppayalnka (Housewife)", age: 28, location: "Jaipur", price: "₹6,000", img: imageList[2], desc: "Mature and incredibly sensual Bhabhi escort. Perfect for those seeking deep connection and passionate satisfaction.", bestFor: "Sensual Connections" },
-  { name: "Kavya (Independent)", age: 26, location: "Jaipur", price: "₹7,000", img: imageList[3], desc: "Beautiful and highly experienced high-profile escort. Ensures complete satisfaction with Girlfriend Experience (GFE) in Jaipur.", bestFor: "Experienced GFE" },
-  { name: "Meera Singh", age: 23, location: "Jaipur", price: "₹5,500", img: imageList[4], desc: "Sweet, caring, and soft-spoken. Available for both short meetings and full-night romantic companionship in Jaipur.", bestFor: "Romantic Nights" },
-  { name: "Payal Desai", age: 25, location: "Jaipur", price: "₹6,500", img: imageList[5], desc: "Stunning beauty with excellent communication skills. The ideal dinner and date companion for elite gentlemen.", bestFor: "Dinner Dates" },
-  { name: "Vanu (Russian)", age: 21, location: "Jaipur", price: "₹10,000", img: imageList[6], desc: "Exotic VIP Russian escort in Jaipur. Young, energetic, and provides an international standard of luxury companionship.", bestFor: "Exotic Luxury" },
-  { name: "Pooja Malhotra", age: 27, location: "Jaipur", price: "₹7,500", img: imageList[7], desc: "Mature, understanding, and incredibly sensual. Provides ultimate relaxation and professional behavior for high-profile clients.", bestFor: "Stress Relief" },
-  { name: "Sneha Joshi", age: 22, location: "Jaipur", price: "₹5,000", img: imageList[8], desc: "Friendly, approachable, and fun-loving. Ensures a very comfortable and respectful experience for first-time callers.", bestFor: "First-Timers" },
+  { name: "Kavya Sharma", age: 24, location: "Bangalore", price: "₹5,000", img: imageList[1], desc: "Premium independent call girl in Bangalore. Elegant, sophisticated, and available for discreet incall and outcall services in Indiranagar and Koramangala.", bestFor: "Luxury Experiences" },
+  { name: "Isha (Airhostess)", age: 23, location: "Bangalore", price: "₹8,000", img: imageList[9], desc: "Beautiful airhostess escort. Known for a sweet, attentive Girlfriend Experience and late-night hotel visits.", bestFor: "Girlfriend Experience" },
+  { name: "Anika (Celebrity)", age: 22, location: "Bangalore", price: "₹12,000", img: imageList[10], desc: "High-profile celebrity model for rich clients. Highly exclusive and discreet VIP outcall companionship.", bestFor: "VIP Clients" },
+  { name: "Priyanka (Housewife)", age: 28, location: "Bangalore", price: "₹6,000", img: imageList[2], desc: "Mature and incredibly sensual Bhabhi escort. Perfect for those seeking deep connection and passionate satisfaction.", bestFor: "Sensual Connections" },
+  { name: "Kavya (Independent)", age: 26, location: "Bangalore", price: "₹7,000", img: imageList[3], desc: "Beautiful and highly experienced high-profile escort. Ensures complete satisfaction with Girlfriend Experience (GFE) in Bangalore.", bestFor: "Experienced GFE" },
+  { name: "Meera Singh", age: 23, location: "Bangalore", price: "₹5,500", img: imageList[4], desc: "Sweet, caring, and soft-spoken. Available for both short meetings and full-night romantic companionship in Bangalore.", bestFor: "Romantic Nights" },
+  { name: "Kavya Desai", age: 25, location: "Bangalore", price: "₹6,500", img: imageList[5], desc: "Stunning beauty with excellent communication skills. The ideal dinner and date companion for elite gentlemen.", bestFor: "Dinner Dates" },
+  { name: "Vanu (Russian)", age: 21, location: "Bangalore", price: "₹10,000", img: imageList[6], desc: "Exotic VIP Russian escort in Bangalore. Young, energetic, and provides an international standard of luxury companionship.", bestFor: "Exotic Luxury" },
+  { name: "Pooja Malhotra", age: 27, location: "Bangalore", price: "₹7,500", img: imageList[7], desc: "Mature, understanding, and incredibly sensual. Provides ultimate relaxation and professional behavior for high-profile clients.", bestFor: "Stress Relief" },
+  { name: "Sneha Joshi", age: 22, location: "Bangalore", price: "₹5,000", img: imageList[8], desc: "Friendly, approachable, and fun-loving. Ensures a very comfortable and respectful experience for first-time callers.", bestFor: "First-Timers" },
 ];
 
 const WhatsappIcon = ({ className }: { className?: string }) => (
@@ -80,7 +80,7 @@ export default function Landing() {
 
       <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-background/60 border-b border-border">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Payal Escort Service</a>
+          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Kavya Escort Service</a>
           <nav className="hidden md:flex gap-10 text-sm text-muted-foreground">
             <a href="#services" className="hover:text-primary transition">Services</a>
             <a href="#escorts" className="hover:text-primary transition">Escorts</a>
@@ -100,17 +100,17 @@ export default function Landing() {
       </header>
 
       <section className="relative flex min-h-screen items-center justify-center">
-        <img src={heroImg} alt="Premium escort service in Jaipur" width={1920} height={1200} className="absolute inset-0 h-full w-full object-cover" />
+        <img src={heroImg} alt="Premium escort service in Bangalore" width={1920} height={1200} className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center animate-fade-in">
-          <p className="mb-6 text-xs uppercase tracking-[0.4em] text-primary">𝗝𝗔𝗜𝗣𝗨𝗥 • 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗘</p>
+          <p className="mb-6 text-xs uppercase tracking-[0.4em] text-primary">𝗕𝗔𝗡𝗚𝗔𝗟𝗢𝗥𝗘 • 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗘</p>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-light leading-[1.05]">
-            Jaipur Escort Service <span className="italic text-gold-gradient">&</span>
+            Bangalore Escort Service <span className="italic text-gold-gradient">&</span>
             <br />
-            Premium Jaipur Call Girls
+            Premium Bangalore Call Girls
           </h1>
           <p className="mt-8 mx-auto max-w-xl text-base md:text-lg text-muted-foreground leading-relaxed">
-            Looking for independent <strong>Jaipur escort girls nearby me</strong>? We offer 100% verified, premium spa and discreet companion services with real photos. Available 24/7.
+            Looking for independent <strong>Bangalore escort girls nearby me</strong>? We offer 100% verified, premium spa and discreet companion services with real photos. Available 24/7.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <a href="/book" className="rounded-full bg-primary px-8 py-3.5 text-sm font-medium text-primary-foreground hover:bg-gold transition shadow-[0_0_40px_-10px_var(--gold)]">Book Your Escort</a>
@@ -122,12 +122,12 @@ export default function Landing() {
 
       <section className="py-16 bg-card/20 border-b border-border">
         <div className="mx-auto max-w-5xl px-6 text-muted-foreground leading-relaxed">
-          <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-4 text-center">Welcome to Payal Escort Service: Your #1 Jaipur Escort Service</h2>
+          <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-4 text-center">Welcome to Kavya Escort Service: Your #1 Bangalore Escort Service</h2>
           
           <div className="flex items-center justify-center gap-4 mb-10 text-xs uppercase tracking-widest text-primary/80 border-b border-border/50 pb-4 max-w-2xl mx-auto">
             <span className="flex items-center gap-2">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
-              By Payal (Agency Director)
+              By Kavya (Agency Director)
             </span>
             <span>|</span>
             <span className="flex items-center gap-2">
@@ -139,7 +139,7 @@ export default function Landing() {
           <div className="bg-primary/5 border border-primary/20 rounded-lg p-6 mb-10">
             <h3 className="font-display text-xl text-primary mb-3">TL;DR (Too Long; Didn't Read)</h3>
             <ul className="list-disc list-inside space-y-2 text-sm">
-              <li><strong>Top-rated Escort Agency</strong> based in Sindhi Camp, Jaipur with 24/7 availability.</li>
+              <li><strong>Top-rated Escort Agency</strong> based in Koramangala, Bangalore with 24/7 availability.</li>
               <li>100% <strong>verified</strong> and independent companions for both Incall (our spa) and Outcall (hotel visits).</li>
               <li>Focus on absolute <strong>discretion</strong>, hygiene, and a premium "Girlfriend Experience" (GFE).</li>
               <li>Affordable rates starting at ₹5,000 for standard services up to VIP levels.</li>
@@ -148,13 +148,13 @@ export default function Landing() {
 
           <div className="space-y-6 text-sm md:text-base">
             <p>
-              When you are seeking the absolute pinnacle of luxury companionship, you need the most reliable and genuine <strong>escort service Jaipur</strong> has to offer. At Payal Escort Service, located in the prestigious heart of Sindhi Camp, we pride ourselves on delivering an unparalleled experience that transcends the ordinary. Whether you are a business traveler unwinding after a long conference, a tourist looking to add a spark to your vacation, or a local gentleman seeking a discreet and beautiful companion, our agency is your ultimate destination to <strong>book call girls in Jaipur</strong>.
+              When you are seeking the absolute pinnacle of luxury companionship, you need the most reliable and genuine <strong>escort service Bangalore</strong> has to offer. At Kavya Escort Service, located in the prestigious heart of Koramangala, we pride ourselves on delivering an unparalleled experience that transcends the ordinary. Whether you are a business traveler unwinding after a long conference, a tourist looking to add a spark to your vacation, or a local gentleman seeking a discreet and beautiful companion, our agency is your ultimate destination to <strong>book call girls in Bangalore</strong>.
             </p>
             <p>
-              Our establishment is not just an agency; it is a sanctuary of premium relaxation. We understand that our elite clients demand perfection, which is why every single profile in our gallery represents a stunning, educated, and verified companion. Unlike other services, we do not use fake photos or misleading descriptions. When you search for the best <strong>Jaipur escort girls</strong>, you expect transparency, hygiene, and absolute discretion—and that is exactly what we guarantee. From our luxurious incall facilities in Sindhi Camp to our swift and discreet outcall services across C Scheme, Malviya Nagar, and Vaishali Nagar, we have meticulously designed every aspect of our service to ensure your complete satisfaction.
+              Our establishment is not just an agency; it is a sanctuary of premium relaxation. We understand that our elite clients demand perfection, which is why every single profile in our gallery represents a stunning, educated, and verified companion. Unlike other services, we do not use fake photos or misleading descriptions. When you search for the best <strong>Bangalore escort girls</strong>, you expect transparency, hygiene, and absolute discretion—and that is exactly what we guarantee. From our luxurious incall facilities in Koramangala to our swift and discreet outcall services across Indiranagar, Whitefield, and Electronic City, we have meticulously designed every aspect of our service to ensure your complete satisfaction.
             </p>
             <p>
-              What truly sets us apart as the top-ranking <strong>escort service Jaipur</strong> is our holistic approach. We combine the therapeutic, stress-relieving benefits of a high-end spa with the thrilling, intimate companionship of Jaipur's most beautiful women. Our VIP companions are trained to be the perfect dates, whether you need an elegant partner for a corporate dinner, an adventurous guide for exploring the Pink City, or a passionate lover for a private evening behind closed doors. Booking with Payal Escort Service is not just a transaction; it is an investment in an unforgettable memory.
+              What truly sets us apart as the top-ranking <strong>escort service Bangalore</strong> is our holistic approach. We combine the therapeutic, stress-relieving benefits of a high-end spa with the thrilling, intimate companionship of Bangalore's most beautiful women. Our VIP companions are trained to be the perfect dates, whether you need an elegant partner for a corporate dinner, an adventurous guide for exploring the Garden City, or a passionate lover for a private evening behind closed doors. Booking with Kavya Escort Service is not just a transaction; it is an investment in an unforgettable memory.
             </p>
           </div>
         </div>
@@ -165,21 +165,21 @@ export default function Landing() {
           <h2 className="font-display text-3xl md:text-5xl font-light text-center mb-12">Understanding Our Premium Services: Incall vs Outcall</h2>
           <div className="grid md:grid-cols-2 gap-12 text-muted-foreground">
             <div className="bg-card border border-border p-8 rounded-lg shadow-lg">
-              <h3 className="font-display text-2xl text-gold-gradient mb-4">Luxurious Incall Services in Sindhi Camp</h3>
+              <h3 className="font-display text-2xl text-gold-gradient mb-4">Luxurious Incall Services in Koramangala</h3>
               <p className="mb-4 text-sm md:text-base leading-relaxed">
-                Our incall service is the epitome of convenience and luxury. Situated centrally in Sindhi Camp, our private spa facility is designed to offer maximum comfort and absolute privacy. When you choose to visit us, you are stepping into a safe, hygienic, and highly discreet environment. The rooms are equipped with premium amenities, ambient lighting, and immaculate hygiene standards, ensuring that your time with our beautiful <strong>call girls in Jaipur</strong> is utterly flawless.
+                Our incall service is the epitome of convenience and luxury. Situated centrally in Koramangala, our private spa facility is designed to offer maximum comfort and absolute privacy. When you choose to visit us, you are stepping into a safe, hygienic, and highly discreet environment. The rooms are equipped with premium amenities, ambient lighting, and immaculate hygiene standards, ensuring that your time with our beautiful <strong>call girls in Bangalore</strong> is utterly flawless.
               </p>
               <p className="text-sm md:text-base leading-relaxed">
-                Choosing our incall option means you do not have to worry about the logistics of hosting. You simply arrive at our secure Sindhi Camp location, complete the secure payment process, and immediately begin your session of premium spa relaxation and intimate companionship. It is the perfect choice for those who demand immediate service without the hassle of preparing their own space.
+                Choosing our incall option means you do not have to worry about the logistics of hosting. You simply arrive at our secure Koramangala location, complete the secure payment process, and immediately begin your session of premium spa relaxation and intimate companionship. It is the perfect choice for those who demand immediate service without the hassle of preparing their own space.
               </p>
             </div>
             <div className="bg-card border border-border p-8 rounded-lg shadow-lg">
-              <h3 className="font-display text-2xl text-gold-gradient mb-4">Discreet Outcall Services Across Jaipur</h3>
+              <h3 className="font-display text-2xl text-gold-gradient mb-4">Discreet Outcall Services Across Bangalore</h3>
               <p className="mb-4 text-sm md:text-base leading-relaxed">
-                For those who prefer the comfort of their own surroundings, our <strong>escort service Jaipur</strong> offers a highly reliable outcall option. Whether you are staying in a 5-star hotel in C Scheme, a luxury resort in Amer, or a private residence in Malviya Nagar or Vaishali Nagar, our companions will travel directly to your doorstep. We prioritize your privacy above all else; our escorts arrive in unmarked vehicles and conduct themselves with the utmost professionalism.
+                For those who prefer the comfort of their own surroundings, our <strong>escort service Bangalore</strong> offers a highly reliable outcall option. Whether you are staying in a 5-star hotel in Indiranagar, a luxury resort in Manyata Tech Park, or a private residence in Whitefield or Electronic City, our companions will travel directly to your doorstep. We prioritize your privacy above all else; our escorts arrive in unmarked vehicles and conduct themselves with the utmost professionalism.
               </p>
               <p className="text-sm md:text-base leading-relaxed">
-                Our outcall booking process is highly streamlined. Once you verify your location and complete the advance booking confirmation, your chosen companion is immediately dispatched. We understand the value of your time, which is why we guarantee prompt arrivals and transparent communication throughout the process. Experience the luxury of Payal Escort Service without ever leaving your room.
+                Our outcall booking process is highly streamlined. Once you verify your location and complete the advance booking confirmation, your chosen companion is immediately dispatched. We understand the value of your time, which is why we guarantee prompt arrivals and transparent communication throughout the process. Experience the luxury of Kavya Escort Service without ever leaving your room.
               </p>
             </div>
           </div>
@@ -188,19 +188,19 @@ export default function Landing() {
 
       <section className="py-16 bg-card/10">
         <div className="mx-auto max-w-5xl px-6">
-          <h2 className="font-display text-3xl md:text-5xl font-light text-center mb-12">8 Reasons to Choose Payal Escort Service</h2>
+          <h2 className="font-display text-3xl md:text-5xl font-light text-center mb-12">8 Reasons to Choose Kavya Escort Service</h2>
           <div className="grid md:grid-cols-2 gap-8 text-muted-foreground">
             <div>
               <h3 className="font-display text-xl text-gold-gradient mb-2">1. Verified Independent Call Girls</h3>
-              <p className="text-sm">We offer genuine and verified independent escorts in Jaipur for a safe and premium experience. No fake profiles, ever.</p>
+              <p className="text-sm">We offer genuine and verified independent escorts in Bangalore for a safe and premium experience. No fake profiles, ever.</p>
             </div>
             <div>
               <h3 className="font-display text-xl text-gold-gradient mb-2">2. 100% Privacy & Confidential Service</h3>
               <p className="text-sm">Your personal details and booking information remain completely private and secure. We delete all chat histories post-service.</p>
             </div>
             <div>
-              <h3 className="font-display text-xl text-gold-gradient mb-2">3. Available in All Jaipur Locations</h3>
-              <p className="text-sm">We cover all major areas including Malviya Nagar, Vaishali Nagar, Mansarovar, C-Scheme, Jagatpura, and MI Road.</p>
+              <h3 className="font-display text-xl text-gold-gradient mb-2">3. Available in All Bangalore Locations</h3>
+              <p className="text-sm">We cover all major areas including Whitefield, Electronic City, JP Nagar, Indiranagar, Marathahalli, and Brigade Road.</p>
             </div>
             <div>
               <h3 className="font-display text-xl text-gold-gradient mb-2">4. Attractive & Professional Companions</h3>
@@ -216,7 +216,7 @@ export default function Landing() {
             </div>
             <div>
               <h3 className="font-display text-xl text-gold-gradient mb-2">7. 24/7 Service Availability</h3>
-              <p className="text-sm">Day and night booking available across Jaipur. Whether it's a late-night hotel visit or a midday spa session, we are ready.</p>
+              <p className="text-sm">Day and night booking available across Bangalore. Whether it's a late-night hotel visit or a midday spa session, we are ready.</p>
             </div>
             <div>
               <h3 className="font-display text-xl text-gold-gradient mb-2">8. Friendly & Respectful Experience</h3>
@@ -245,7 +245,7 @@ export default function Landing() {
         <div className="mx-auto max-w-3xl px-6 text-center">
           <p className="text-xs uppercase tracking-[0.4em] text-primary mb-6">Why Choose Us</p>
           <h2 className="font-display text-4xl md:text-5xl font-light leading-tight">
-            The Most Trusted Escort Service Jaipur
+            The Most Trusted Escort Service Bangalore
           </h2>
           <div className="mt-10 h-px w-24 mx-auto bg-gradient-to-r from-transparent via-primary to-transparent" />
         </div>
@@ -287,7 +287,7 @@ export default function Landing() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-16">
             <p className="text-xs uppercase tracking-[0.4em] text-primary mb-4">Our Escorts</p>
-            <h2 className="font-display text-4xl md:text-5xl font-light">Meet Our Premium Escorts in Sindhi Camp, Jaipur</h2>
+            <h2 className="font-display text-4xl md:text-5xl font-light">Meet Our Premium Escorts in Koramangala, Bangalore</h2>
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {escorts.map((e, i) => (
@@ -339,68 +339,68 @@ export default function Landing() {
       <section className="py-16 bg-card/20">
         <div className="mx-auto max-w-5xl px-6 text-muted-foreground leading-relaxed space-y-12">
           <div>
-            <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-6">What is Escort Service Jaipur?</h2>
+            <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-6">What is Escort Service Bangalore?</h2>
             <p className="mb-4">
-              Now, you can kick-start and build a new relationship with a <strong>Jaipur escort</strong> who is good at everything. The hottest experiences are possible with a cute and sexy partner complementing your energy. A companion must always be passionate and energetic because, without these features, a relationship can't reach a stable mode. For this reason, the real meaning of <strong>escort service Jaipur</strong> reflects ultimate pampering and wild-level intimacy with a professional partner. These services are extremely durable, luxurious, and designed for ultimate satisfaction.
+              Now, you can kick-start and build a new relationship with a <strong>Bangalore escort</strong> who is good at everything. The hottest experiences are possible with a cute and sexy partner complementing your energy. A companion must always be passionate and energetic because, without these features, a relationship can't reach a stable mode. For this reason, the real meaning of <strong>escort service Bangalore</strong> reflects ultimate pampering and wild-level intimacy with a professional partner. These services are extremely durable, luxurious, and designed for ultimate satisfaction.
             </p>
           </div>
 
           <div>
-            <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-6">Explore Top Categories of Jaipur Escorts</h2>
+            <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-6">Explore Top Categories of Bangalore Escorts</h2>
             <p className="mb-4">
-              This time you can enjoy quality time with a girl according to your exact requirements. We have a complete checklist of the top categories of <strong>Jaipur escort services</strong> to ensure you find the perfect match.
+              This time you can enjoy quality time with a girl according to your exact requirements. We have a complete checklist of the top categories of <strong>Bangalore escort services</strong> to ensure you find the perfect match.
             </p>
             <div className="grid md:grid-cols-2 gap-6 mt-6">
               <div className="bg-card border border-border p-6 rounded-lg shadow-lg">
                 <h3 className="font-display text-xl text-primary mb-2">Build a New Fascination – Russian Escorts</h3>
-                <p className="text-sm">Fascination can be more than your imagination. It's time to hunt the real wild desires with <strong>Russian escorts in Jaipur</strong>. These girls are bold in every single move. When your primary focus is high-energy, you need to book Russian call girls because they are full of stamina for wild and mature actions.</p>
+                <p className="text-sm">Fascination can be more than your imagination. It's time to hunt the real wild desires with <strong>Russian escorts in Bangalore</strong>. These girls are bold in every single move. When your primary focus is high-energy, you need to book Russian call girls because they are full of stamina for wild and mature actions.</p>
               </div>
               <div className="bg-card border border-border p-6 rounded-lg shadow-lg">
                 <h3 className="font-display text-xl text-primary mb-2">Cuties & Naughty – Young College Girls</h3>
-                <p className="text-sm">The next category is vibrant: young <strong>college girls escorts in Jaipur</strong>. They are mind-blowing with high-energy goals. They are superb at performing actions with sweetness and ensuring satisfying hookups.</p>
+                <p className="text-sm">The next category is vibrant: young <strong>college girls escorts in Bangalore</strong>. They are mind-blowing with high-energy goals. They are superb at performing actions with sweetness and ensuring satisfying hookups.</p>
               </div>
               <div className="bg-card border border-border p-6 rounded-lg shadow-lg">
                 <h3 className="font-display text-xl text-primary mb-2">Maturity is High-End – Sexy Bhabhi & Housewives</h3>
-                <p className="text-sm">Believe in fantasy because a mature Bhabhi can accomplish all your goals at once. <strong>Desi Indian Bhabhi Escorts</strong> in Jaipur are mind-blowing for better performance and mood. If you need a mature woman for intense connection, housewife escorts are the perfect choice.</p>
+                <p className="text-sm">Believe in fantasy because a mature Bhabhi can accomplish all your goals at once. <strong>Desi Indian Bhabhi Escorts</strong> in Bangalore are mind-blowing for better performance and mood. If you need a mature woman for intense connection, housewife escorts are the perfect choice.</p>
               </div>
               <div className="bg-card border border-border p-6 rounded-lg shadow-lg">
                 <h3 className="font-display text-xl text-primary mb-2">Only For Rich Clients – VIP & Model Escorts</h3>
-                <p className="text-sm">Rich clients from affluent backgrounds need amazing girls with VIP culture. We have a special category of <strong>VIP call girls in Jaipur</strong>. These model escorts have beautiful, well-maintained figures and provide a premium, Girlfriend Experience (GFE).</p>
+                <p className="text-sm">Rich clients from affluent backgrounds need amazing girls with VIP culture. We have a special category of <strong>VIP call girls in Bangalore</strong>. These model escorts have beautiful, well-maintained figures and provide a premium, Girlfriend Experience (GFE).</p>
               </div>
             </div>
           </div>
 
           <div className="mt-16 text-sm md:text-base text-muted-foreground leading-relaxed space-y-8">
-            <h2 className="font-display text-3xl md:text-5xl font-light text-center mb-10">A Combine Package of Lust and Relaxation By Sexy Jaipur Call Girl Service</h2>
+            <h2 className="font-display text-3xl md:text-5xl font-light text-center mb-10">A Combine Package of Lust and Relaxation By Sexy Bangalore Call Girl Service</h2>
             
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-card border border-border p-6 rounded-lg shadow-lg">
                 <h3 className="font-display text-xl text-primary mb-3">Hotel Night With Russian Call Girl Near Me</h3>
-                <p>We encourage our clients to get physical service at the hotel. Comfort, privacy, and a luxurious feel can be delivered easily. We have special arrangements for VIP Russian Jaipur Call Girl Service. Enjoy a passionate hotel night with international standard companionship.</p>
+                <p>We encourage our clients to get physical service at the hotel. Comfort, privacy, and a luxurious feel can be delivered easily. We have special arrangements for VIP Russian Bangalore Call Girl Service. Enjoy a passionate hotel night with international standard companionship.</p>
               </div>
               <div className="bg-card border border-border p-6 rounded-lg shadow-lg">
-                <h3 className="font-display text-xl text-primary mb-3">Foreplay and Roleplay Call Girls in Jaipur</h3>
-                <p>Foreplay is the essential part of intimacy. However, it gets much more exciting with roleplay. Roleplay gives you the liberty to be anyone to the lady. You can act as a doctor, plumber, or delivery boy. Our skilled independent Jaipur Call Girls will cooperate fully with your fantasies.</p>
+                <h3 className="font-display text-xl text-primary mb-3">Foreplay and Roleplay Call Girls in Bangalore</h3>
+                <p>Foreplay is the essential part of intimacy. However, it gets much more exciting with roleplay. Roleplay gives you the liberty to be anyone to the lady. You can act as a doctor, plumber, or delivery boy. Our skilled independent Bangalore Call Girls will cooperate fully with your fantasies.</p>
               </div>
               <div className="bg-card border border-border p-6 rounded-lg shadow-lg">
-                <h3 className="font-display text-xl text-primary mb-3">Erotic B2B Massage From Independent Jaipur Call Girls</h3>
-                <p>The city of nightlife hardly gets you what you want without stress. To relax deeply, we bring you the premium massage Jaipur Call Girl Service. Booking this service gives you a combination of therapeutic B2B massage and intense, beautiful companionship for a highly affordable price.</p>
+                <h3 className="font-display text-xl text-primary mb-3">Erotic B2B Massage From Independent Bangalore Call Girls</h3>
+                <p>The city of nightlife hardly gets you what you want without stress. To relax deeply, we bring you the premium massage Bangalore Call Girl Service. Booking this service gives you a combination of therapeutic B2B massage and intense, beautiful companionship for a highly affordable price.</p>
               </div>
             </div>
 
             <div className="bg-card border border-border p-8 rounded-lg shadow-lg mt-12 text-center">
               <h2 className="font-display text-2xl text-gold-gradient mb-4">100% Cash Payment & Cash on Delivery Service</h2>
               <p className="max-w-3xl mx-auto">
-                We highly encourage our clients to choose the <strong>Cash Payment</strong> option. We are the premier Jaipur Call Girls Agency offering Cash on Delivery service to give you the ultimate freedom and privacy. No credit card statements, no digital trails—just pure, untracked entertainment. Simply book your Independent Call Girl in Jaipur, wait for her arrival at your hotel or residence, and pay directly in cash before the service begins. It is safe, discreet, and reliable.
+                We highly encourage our clients to choose the <strong>Cash Payment</strong> option. We are the premier Bangalore Call Girls Agency offering Cash on Delivery service to give you the ultimate freedom and privacy. No credit card statements, no digital trails—just pure, untracked entertainment. Simply book your Independent Call Girl in Bangalore, wait for her arrival at your hotel or residence, and pay directly in cash before the service begins. It is safe, discreet, and reliable.
               </p>
             </div>
           </div>
 
           <div className="mt-16">
-            <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-6">How to Book Call Girls in Jaipur?</h2>
+            <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-6">How to Book Call Girls in Bangalore?</h2>
             <ol className="list-decimal list-inside space-y-2 ml-4">
               <li>Open Google on your smartphone and search for our services.</li>
-              <li>Visit our official Payal Escort Service website.</li>
+              <li>Visit our official Kavya Escort Service website.</li>
               <li>Explore our massive gallery and choose girls and services according to your taste.</li>
               <li>Use the WhatsApp and Calling options mentioned on our site.</li>
               <li>Finalize the profile, confirm with a token advance, and share your hotel/room details.</li>
@@ -419,19 +419,19 @@ export default function Landing() {
           </div>
           <div className="space-y-6">
             <div className="bg-card border border-border p-6 rounded-lg">
-              <h3 className="font-display text-xl mb-2 text-gold-gradient">What kind of services can I expect from Jaipur escort service?</h3>
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">What kind of services can I expect from Bangalore escort service?</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">A client is always thinking of hiring an escort who is powerful and beautiful. You can expect a wide range of services including Girlfriend Experience (GFE), full body massage, dinner dates, long drives, and passionate companionship tailored to your desires.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
-              <h3 className="font-display text-xl mb-2 text-gold-gradient">Can I get a full body massage from escort service Jaipur?</h3>
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Can I get a full body massage from escort service Bangalore?</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">Yes, many of our escorts are trained to give full body massages. It is highly recommended to book a full-night service or extended duration to ensure you have enough time to enjoy both a relaxing massage and intimate companionship.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
-              <h3 className="font-display text-xl mb-2 text-gold-gradient">How do I book an escort service in Jaipur with you?</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">Booking is extremely simple and discreet. Just contact us via WhatsApp at +91 74148 38654. Browse our gallery, select your preferred companion, provide your location (for outcall) or choose to visit us in Sindhi Camp (for incall). After a small advance payment to confirm your genuine intent, your booking is locked in.</p>
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">How do I book an escort service in Bangalore with you?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Booking is extremely simple and discreet. Just contact us via WhatsApp at +91 74148 38654. Browse our gallery, select your preferred companion, provide your location (for outcall) or choose to visit us in Koramangala (for incall). After a small advance payment to confirm your genuine intent, your booking is locked in.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
-              <h3 className="font-display text-xl mb-2 text-gold-gradient">Are the photos of the call girls in Jaipur 100% genuine?</h3>
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Are the photos of the call girls in Bangalore 100% genuine?</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">Absolutely. We pride ourselves on complete transparency. The photos you see are of the exact companions you will meet. We do not use fake internet pictures or heavily manipulated images. What you see is precisely what you get.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
@@ -439,12 +439,12 @@ export default function Landing() {
               <p className="text-sm text-muted-foreground leading-relaxed">Your privacy is our number one priority. All client data is strictly confidential and permanently deleted after the service. Our companions are trained professionals who understand the importance of discretion, especially for our high-profile and VIP clients.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
-              <h3 className="font-display text-xl mb-2 text-gold-gradient">Which areas in Jaipur do you serve?</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">Our primary incall spa is located in Sindhi Camp. For outcall services, we cover the entirety of Jaipur, including C Scheme, Malviya Nagar, Vaishali Nagar, Raja Park, Bani Park, Mansarovar, and all major luxury hotels and resorts across the Pink City.</p>
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Which areas in Bangalore do you serve?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Our primary incall spa is located in Koramangala. For outcall services, we cover the entirety of Bangalore, including Indiranagar, Whitefield, Electronic City, MG Road, HSR Layout, JP Nagar, and all major luxury hotels and resorts across the Garden City.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
-              <h3 className="font-display text-xl mb-2 text-gold-gradient">Do Call Girls in Jaipur are Available for the Outcall?</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">Yes, as we have mentioned, we provide premium companions for discreet outcall services across all major areas of Jaipur.</p>
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Do Call Girls in Bangalore are Available for the Outcall?</h3>
+              <p className="text-sm text-muted-foreground leading-relaxed">Yes, as we have mentioned, we provide premium companions for discreet outcall services across all major areas of Bangalore.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
               <h3 className="font-display text-xl mb-2 text-gold-gradient">Do you provide call girls Near hotels?</h3>
@@ -455,7 +455,7 @@ export default function Landing() {
               <p className="text-sm text-muted-foreground leading-relaxed">Yes, same day booking and immediate service are always available 24x7.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
-              <h3 className="font-display text-xl mb-2 text-gold-gradient">Can I Request For Personalized Jaipur Call Girls Near Me?</h3>
+              <h3 className="font-display text-xl mb-2 text-gold-gradient">Can I Request For Personalized Bangalore Call Girls Near Me?</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">Yes, we offer highly personalized services including roleplay, B2B massage, and Girlfriend Experience tailored to your exact fantasies.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
@@ -468,12 +468,12 @@ export default function Landing() {
 
       <section className="py-16">
         <div className="mx-auto max-w-5xl px-6 text-sm text-muted-foreground leading-relaxed space-y-4">
-          <h2 className="font-display text-2xl text-gold-gradient mb-4">The Ultimate Guide to Jaipur Escort Services</h2>
+          <h2 className="font-display text-2xl text-gold-gradient mb-4">The Ultimate Guide to Bangalore Escort Services</h2>
           <p>
-            Finding a reliable <strong>escort service Jaipur</strong> can often feel overwhelming due to the sheer number of unreliable agencies operating online. However, by choosing Payal Escort Service, you are opting for the most verified, trusted, and premium agency in the state of Rajasthan. Our expansive network of high-class independent escorts, college girls, models, and air hostesses ensures that regardless of your specific tastes or fantasies, we have the perfect companion waiting for you. When men search to <strong>book call girls in Jaipur</strong>, they are looking for more than just physical intimacy; they seek emotional connection, intellectual stimulation, and a truly girlfriend-like experience (GFE). We rigorously train our companions to provide exactly this, elevating your encounter from a mere transaction to a memorable, deeply satisfying relationship.
+            Finding a reliable <strong>escort service Bangalore</strong> can often feel overwhelming due to the sheer number of unreliable agencies operating online. However, by choosing Kavya Escort Service, you are opting for the most verified, trusted, and premium agency in the state of Karnataka. Our expansive network of high-class independent escorts, college girls, models, and air hostesses ensures that regardless of your specific tastes or fantasies, we have the perfect companion waiting for you. When men search to <strong>book call girls in Bangalore</strong>, they are looking for more than just physical intimacy; they seek emotional connection, intellectual stimulation, and a truly girlfriend-like experience (GFE). We rigorously train our companions to provide exactly this, elevating your encounter from a mere transaction to a memorable, deeply satisfying relationship.
           </p>
           <p>
-            Our strategic location in <strong>Sindhi Camp</strong> gives us a massive logistical advantage. It allows us to manage our incall facilities with unparalleled efficiency while simultaneously dispatching our outcall companions to any corner of the city within minutes. Whether you are craving a soothing full-body massage to relieve tension or desire a wild, passionate night to remember, our versatile companions are ready to fulfill your every whim. Do not settle for subpar services when the best <strong>Jaipur escort girls</strong> are just a WhatsApp message away. We guarantee 100% satisfaction, uncompromising hygiene, and a level of luxury that has made us the undisputed leaders in the Jaipur adult entertainment and spa industry.
+            Our strategic location in <strong>Koramangala</strong> gives us a massive logistical advantage. It allows us to manage our incall facilities with unparalleled efficiency while simultaneously dispatching our outcall companions to any corner of the city within minutes. Whether you are craving a soothing full-body massage to relieve tension or desire a wild, passionate night to remember, our versatile companions are ready to fulfill your every whim. Do not settle for subpar services when the best <strong>Bangalore escort girls</strong> are just a WhatsApp message away. We guarantee 100% satisfaction, uncompromising hygiene, and a level of luxury that has made us the undisputed leaders in the Bangalore adult entertainment and spa industry.
           </p>
         </div>
       </section>
@@ -482,7 +482,7 @@ export default function Landing() {
         <div className="mx-auto max-w-5xl px-6">
           <div className="text-center mb-12">
             <p className="text-xs uppercase tracking-[0.4em] text-primary mb-4">PRICING</p>
-            <h2 className="font-display text-3xl md:text-5xl font-light">Jaipur Call Girls Rate List</h2>
+            <h2 className="font-display text-3xl md:text-5xl font-light">Bangalore Call Girls Rate List</h2>
             <p className="text-muted-foreground mt-4">Transparent pricing for all categories. Cash on Delivery available.</p>
           </div>
           <div className="overflow-x-auto">
@@ -534,23 +534,32 @@ export default function Landing() {
 
       <section className="py-16">
         <div className="mx-auto max-w-5xl px-6 text-sm text-muted-foreground leading-relaxed space-y-6">
-          <h2 className="font-display text-3xl md:text-4xl text-gold-gradient mb-6 text-center">जयपुर कॉल गर्ल्स सर्विस - सबसे भरोसेमंद एस्कॉर्ट एजेंसी</h2>
+          <h2 className="font-display text-3xl md:text-4xl text-gold-gradient mb-6 text-center">बैंगलोर कॉल गर्ल्स सर्विस - सबसे भरोसेमंद एस्कॉर्ट एजेंसी</h2>
           <p>
-            जयपुर की सबसे प्रीमियम और भरोसेमंद <strong>कॉल गर्ल्स सर्विस</strong> में आपका स्वागत है। पायल एस्कॉर्ट सर्विस जयपुर की सबसे पुरानी और विश्वसनीय एजेंसी है। हम आपको 100% असली और वेरिफाइड <strong>इंडिपेंडेंट कॉल गर्ल्स</strong> प्रदान करते हैं। हमारी सभी लड़कियां खूबसूरत, शिक्षित और प्रोफेशनल हैं। चाहे आप बिजनेस ट्रिप पर हों या अकेलापन महसूस कर रहे हों, हमारी <strong>जयपुर कॉल गर्ल्स</strong> आपकी हर फैंटेसी को पूरा करने के लिए हमेशा तैयार हैं।
+            बैंगलोर की सबसे प्रीमियम और भरोसेमंद <strong>कॉल गर्ल्स सर्विस</strong> में आपका स्वागत है। कावया एस्कॉर्ट सर्विस बैंगलोर की सबसे पुरानी और विश्वसनीय एजेंसी है। हम आपको 100% असली और वेरिफाइड <strong>इंडिपेंडेंट कॉल गर्ल्स</strong> प्रदान करते हैं। हमारी सभी लड़कियां खूबसूरत, शिक्षित और प्रोफेशनल हैं। चाहे आप IT बिजनेस ट्रिप पर हों या अकेलापन महसूस कर रहे हों, हमारी <strong>बैंगलोर कॉल गर्ल्स</strong> आपकी हर फैंटेसी को पूरा करने के लिए हमेशा तैयार हैं।
           </p>
           <p>
-            हमारे पास Indian Call Girls, Russian Call Girls, College Girls, Desi Bhabhi, Housewife Escorts और कई तरह की कॉल गर्ल्स मौजूद हैं। ये ना सिर्फ आपके मूड को खुशहाल बनाएंगी, बल्कि हर समय आपको संतुष्टि और प्लेजर देने के लिए तैयार रहेंगी। बुकिंग बेहद आसान है – बस हमारे WhatsApp नंबर <strong>+91 74148 38654</strong> पर कॉल या मैसेज करें।
+            हमारे पास Indian Call Girls, Kannada Call Girls, Russian Call Girls, College Girls, Desi Bhabhi, Housewife Escorts और कई तरह की कॉल गर्ल्स मौजूद हैं। ये ना सिर्फ आपके मूड को खुशहाल बनाएंगी, बल्कि हर समय आपको संतुष्टि और प्लेजर देने के लिए तैयार रहेंगी। बुकिंग बेहद आसान है – बस हमारे WhatsApp नंबर <strong>+91 74148 38654</strong> पर कॉल या मैसेज करें।
           </p>
-          <h3 className="font-display text-2xl text-primary mt-8">जयपुर में कॉल गर्ल्स बुक करने के फायदे</h3>
+          <h3 className="font-display text-2xl text-primary mt-8">बैंगलोर में कॉल गर्ल्स बुक करने के फायदे</h3>
           <p>
-            जब आप हमारी <strong>जयपुर एस्कॉर्ट सर्विस</strong> से कॉल गर्ल्स बुक करते हैं, तो आपको कई शानदार फायदे मिलते हैं। जैसे - प्री-बुकिंग, सर्विस से पहले लड़की से मिलने का विकल्प, डिनर डेट, कॉफी डेट, होटल विजिट, और फुल नाइट सर्विस। हम 100% <strong>कैश पेमेंट (COD)</strong> स्वीकार करते हैं। कोई एडवांस पेमेंट नहीं, कोई ऑनलाइन ट्रांजैक्शन नहीं – बस कैश दें और सर्विस का आनंद लें।
+            जब आप हमारी <strong>बैंगलोर एस्कॉर्ट सर्विस</strong> से कॉल गर्ल्स बुक करते हैं, तो आपको कई शानदार फायदे मिलते हैं। जैसे - प्री-बुकिंग, सर्विस से पहले लड़की से मिलने का विकल्प, डिनर डेट, कॉफी डेट, होटल विजिट, और फुल नाइट सर्विस। हम 100% <strong>कैश पेमेंट (COD)</strong> स्वीकार करते हैं। कोई एडवांस पेमेंट नहीं, कोई ऑनलाइन ट्रांजैक्शन नहीं – बस कैश दें और सर्विस का आनंद लें।
           </p>
           <p>
-            हमारी सभी एस्कॉर्ट्स का नियमित स्वास्थ्य परीक्षण होता है, जिससे आपको 100% सुरक्षित और बेहतरीन अनुभव मिलता है। हमारे पास बंगाली, नेपाली, कश्मीरी, पंजाबी, रूसी और भारतीय सुंदरियों की एक शानदार रेंज उपलब्ध है। <strong>सिंधी कैंप, सी-स्कीम, मालवीय नगर, वैशाली नगर, राजा पार्क, बानी पार्क, मानसरोवर</strong> और जयपुर के सभी प्रमुख इलाकों में हमारी सर्विस उपलब्ध है।
+            हमारी सभी एस्कॉर्ट्स का नियमित स्वास्थ्य परीक्षण होता है, जिससे आपको 100% सुरक्षित और बेहतरीन अनुभव मिलता है। हमारे पास कन्नड़, बंगाली, नेपाली, पंजाबी, रूसी और भारतीय सुंदरियों की एक शानदार रेंज उपलब्ध है। <strong>कोरमंगला, इंदिरानगर, व्हाइटफील्ड, MG रोड, इलेक्ट्रॉनिक सिटी, HSR लेआउट, BTM लेआउट, मराठाहल्ली</strong> और बैंगलोर के सभी प्रमुख इलाकों में हमारी सर्विस उपलब्ध है।
           </p>
           <h3 className="font-display text-2xl text-primary mt-8">24/7 उपलब्ध - अभी बुक करें!</h3>
           <p>
-            अगर आप <strong>जयपुर में कॉल गर्ल्स</strong> की तलाश में हैं, तो अब आपकी खोज खत्म हुई। हमारी हाई-क्लास कॉल गर्ल्स जयपुर की सबसे टॉप और सेलेक्टेड लड़कियां हैं। बुकिंग के सिर्फ 30 मिनट में आपके पास पहुंच जाती हैं। इनकॉल और आउटकॉल दोनों सेवाएं उपलब्ध हैं। तो बिना किसी झिझक के अभी कॉल करें: <strong>+91 74148 38654</strong>
+            अगर आप <strong>बैंगलोर में कॉल गर्ल्स</strong> की तलाश में हैं, तो अब आपकी खोज खत्म हुई। हमारी हाई-क्लास कॉल गर्ल्स बैंगलोर की सबसे टॉप और सेलेक्टेड लड़कियां हैं। बुकिंग के सिर्फ 30 मिनट में आपके पास पहुंच जाती हैं। इनकॉल और आउटकॉल दोनों सेवाएं उपलब्ध हैं। तो बिना किसी झिझक के अभी कॉल करें: <strong>+91 74148 38654</strong>
+          </p>
+        </div>
+      </section>
+
+      <section className="py-16 bg-card/20 border-y border-border">
+        <div className="mx-auto max-w-5xl px-6 text-sm text-muted-foreground leading-relaxed space-y-6">
+          <h2 className="font-display text-3xl md:text-4xl text-gold-gradient mb-6 text-center">ಬೆಂಗಳೂರು ಕಾಲ್ ಗರ್ಲ್ಸ್ ಸೇವೆ — ಅತ್ಯಂತ ವಿಶ್ವಾಸಾರ್ಹ ಏಜೆನ್ಸಿ</h2>
+          <p>
+            ಬೆಂಗಳೂರಿನ ಅತ್ಯಂತ ಪ್ರೀಮಿಯಂ ಮತ್ತು ವಿಶ್ವಾಸಾರ್ಹ <strong>ಕಾಲ್ ಗರ್ಲ್ಸ್ ಸೇವೆ</strong>ಗೆ ಸ್ವಾಗತ. ಕಾವ್ಯ ಎಸ್ಕಾರ್ಟ್ ಸೇವೆ ಬೆಂಗಳೂರಿನ ಅತ್ಯಂತ ಹಳೆಯ ಮತ್ತು ನಂಬಲರ್ಹ ಏಜೆನ್ಸಿ. ನಾವು ನಿಮಗೆ 100% ನೈಜ ಮತ್ತು ಪರಿಶೀಲಿಸಿದ <strong>ಸ್ವತಂತ್ರ ಕಾಲ್ ಗರ್ಲ್ಸ್</strong> ಒದಗಿಸುತ್ತೇವೆ. ಕೊರಮಂಗಲ, ಇಂದಿರಾನಗರ, ವೈಟ್‌ಫೀಲ್ಡ್, MG ರಸ್ತೆ ಮತ್ತು ಬೆಂಗಳೂರಿನ ಎಲ್ಲಾ ಪ್ರಮುಖ ಪ್ರದೇಶಗಳಲ್ಲಿ 24/7 ಲಭ್ಯ. ಈಗಲೇ ಕರೆ ಮಾಡಿ: <strong>+91 74148 38654</strong>
           </p>
         </div>
       </section>
@@ -558,7 +567,7 @@ export default function Landing() {
       <section className="relative py-32 border-t border-border">
         <div className="mx-auto max-w-3xl px-6 text-center">
           <p className="text-xs uppercase tracking-[0.4em] text-primary mb-6">Ready to Book</p>
-          <h2 className="font-display text-4xl md:text-6xl font-light leading-tight mb-6">Book The Best Escort Service Jaipur Now</h2>
+          <h2 className="font-display text-4xl md:text-6xl font-light leading-tight mb-6">Book The Best Escort Service Bangalore Now</h2>
           <p className="text-muted-foreground mb-10">Discreet booking available 24/7. Call or WhatsApp us directly.</p>
           <div className="flex flex-col items-center gap-4">
             <a href={whatsappLink} target="_blank" rel="noreferrer" className="inline-block rounded-full bg-[#25D366] px-10 py-4 text-sm font-medium text-white hover:bg-[#25D366]/80 transition shadow-[0_0_60px_-10px_#25D366]">
@@ -575,78 +584,118 @@ export default function Landing() {
         <a href={whatsappLink} target="_blank" rel="noreferrer" className="flex items-center justify-center w-12 h-12 rounded-full bg-[#25D366] hover:bg-[#25D366]/80 text-white transition mb-6 shadow-[0_0_20px_-5px_#25D366]" aria-label="WhatsApp Contact">
           <WhatsappIcon className="w-7 h-7" />
         </a>
-        <p className="font-display text-lg text-gold-gradient mb-2">Payal Escort Service</p>
+        <p className="font-display text-lg text-gold-gradient mb-2">Kavya Escort Service Bangalore</p>
         
-        <div className="max-w-5xl mx-auto px-6 mb-8 w-full">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left border-t border-border/50 pt-8 mt-8">
+        <div className="max-w-6xl mx-auto px-6 mb-8 w-full">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-left border-t border-border/50 pt-8 mt-8">
             <div>
-              <h4 className="text-primary font-display text-lg mb-4">Categories</h4>
+              <h4 className="text-primary font-display text-lg mb-4">Escort Categories</h4>
               <ul className="space-y-2 text-xs">
-                <li><a href="/areas" className="hover:text-primary transition">Housewife Escorts</a></li>
-                <li><a href="/areas" className="hover:text-primary transition">College Girls Escorts</a></li>
-                <li><a href="/areas" className="hover:text-primary transition">Airhostess Escorts</a></li>
-                <li><a href="/areas" className="hover:text-primary transition">Independent Escorts</a></li>
-                <li><a href="/areas" className="hover:text-primary transition">VIP Escorts</a></li>
-                <li><a href="/areas" className="hover:text-primary transition">Celebrity Escorts</a></li>
-                <li><a href="/areas" className="hover:text-primary transition">Busty Escorts</a></li>
-                <li><a href="/areas" className="hover:text-primary transition">Cheap Escorts Girls</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Housewife Escorts Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">College Girls Escorts Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Airhostess Escorts Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Independent Escorts Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">VIP Call Girls Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Celebrity Escorts Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Russian Escorts Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Kannada Call Girls Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Model Escorts Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Mallu Call Girls Bangalore</a></li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-primary font-display text-lg mb-4">Bangalore Locations</h4>
+              <ul className="space-y-2 text-xs">
+                <li><a href="/areas" className="hover:text-primary transition">Koramangala Call Girls</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Indiranagar Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Whitefield Call Girls</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">MG Road Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Electronic City Call Girls</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">HSR Layout Call Girls</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">BTM Layout Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Marathahalli Call Girls</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Manyata Tech Park Escorts</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Hebbal Call Girls</a></li>
               </ul>
             </div>
             <div>
               <h4 className="text-primary font-display text-lg mb-4">Quick Links</h4>
               <ul className="space-y-2 text-xs">
-                <li><a href="/book" className="hover:text-primary transition">Call Girls in Jaipur</a></li>
-                <li><a href="/" className="hover:text-primary transition">Jaipur Escorts service</a></li>
-                <li><a href="/areas" className="hover:text-primary transition">Jaipur Russian Escorts</a></li>
-                <li><a href="/areas" className="hover:text-primary transition">Jaipur Punjabi Escorts</a></li>
-                <li><a href="/guides" className="hover:text-primary transition">SEO Guides & Articles</a></li>
-                <li><a href="/areas" className="hover:text-primary transition">Indian Escorts</a></li>
-                <li><a href="/book" className="hover:text-primary transition">Massage in Jaipur</a></li>
-                <li><a href="/areas" className="hover:text-primary transition">Asian Escorts</a></li>
+                <li><a href="/" className="hover:text-primary transition">Bangalore Escort Service</a></li>
+                <li><a href="/book" className="hover:text-primary transition">Call Girls in Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Escort Service in Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Call Girl Near Me</a></li>
+                <li><a href="/book" className="hover:text-primary transition">Massage Service Bangalore</a></li>
+                <li><a href="/areas" className="hover:text-primary transition">Hotel Call Girl Bangalore</a></li>
+                <li><a href="/guides" className="hover:text-primary transition">Guides & Articles</a></li>
+                <li><a href="/about" className="hover:text-primary transition">About Us</a></li>
+                <li><a href="/contact" className="hover:text-primary transition">Contact Us</a></li>
               </ul>
             </div>
             <div>
-              <h4 className="text-primary font-display text-lg mb-4">Other Escorts City</h4>
+              <h4 className="text-primary font-display text-lg mb-4">Other Cities</h4>
               <ul className="space-y-2 text-xs">
                 <li><a href="#" className="hover:text-primary transition">Delhi Escorts</a></li>
-                <li><a href="#" className="hover:text-primary transition">Bangalore Escorts</a></li>
                 <li><a href="#" className="hover:text-primary transition">Mumbai Escorts</a></li>
-                <li><a href="#" className="hover:text-primary transition">Udaipur Escorts</a></li>
-                <li><a href="#" className="hover:text-primary transition">Alwar Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Chennai Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Hyderabad Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Pune Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Kolkata Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Goa Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Jaipur Escorts</a></li>
+                <li><a href="#" className="hover:text-primary transition">Chandigarh Escorts</a></li>
               </ul>
             </div>
           </div>
         </div>
 
-        <div className="max-w-4xl mx-auto px-6 mb-4 text-xs text-muted-foreground leading-relaxed flex flex-wrap justify-center items-center gap-x-2 gap-y-1">
-           <strong>Locations Served in Jaipur:</strong> 
-           <a href="/areas" className="hover:text-primary transition">Sindhi Camp</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">C-Scheme</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">Malviya Nagar</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">Vaishali Nagar</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">Raja Park</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">Bani Park</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">Mansarovar</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">Tonk Road</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">Amer</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">Jal Mahal</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">JLN Marg</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">MI Road</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">Civil Lines</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">Jagatpura</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">Vidyadhar Nagar</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">Bapu Nagar</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">Jhotwara</a> <span>|</span>
-           <a href="/areas" className="hover:text-primary transition">Pratap Nagar</a>
+        <div className="max-w-5xl mx-auto px-6 mb-4 text-xs text-muted-foreground leading-relaxed flex flex-wrap justify-center items-center gap-x-2 gap-y-1">
+           <strong>Locations Served in Bangalore:</strong> 
+           <a href="/areas" className="hover:text-primary transition">Koramangala</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Indiranagar</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Whitefield</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Electronic City</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">MG Road</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">HSR Layout</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">BTM Layout</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">JP Nagar</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Jayanagar</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Marathahalli</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Hebbal</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Bellandur</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Sarjapur Road</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Yelahanka</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Manyata Tech Park</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Bannerghatta Road</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Brigade Road</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">UB City</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Majestic</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Shivajinagar</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Old Airport Road</a> <span>|</span>
+           <a href="/areas" className="hover:text-primary transition">Outer Ring Road</a>
+        </div>
+
+        <div className="max-w-5xl mx-auto px-6 mb-4 text-xs text-muted-foreground leading-relaxed flex flex-wrap justify-center items-center gap-x-2 gap-y-1">
+           <strong>5-Star Hotels We Serve:</strong> 
+           <span>The Leela Palace</span> <span>|</span>
+           <span>ITC Gardenia</span> <span>|</span>
+           <span>Taj West End</span> <span>|</span>
+           <span>The Oberoi</span> <span>|</span>
+           <span>JW Marriott</span> <span>|</span>
+           <span>Sheraton Grand</span> <span>|</span>
+           <span>Radisson Blu</span> <span>|</span>
+           <span>Conrad Bangalore</span> <span>|</span>
+           <span>Shangri-La</span> <span>|</span>
+           <span>Ritz-Carlton</span>
         </div>
 
         <div className="max-w-5xl mx-auto px-6 mb-6 w-full">
           <p className="text-[10px] text-muted-foreground/60 leading-relaxed text-center">
-            Call Girl In Jaipur ☛ Call Girl Near Me ☛ Call Girl Number In Jaipur ☛ Escort Service In Jaipur ☛ Call Girls In Jaipur ☛ Escort Service Jaipur ☛ Jaipur Escorts ☛ Jaipur Escort Service ☛ Call Girl Contact Number Jaipur ☛ Call Girls Near Me ☛ Jaipur Escort ☛ Low Price Call Girl in Jaipur ☛ Call Girls Jaipur ☛ Call Girls Number Jaipur ☛ Escorts In Jaipur ☛ Call Girl Service Jaipur ☛ Best Escort Service Jaipur ☛ Low Price Call Girls Jaipur ☛ Jaipur Call Girl Service ☛ Cheap Call Girl Near Me ☛ Jaipur Call Girl Number ☛ Call Girls Service In Jaipur ☛ Near me Call Girl ☛ Call Girl Phone Number Jaipur ☛ Low Rate Call Girls Jaipur ☛ Night Call Girl Jaipur ☛ Escort Call Girl Jaipur ☛ Cheapest Call Girl Jaipur ☛ Independent Call Girl Jaipur ☛ Russian Call Girls Jaipur ☛ Housewife Escorts Jaipur ☛ College Call Girls Jaipur ☛ VIP Escorts Jaipur ☛ Cash Payment Call Girls Jaipur ☛ Hotel Call Girl Jaipur ☛ Call Girls WhatsApp Number Jaipur ☛ कॉल गर्ल जयपुर ☛ जयपुर एस्कॉर्ट सर्विस ☛ जयपुर कॉल गर्ल नंबर ☛ कॉल गर्ल नियर मी ☛ जयपुर में कॉल गर्ल ☛ सस्ती कॉल गर्ल जयपुर ☛ इंडिपेंडेंट कॉल गर्ल जयपुर ☛ रशियन कॉल गर्ल जयपुर ☛ हाउसवाइफ एस्कॉर्ट जयपुर ☛ VIP कॉल गर्ल जयपुर ☛ कैश पेमेंट कॉल गर्ल जयपुर ☛ होटल कॉल गर्ल जयपुर
+            Call Girl In Bangalore ☛ Call Girl Near Me ☛ Call Girl Number In Bangalore ☛ Escort Service In Bangalore ☛ Call Girls In Bangalore ☛ Escort Service Bangalore ☛ Bangalore Escorts ☛ Bangalore Escort Service ☛ Call Girl Contact Number Bangalore ☛ Call Girls Near Me ☛ Bangalore Escort ☛ Low Price Call Girl in Bangalore ☛ Call Girls Bangalore ☛ Koramangala Call Girls ☛ Indiranagar Escorts ☛ Whitefield Call Girls ☛ Electronic City Call Girls ☛ MG Road Escorts ☛ HSR Layout Call Girls ☛ BTM Layout Escorts ☛ Marathahalli Call Girls ☛ JP Nagar Call Girls ☛ Jayanagar Escorts ☛ Hebbal Call Girls ☛ Bellandur Escorts ☛ Sarjapur Road Call Girls ☛ Manyata Tech Park Call Girls ☛ Kannada Call Girl ☛ Russian Call Girls Bangalore ☛ Housewife Escorts Bangalore ☛ College Call Girls Bangalore ☛ VIP Escorts Bangalore ☛ Cash Payment Call Girls Bangalore ☛ Hotel Call Girl Bangalore ☛ Independent Call Girl Bangalore ☛ Model Escorts Bangalore ☛ Celebrity Escorts Bangalore ☛ Air Hostess Escorts Bangalore ☛ Cheap Call Girl Bangalore ☛ Night Call Girl Bangalore ☛ Best Escort Service Bangalore ☛ Bangalore Call Girl Service ☛ Full Night Escort Bangalore ☛ Incall Escort Bangalore ☛ Outcall Escort Bangalore ☛ Massage Service Bangalore ☛ कॉल गर्ल बैंगलोर ☛ बैंगलोर एस्कॉर्ट सर्विस ☛ बैंगलोर कॉल गर्ल नंबर ☛ कॉल गर्ल नियर मी ☛ बैंगलोर में कॉल गर्ल ☛ सस्ती कॉल गर्ल बैंगलोर ☛ इंडिपेंडेंट कॉल गर्ल बैंगलोर ☛ रशियन कॉल गर्ल बैंगलोर ☛ हाउसवाइफ एस्कॉर्ट बैंगलोर ☛ VIP कॉल गर्ल बैंगलोर ☛ कैश पेमेंट कॉल गर्ल बैंगलोर ☛ होटल कॉल गर्ल बैंगलोर ☛ ಬೆಂಗಳೂರು ಕಾಲ್ ಗರ್ಲ್ ☛ ಬೆಂಗಳೂರು ಎಸ್ಕಾರ್ಟ್ ಸೇವೆ ☛ ಕನ್ನಡ ಕಾಲ್ ಗರ್ಲ್ ☛ ಕೊರಮಂಗಲ ಕಾಲ್ ಗರ್ಲ್ ☛ ಇಂದಿರಾನಗರ ಎಸ್ಕಾರ್ಟ್
           </p>
         </div>
 
-        <p>© {new Date().getFullYear()} Payal Escort Service &amp; Companion Services · All bookings by appointment</p>
+        <p>© {new Date().getFullYear()} Kavya Escort Service &amp; Companion Services · All bookings by appointment</p>
       </footer>
     </div>
   );
