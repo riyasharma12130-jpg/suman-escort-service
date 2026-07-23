@@ -22,14 +22,14 @@ function AdminRoute() {
     }
 
     // Load existing settings
-    const savedTelegram = localStorage.getItem("telegramLink");
-    const savedTelegram = localStorage.getItem("telegramHandle");
+    const savedTelegramLink = localStorage.getItem("telegramLink");
+    const savedTelegramHandle = localStorage.getItem("telegramHandle");
     
-    if (savedTelegram) setTelegramLink(savedTelegram);
-    else setTelegramLink("https://t.me/SEJAL_REDDY_02"); // Default fallback
+    if (savedTelegramLink) setTelegramLink(savedTelegramLink);
+    else setTelegramLink("https://t.me/Sonal_0101"); // Default fallback
     
-    if (savedTelegram) setTelegramHandle(savedTelegram);
-    else setTelegramHandle("+1 (555) 018 · 2240"); // Default fallback
+    if (savedTelegramHandle) setTelegramHandle(savedTelegramHandle);
+    else setTelegramHandle("@Sonal_0101"); // Default fallback
   }, [navigate]);
 
   const handleSave = (e: React.FormEvent) => {

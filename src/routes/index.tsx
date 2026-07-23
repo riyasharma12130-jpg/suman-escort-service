@@ -78,17 +78,17 @@ export default function Landing() {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
 
-      <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-background/60 border-b border-border">
+            <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-background/60 border-b border-border">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
           <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Kavya Escort Service</a>
-          <nav className="hidden md:flex gap-10 text-sm text-muted-foreground">
-            <a href="#services" className="hover:text-primary transition">Services</a>
-            <a href="#escorts" className="hover:text-primary transition">Escorts</a>
-            <a href="/about" className="hover:text-primary transition">About</a>
-            <a href="/areas" className="hover:text-primary transition">Areas</a>
-            <a href="/guides" className="hover:text-primary transition">Guides</a>
-            <a href="#rituals" className="hover:text-primary transition">Pricing</a>
-            <a href="/contact" className="hover:text-primary transition">Contact</a>
+          <nav className="hidden md:flex gap-10 text-sm text-muted-foreground font-medium tracking-wider">
+            <a href="/" className="hover:text-primary transition">HOME</a>
+            <a href="/escorts" className="hover:text-primary transition">ESCORTS</a>
+            <a href="/why-us" className="hover:text-primary transition">WHY US</a>
+            <a href="/pricing" className="hover:text-primary transition">PRICING</a>
+            <a href="/about" className="hover:text-primary transition">ABOUT</a>
+            <a href="/contact" className="hover:text-primary transition">CONTACT</a>
+            <a href="/areas" className="hover:text-primary transition">LOCATIONS</a>
           </nav>
           <div className="flex items-center gap-4">
             <a href={telegramLink} target="_blank" rel="noreferrer" className="flex items-center justify-center w-9 h-9 rounded-full bg-[#0088cc] hover:bg-[#0088cc]/80 text-white transition shadow-[0_0_15px_-5px_#0088cc]" aria-label="Telegram Contact">
@@ -113,11 +113,42 @@ export default function Landing() {
             Looking for independent <strong>Bangalore escort girls nearby me</strong>? We offer 100% verified, premium spa and discreet companion services with real photos. Available 24/7.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <a href="/book" className="rounded-full bg-primary px-8 py-3.5 text-sm font-medium text-primary-foreground hover:bg-gold transition shadow-[0_0_40px_-10px_var(--gold)]">Book Your Escort</a>
+            <a href="/book" className="rounded-full bg-primary px-8 py-3.5 text-sm font-medium text-primary-foreground hover:bg-primary/80 transition shadow-[0_0_40px_-10px_var(--color-primary)]">Book Your Escort</a>
             <a href="#escorts" className="rounded-full border border-border px-8 py-3.5 text-sm text-foreground hover:border-primary transition">View Escorts</a>
           </div>
         </div>
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-xs uppercase tracking-[0.3em] text-muted-foreground">Scroll</div>
+      </section>
+
+
+      <section className="py-24 bg-card/20 border-y border-border">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="text-center mb-16">
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">Browse by Categories</h2>
+            <p className="text-muted-foreground">Find your perfect companion by exploring our curated categories</p>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {[
+              { title: "Elite Housewives", desc: "Sophisticated, mature companions" },
+              { title: "College Beauties", desc: "Youthful, vibrant companions" },
+              { title: "VIP Elite", desc: "Premium luxury companions" },
+              { title: "International Models", desc: "Global elite companions" },
+              { title: "Celebrity Escorts", desc: "High-profile companionship" },
+              { title: "Russian Models", desc: "Exotic European beauty" },
+              { title: "Air Hostess", desc: "Professional & elegant" },
+              { title: "Party Girls", desc: "Fun & energetic companions" },
+              { title: "Professional Models", desc: "Top tier modeling professionals" },
+              { title: "Business Women", desc: "Corporate & professional" },
+              { title: "Travel Companions", desc: "Worldwide travel partners" },
+              { title: "Massage Therapists", desc: "Relaxation & wellness experts" }
+            ].map((cat, i) => (
+              <a href="/escorts" key={i} className="group block bg-card border border-border/50 p-5 rounded-xl hover:border-primary transition cursor-pointer">
+                <h3 className="font-bold text-white text-lg mb-1 group-hover:text-primary transition">{cat.title}</h3>
+                <p className="text-xs text-muted-foreground">{cat.desc}</p>
+              </a>
+            ))}
+          </div>
+        </div>
       </section>
 
       <section className="py-16 bg-card/20 border-b border-border">
@@ -563,6 +594,84 @@ export default function Landing() {
           </p>
         </div>
       </section>
+
+      <section className="py-24 bg-card">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="text-center mb-16">
+            <p className="text-xs uppercase tracking-[0.4em] text-primary font-bold mb-4">VERIFIED REVIEWS</p>
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-white">What Our Clients Say</h2>
+            <div className="flex items-center justify-center gap-2 mt-4">
+              <div className="flex text-primary">
+                {"★★★★★".split("").map((star, i) => <span key={i} className="text-primary text-xl">{star}</span>)}
+              </div>
+              <span className="text-white font-bold ml-2">4.9/5</span>
+              <span className="text-muted-foreground ml-2">847 verified reviews</span>
+            </div>
+          </div>
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {[
+              {
+                initial: "R", bg: "bg-pink-600",
+                name: "Rahul M.", date: "June 2026 - Index",
+                text: "Booked Priya for an evening and the experience was top notch. Very professional, discreet, and punctual. Profile photos were 100% real. Will book again through Kavya Escort!",
+                package: "Incall Service - Index, Bangalore"
+              },
+              {
+                initial: "A", bg: "bg-emerald-500",
+                name: "Arjun K.", date: "May 2026 - Bangalore",
+                text: "Called at 11 PM, booking confirmed in 10 minutes. Ananya was fantastic — charming, educated. Best escort service in Bangalore, no question. 5 stars!",
+                package: "Outcall - Hotel Stay, Bangalore"
+              },
+              {
+                initial: "V", bg: "bg-amber-500",
+                name: "Vikram S.", date: "June 2026 - Bangalore",
+                text: "Natasha for corporate event — stunning, spoke perfect English, handled everything perfectly. Kavya VIP service is unmatched in Bangalore. Highly recommended!",
+                package: "VIP Corporate Package - Bangalore"
+              },
+              {
+                initial: "S", bg: "bg-blue-500",
+                name: "Suresh T.", date: "April 2026 - Bangalore",
+                text: "Using Kavya 2 years now. Always reliable, always discreet. Full night ₹12,000 totally worth it. Best call girl service in Bangalore!",
+                package: "Full Night Package - Indiranagar"
+              },
+              {
+                initial: "M", bg: "bg-purple-500",
+                name: "Manish B.", date: "May 2026 - Bangalore",
+                text: "WhatsApp response instant. Meera punctual, gorgeous, very comfortable. Total privacy maintained throughout. Kavya is the most trustworthy escort agency!",
+                package: "2-Hour Package - Whitefield"
+              },
+              {
+                initial: "D", bg: "bg-pink-500",
+                name: "Dev R.", date: "June 2026 - Bangalore",
+                text: "First time using any escort service. Kavya made it smooth, professional, safe. Riya exceeded all expectations. Real photos, real experience. 10/10!",
+                package: "GFE Package - 5-Star Hotel, MG Road"
+              }
+            ].map((review, i) => (
+              <div key={i} className="bg-card/40 border border-border/50 p-6 rounded-xl flex flex-col justify-between">
+                <div>
+                  <div className="flex items-center justify-between mb-4">
+                    <div className="flex items-center gap-3">
+                      <div className={`w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-lg ${review.bg}`}>
+                        {review.initial}
+                      </div>
+                      <div>
+                        <h4 className="font-bold text-white text-sm">{review.name}</h4>
+                        <p className="text-[10px] text-muted-foreground">Verified Client - {review.date}</p>
+                      </div>
+                    </div>
+                    <div className="flex text-primary text-sm">★★★★★</div>
+                  </div>
+                  <p className="text-sm text-muted-foreground leading-relaxed italic mb-6">"{review.text}"</p>
+                </div>
+                <div className="text-[10px] text-muted-foreground/60 border-t border-border/30 pt-3">
+                  {review.package}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
 
       <section className="relative py-32 border-t border-border">
         <div className="mx-auto max-w-3xl px-6 text-center">
