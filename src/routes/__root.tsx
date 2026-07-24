@@ -12,6 +12,7 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { Footer } from "../components/Footer";
+import { LocationsGrid } from "../components/LocationsGrid";
 
 function NotFoundComponent() {
   return (
@@ -279,6 +280,7 @@ function RootComponent() {
         <div className="flex-grow">
           <Outlet />
         </div>
+        <LocationsGrid />
         <Footer />
       </div>
       <MobileActionBar />
