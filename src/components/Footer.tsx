@@ -46,6 +46,7 @@ export function Footer() {
               <li><Link to="/privacy" className="hover:text-primary transition">Privacy Policy</Link></li>
               <li><Link to="/report" className="hover:text-primary transition">Report an Issue</Link></li>
               <li><Link to="/contact" className="hover:text-primary transition">Contact Us</Link></li>
+              <li><Link to="/sitemap" className="hover:text-primary transition">HTML Sitemap</Link></li>
             </ul>
           </div>
 
@@ -55,6 +56,9 @@ export function Footer() {
           <p className="text-xs text-muted-foreground/80 leading-relaxed text-justify mb-6">
             <strong>Disclaimer & Privacy Policy Summary:</strong> Kavya Escort Service acts strictly as a booking agency. All models, escorts, and companions listed on this website are independent contractors and are 18 years of age or older. We have a strict zero-tolerance policy towards forced labor and human trafficking. We prioritize absolute client confidentiality; no digital trails, credit card statements, or identifiable booking logs are retained. Services are strictly for companionship and entertainment purposes in compliance with local regulations. Direct Cash Payment is the only accepted method to ensure 100% privacy and security for both parties.
           </p>
+          <div className="text-[10px] text-muted-foreground/40 leading-relaxed text-justify mb-6">
+            <strong>SEO Tags & Service Directory:</strong> Hassan escort service, Mysore call girls, Digha VIP escorts, premium call girls Karnataka, independent escorts Bangalore, cash payment call girls, genuine escort agency, Koramangala escorts, Indiranagar call girls, VIP companions, hotel escorts near me, no advance payment escorts, high profile escorts, celebrity call girls, Russian escorts in Bangalore, Kannada call girls, college girls outcall, Bhabhi escorts, night stay companions, outstation escort services Karnataka, Mangalore escorts, Hubli call girls, 24/7 escort service, genuine independent call girls, female escorts.
+          </div>
           <div className="flex flex-col md:flex-row justify-between items-center text-xs text-muted-foreground">
             <p>© {new Date().getFullYear()} Kavya Escort Service. All rights reserved.</p>
             <p className="mt-2 md:mt-0">Premium Companionship • Unmatched Discretion</p>

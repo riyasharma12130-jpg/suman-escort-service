@@ -21,6 +21,7 @@ import { Route as LoginRouteImport } from './routes/login'
 import { Route as PricingRouteImport } from './routes/pricing'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as ReportRouteImport } from './routes/report'
+import { Route as SitemapRouteImport } from './routes/sitemap'
 import { Route as WhyUsRouteImport } from './routes/why-us'
 import { Route as GuidesIndexRouteImport } from './routes/guides/index'
 import { Route as GuidesFirstTimeBookingRouteImport } from './routes/guides/first-time-booking'
@@ -87,6 +88,11 @@ const ReportRoute = ReportRouteImport.update({
   path: '/report',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SitemapRoute = SitemapRouteImport.update({
+  id: '/sitemap',
+  path: '/sitemap',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const WhyUsRoute = WhyUsRouteImport.update({
   id: '/why-us',
   path: '/why-us',
@@ -126,6 +132,7 @@ export interface FileRoutesByFullPath {
   '/pricing': typeof PricingRoute
   '/privacy': typeof PrivacyRoute
   '/report': typeof ReportRoute
+  '/sitemap': typeof SitemapRoute
   '/why-us': typeof WhyUsRoute
   '/guides/first-time-booking': typeof GuidesFirstTimeBookingRoute
   '/guides/incall-vs-outcall': typeof GuidesIncallVsOutcallRoute
@@ -145,6 +152,7 @@ export interface FileRoutesByTo {
   '/pricing': typeof PricingRoute
   '/privacy': typeof PrivacyRoute
   '/report': typeof ReportRoute
+  '/sitemap': typeof SitemapRoute
   '/why-us': typeof WhyUsRoute
   '/guides/first-time-booking': typeof GuidesFirstTimeBookingRoute
   '/guides/incall-vs-outcall': typeof GuidesIncallVsOutcallRoute
@@ -165,6 +173,7 @@ export interface FileRoutesById {
   '/pricing': typeof PricingRoute
   '/privacy': typeof PrivacyRoute
   '/report': typeof ReportRoute
+  '/sitemap': typeof SitemapRoute
   '/why-us': typeof WhyUsRoute
   '/guides/first-time-booking': typeof GuidesFirstTimeBookingRoute
   '/guides/incall-vs-outcall': typeof GuidesIncallVsOutcallRoute
@@ -186,6 +195,7 @@ export interface FileRouteTypes {
     | '/pricing'
     | '/privacy'
     | '/report'
+    | '/sitemap'
     | '/why-us'
     | '/guides/first-time-booking'
     | '/guides/incall-vs-outcall'
@@ -205,6 +215,7 @@ export interface FileRouteTypes {
     | '/pricing'
     | '/privacy'
     | '/report'
+    | '/sitemap'
     | '/why-us'
     | '/guides/first-time-booking'
     | '/guides/incall-vs-outcall'
@@ -224,6 +235,7 @@ export interface FileRouteTypes {
     | '/pricing'
     | '/privacy'
     | '/report'
+    | '/sitemap'
     | '/why-us'
     | '/guides/first-time-booking'
     | '/guides/incall-vs-outcall'
@@ -244,6 +256,7 @@ export interface RootRouteChildren {
   PricingRoute: typeof PricingRoute
   PrivacyRoute: typeof PrivacyRoute
   ReportRoute: typeof ReportRoute
+  SitemapRoute: typeof SitemapRoute
   WhyUsRoute: typeof WhyUsRoute
   GuidesFirstTimeBookingRoute: typeof GuidesFirstTimeBookingRoute
   GuidesIncallVsOutcallRoute: typeof GuidesIncallVsOutcallRoute
@@ -337,6 +350,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ReportRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/sitemap': {
+      id: '/sitemap'
+      path: '/sitemap'
+      fullPath: '/sitemap'
+      preLoaderRoute: typeof SitemapRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/why-us': {
       id: '/why-us'
       path: '/why-us'
@@ -388,6 +408,7 @@ const rootRouteChildren: RootRouteChildren = {
   PricingRoute: PricingRoute,
   PrivacyRoute: PrivacyRoute,
   ReportRoute: ReportRoute,
+  SitemapRoute: SitemapRoute,
   WhyUsRoute: WhyUsRoute,
   GuidesFirstTimeBookingRoute: GuidesFirstTimeBookingRoute,
   GuidesIncallVsOutcallRoute: GuidesIncallVsOutcallRoute,
