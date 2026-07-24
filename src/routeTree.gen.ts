@@ -9,59 +9,24 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as WhyUsRouteImport } from './routes/why-us'
-import { Route as PricingRouteImport } from './routes/pricing'
-import { Route as LoginRouteImport } from './routes/login'
-import { Route as EscortsRouteImport } from './routes/escorts'
-import { Route as ContactRouteImport } from './routes/contact'
-import { Route as BookRouteImport } from './routes/book'
-import { Route as AreasRouteImport } from './routes/areas'
-import { Route as AdminRouteImport } from './routes/admin'
-import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AboutRouteImport } from './routes/about'
+import { Route as AdminRouteImport } from './routes/admin'
+import { Route as AreasRouteImport } from './routes/areas'
+import { Route as BookRouteImport } from './routes/book'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as EscortsRouteImport } from './routes/escorts'
+import { Route as LoginRouteImport } from './routes/login'
+import { Route as PricingRouteImport } from './routes/pricing'
+import { Route as WhyUsRouteImport } from './routes/why-us'
 import { Route as GuidesIndexRouteImport } from './routes/guides/index'
-import { Route as LocationsLocationIdRouteImport } from './routes/locations/$locationId'
-import { Route as GuidesIncallVsOutcallRouteImport } from './routes/guides/incall-vs-outcall'
 import { Route as GuidesFirstTimeBookingRouteImport } from './routes/guides/first-time-booking'
+import { Route as GuidesIncallVsOutcallRouteImport } from './routes/guides/incall-vs-outcall'
+import { Route as LocationsLocationIdRouteImport } from './routes/locations/$locationId'
 
-const WhyUsRoute = WhyUsRouteImport.update({
-  id: '/why-us',
-  path: '/why-us',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const PricingRoute = PricingRouteImport.update({
-  id: '/pricing',
-  path: '/pricing',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const LoginRoute = LoginRouteImport.update({
-  id: '/login',
-  path: '/login',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const EscortsRoute = EscortsRouteImport.update({
-  id: '/escorts',
-  path: '/escorts',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ContactRoute = ContactRouteImport.update({
-  id: '/contact',
-  path: '/contact',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const BookRoute = BookRouteImport.update({
-  id: '/book',
-  path: '/book',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AreasRoute = AreasRouteImport.update({
-  id: '/areas',
-  path: '/areas',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AdminRoute = AdminRouteImport.update({
-  id: '/admin',
-  path: '/admin',
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AboutRoute = AboutRouteImport.update({
@@ -69,9 +34,44 @@ const AboutRoute = AboutRouteImport.update({
   path: '/about',
   getParentRoute: () => rootRouteImport,
 } as any)
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
+const AdminRoute = AdminRouteImport.update({
+  id: '/admin',
+  path: '/admin',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AreasRoute = AreasRouteImport.update({
+  id: '/areas',
+  path: '/areas',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BookRoute = BookRouteImport.update({
+  id: '/book',
+  path: '/book',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const EscortsRoute = EscortsRouteImport.update({
+  id: '/escorts',
+  path: '/escorts',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LoginRoute = LoginRouteImport.update({
+  id: '/login',
+  path: '/login',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PricingRoute = PricingRouteImport.update({
+  id: '/pricing',
+  path: '/pricing',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const WhyUsRoute = WhyUsRouteImport.update({
+  id: '/why-us',
+  path: '/why-us',
   getParentRoute: () => rootRouteImport,
 } as any)
 const GuidesIndexRoute = GuidesIndexRouteImport.update({
@@ -79,9 +79,9 @@ const GuidesIndexRoute = GuidesIndexRouteImport.update({
   path: '/guides/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const LocationsLocationIdRoute = LocationsLocationIdRouteImport.update({
-  id: '/locations/$locationId',
-  path: '/locations/$locationId',
+const GuidesFirstTimeBookingRoute = GuidesFirstTimeBookingRouteImport.update({
+  id: '/guides/first-time-booking',
+  path: '/guides/first-time-booking',
   getParentRoute: () => rootRouteImport,
 } as any)
 const GuidesIncallVsOutcallRoute = GuidesIncallVsOutcallRouteImport.update({
@@ -89,9 +89,9 @@ const GuidesIncallVsOutcallRoute = GuidesIncallVsOutcallRouteImport.update({
   path: '/guides/incall-vs-outcall',
   getParentRoute: () => rootRouteImport,
 } as any)
-const GuidesFirstTimeBookingRoute = GuidesFirstTimeBookingRouteImport.update({
-  id: '/guides/first-time-booking',
-  path: '/guides/first-time-booking',
+const LocationsLocationIdRoute = LocationsLocationIdRouteImport.update({
+  id: '/locations/$locationId',
+  path: '/locations/$locationId',
   getParentRoute: () => rootRouteImport,
 } as any)
 
@@ -214,60 +214,11 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/why-us': {
-      id: '/why-us'
-      path: '/why-us'
-      fullPath: '/why-us'
-      preLoaderRoute: typeof WhyUsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/pricing': {
-      id: '/pricing'
-      path: '/pricing'
-      fullPath: '/pricing'
-      preLoaderRoute: typeof PricingRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/login': {
-      id: '/login'
-      path: '/login'
-      fullPath: '/login'
-      preLoaderRoute: typeof LoginRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/escorts': {
-      id: '/escorts'
-      path: '/escorts'
-      fullPath: '/escorts'
-      preLoaderRoute: typeof EscortsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/contact': {
-      id: '/contact'
-      path: '/contact'
-      fullPath: '/contact'
-      preLoaderRoute: typeof ContactRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/book': {
-      id: '/book'
-      path: '/book'
-      fullPath: '/book'
-      preLoaderRoute: typeof BookRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/areas': {
-      id: '/areas'
-      path: '/areas'
-      fullPath: '/areas'
-      preLoaderRoute: typeof AreasRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/admin': {
-      id: '/admin'
-      path: '/admin'
-      fullPath: '/admin'
-      preLoaderRoute: typeof AdminRouteImport
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/about': {
@@ -277,11 +228,60 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
+    '/admin': {
+      id: '/admin'
+      path: '/admin'
+      fullPath: '/admin'
+      preLoaderRoute: typeof AdminRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/areas': {
+      id: '/areas'
+      path: '/areas'
+      fullPath: '/areas'
+      preLoaderRoute: typeof AreasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/book': {
+      id: '/book'
+      path: '/book'
+      fullPath: '/book'
+      preLoaderRoute: typeof BookRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/escorts': {
+      id: '/escorts'
+      path: '/escorts'
+      fullPath: '/escorts'
+      preLoaderRoute: typeof EscortsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/login': {
+      id: '/login'
+      path: '/login'
+      fullPath: '/login'
+      preLoaderRoute: typeof LoginRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pricing': {
+      id: '/pricing'
+      path: '/pricing'
+      fullPath: '/pricing'
+      preLoaderRoute: typeof PricingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/why-us': {
+      id: '/why-us'
+      path: '/why-us'
+      fullPath: '/why-us'
+      preLoaderRoute: typeof WhyUsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/guides/': {
@@ -291,11 +291,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof GuidesIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/locations/$locationId': {
-      id: '/locations/$locationId'
-      path: '/locations/$locationId'
-      fullPath: '/locations/$locationId'
-      preLoaderRoute: typeof LocationsLocationIdRouteImport
+    '/guides/first-time-booking': {
+      id: '/guides/first-time-booking'
+      path: '/guides/first-time-booking'
+      fullPath: '/guides/first-time-booking'
+      preLoaderRoute: typeof GuidesFirstTimeBookingRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/guides/incall-vs-outcall': {
@@ -305,11 +305,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof GuidesIncallVsOutcallRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/guides/first-time-booking': {
-      id: '/guides/first-time-booking'
-      path: '/guides/first-time-booking'
-      fullPath: '/guides/first-time-booking'
-      preLoaderRoute: typeof GuidesFirstTimeBookingRouteImport
+    '/locations/$locationId': {
+      id: '/locations/$locationId'
+      path: '/locations/$locationId'
+      fullPath: '/locations/$locationId'
+      preLoaderRoute: typeof LocationsLocationIdRouteImport
       parentRoute: typeof rootRouteImport
     }
   }

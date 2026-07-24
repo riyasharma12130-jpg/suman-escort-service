@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Header } from '../../components/Header';
 
 export const Route = createFileRoute("/locations/$locationId")({
   component: LocationPage,
@@ -33,23 +34,7 @@ function LocationPage() {
 
   return (
     <div className="min-h-screen bg-background text-foreground pt-32 pb-16">
-      <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-background/60 border-b border-border">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Kavya Escort Service</a>
-          <nav className="hidden md:flex gap-10 text-sm text-muted-foreground font-medium tracking-wider">
-            <a href="/" className="hover:text-primary transition">HOME</a>
-            <a href="/escorts" className="hover:text-primary transition">ESCORTS</a>
-            <a href="/why-us" className="hover:text-primary transition">WHY US</a>
-            <a href="/pricing" className="hover:text-primary transition">PRICING</a>
-            <a href="/about" className="hover:text-primary transition">ABOUT</a>
-            <a href="/contact" className="hover:text-primary transition">CONTACT</a>
-            <a href="/areas" className="text-primary transition">LOCATIONS</a>
-          </nav>
-          <div className="flex items-center gap-4">
-            <a href="/book" className="rounded-full bg-primary px-5 py-2 text-sm text-primary-foreground hover:bg-primary/80 transition shadow-[0_0_15px_-5px_var(--color-primary)]">Book Now</a>
-          </div>
-        </div>
-      </header>
+      <Header />
 
       <main className="mx-auto max-w-4xl px-6">
         <div className="text-center mb-16">

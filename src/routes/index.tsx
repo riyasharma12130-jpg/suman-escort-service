@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Header } from '../components/Header';
 
 // Using local images from the images folder
 const imageList = [
@@ -78,26 +79,7 @@ export default function Landing() {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
 
-            <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-background/60 border-b border-border">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient">Kavya Escort Service</a>
-          <nav className="hidden md:flex gap-10 text-sm text-muted-foreground font-medium tracking-wider">
-            <a href="/" className="hover:text-primary transition">HOME</a>
-            <a href="/escorts" className="hover:text-primary transition">ESCORTS</a>
-            <a href="/why-us" className="hover:text-primary transition">WHY US</a>
-            <a href="/pricing" className="hover:text-primary transition">PRICING</a>
-            <a href="/about" className="hover:text-primary transition">ABOUT</a>
-            <a href="/contact" className="hover:text-primary transition">CONTACT</a>
-            <a href="/areas" className="hover:text-primary transition">LOCATIONS</a>
-          </nav>
-          <div className="flex items-center gap-4">
-            <a href={telegramLink} target="_blank" rel="noreferrer" className="flex items-center justify-center w-9 h-9 rounded-full bg-[#0088cc] hover:bg-[#0088cc]/80 text-white transition shadow-[0_0_15px_-5px_#0088cc]" aria-label="Telegram Contact">
-              <TelegramIcon className="w-5 h-5" />
-            </a>
-            <a href="/book" className="rounded-full border border-primary/40 px-5 py-2 text-sm text-primary hover:bg-primary hover:text-primary-foreground transition">Book Now</a>
-          </div>
-        </div>
-      </header>
+            <Header />
 
       <section className="relative flex min-h-screen items-center justify-center">
         <img src={heroImg} alt="Premium escort service in Bangalore" width={1920} height={1200} className="absolute inset-0 h-full w-full object-cover" />
