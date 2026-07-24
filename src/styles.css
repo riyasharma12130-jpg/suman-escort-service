@@ -60,7 +60,6 @@
 }
 
 @layer base {
-  html { font-size: 125%; }
   * { border-color: var(--color-border); }
   body {
     background-color: var(--color-background);
