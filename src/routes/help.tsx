@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Header } from "../components/Header";
-import { Footer } from "../components/Footer";
 
 export const Route = createFileRoute("/help")({
   component: HelpPage,
@@ -79,8 +78,6 @@ export default function HelpPage() {
 
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Header } from "../components/Header";
-import { Footer } from "../components/Footer";
 
 export const Route = createFileRoute("/privacy")({
   component: PrivacyPage,
@@ -69,8 +68,6 @@ export default function PrivacyPage() {
           </div>
         </div>
       </main>
-
-      <Footer />
     </div>
   );
 }
