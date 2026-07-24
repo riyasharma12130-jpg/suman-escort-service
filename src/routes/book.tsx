@@ -11,8 +11,8 @@ export const Route = createFileRoute("/book")({
   component: BookPage,
   head: () => ({
     meta: [
-      { title: "Book VIP Bangalore Escorts | Cash On Delivery Call Girls" },
-      { name: "description", content: "Book genuine Bangalore call girls & VIP escorts safely. 24/7 booking available for hotel outcalls and incalls with complete privacy and Cash on Delivery (COD)." },
+      { title: "Book VIP Bangalore Escorts | Direct Cash Payment Call Girls" },
+      { name: "description", content: "Book genuine Bangalore call girls & VIP escorts safely. 24/7 booking available for hotel outcalls and incalls with complete privacy and Direct Cash Payment." },
       { name: "keywords", content: "book escort service Bangalore, kavya escort service booking, call girl booking Bangalore, escort service booking in Koramangala" },
     ],
   }),

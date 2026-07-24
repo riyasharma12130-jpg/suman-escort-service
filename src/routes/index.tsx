@@ -402,9 +402,9 @@ export default function Landing() {
             </div>
 
             <div className="bg-card border border-border p-8 rounded-lg shadow-lg mt-12 text-center">
-              <h2 className="font-display text-2xl text-gold-gradient mb-4">100% Cash Payment & Cash on Delivery Service</h2>
+              <h2 className="font-display text-2xl text-gold-gradient mb-4">100% Direct Cash Payment Service</h2>
               <p className="max-w-3xl mx-auto">
-                We highly encourage our clients to choose the <strong>Cash Payment</strong> option. We are the premier Bangalore Call Girls Agency offering Cash on Delivery service to give you the ultimate freedom and privacy. No credit card statements, no digital trails—just pure, untracked entertainment. Simply book your Independent Call Girl in Bangalore, wait for her arrival at your hotel or residence, and pay directly in cash before the service begins. It is safe, discreet, and reliable.
+                We highly encourage our clients to choose the <strong>Cash Payment</strong> option. We are the premier Bangalore Call Girls Agency offering direct cash payment service to give you the ultimate freedom and privacy. No credit card statements, no digital trails—just pure, untracked entertainment. Simply book your Independent Call Girl in Bangalore, wait for her arrival at your hotel or residence, and pay directly in cash before the service begins. It is safe, discreet, and reliable.
               </p>
             </div>
           </div>
@@ -473,7 +473,7 @@ export default function Landing() {
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
               <h3 className="font-display text-xl mb-2 text-gold-gradient">Do You Accept the Cash Payment Method?</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">Yes, we accept cash payment methods (Cash on Delivery). You just have to hand it over to the companion immediately before the service begins for complete privacy and peace of mind.</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">Yes, we accept cash payment methods (Direct Cash Payment). You just have to hand it over to the companion immediately before the service begins for complete privacy and peace of mind.</p>
             </div>
           </div>
         </div>
@@ -496,7 +496,7 @@ export default function Landing() {
           <div className="text-center mb-12">
             <p className="text-xs uppercase tracking-[0.4em] text-primary mb-4">PRICING</p>
             <h2 className="font-display text-3xl md:text-5xl font-light">Bangalore Call Girls Rate List</h2>
-            <p className="text-muted-foreground mt-4">Transparent pricing for all categories. Cash on Delivery available.</p>
+            <p className="text-muted-foreground mt-4">Transparent pricing for all categories. Direct Cash Payment available.</p>
           </div>
           <div className="overflow-x-auto">
             <table className="w-full border border-border rounded-lg overflow-hidden text-sm">
@@ -541,7 +541,7 @@ export default function Landing() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-muted-foreground mt-4 text-center">* Prices may vary based on duration, specific companion, and services. Cash Payment (COD) is always accepted.</p>
+          <p className="text-xs text-muted-foreground mt-4 text-center">* Prices may vary based on duration, specific companion, and services. Cash Payment is always accepted.</p>
         </div>
       </section>
 
@@ -556,7 +556,7 @@ export default function Landing() {
           </p>
           <h3 className="font-display text-2xl text-primary mt-8">बैंगलोर में कॉल गर्ल्स बुक करने के फायदे</h3>
           <p>
-            जब आप हमारी <strong>बैंगलोर एस्कॉर्ट सर्विस</strong> से कॉल गर्ल्स बुक करते हैं, तो आपको कई शानदार फायदे मिलते हैं। जैसे - प्री-बुकिंग, सर्विस से पहले लड़की से मिलने का विकल्प, डिनर डेट, कॉफी डेट, होटल विजिट, और फुल नाइट सर्विस। हम 100% <strong>कैश पेमेंट (COD)</strong> स्वीकार करते हैं। कोई एडवांस पेमेंट नहीं, कोई ऑनलाइन ट्रांजैक्शन नहीं – बस कैश दें और सर्विस का आनंद लें।
+            जब आप हमारी <strong>बैंगलोर एस्कॉर्ट सर्विस</strong> से कॉल गर्ल्स बुक करते हैं, तो आपको कई शानदार फायदे मिलते हैं। जैसे - प्री-बुकिंग, सर्विस से पहले लड़की से मिलने का विकल्प, डिनर डेट, कॉफी डेट, होटल विजिट, और फुल नाइट सर्विस। हम 100% <strong>कैश पेमेंट</strong> स्वीकार करते हैं। कोई एडवांस पेमेंट नहीं, कोई ऑनलाइन ट्रांजैक्शन नहीं – बस कैश दें और सर्विस का आनंद लें।
           </p>
           <p>
             हमारी सभी एस्कॉर्ट्स का नियमित स्वास्थ्य परीक्षण होता है, जिससे आपको 100% सुरक्षित और बेहतरीन अनुभव मिलता है। हमारे पास कन्नड़, बंगाली, नेपाली, पंजाबी, रूसी और भारतीय सुंदरियों की एक शानदार रेंज उपलब्ध है। <strong>कोरमंगला, इंदिरानगर, व्हाइटफील्ड, MG रोड, इलेक्ट्रॉनिक सिटी, HSR लेआउट, BTM लेआउट, मराठाहल्ली</strong> और बैंगलोर के सभी प्रमुख इलाकों में हमारी सर्विस उपलब्ध है।

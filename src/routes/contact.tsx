@@ -12,7 +12,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact Us | Book Bangalore Call Girls (No Advance Payment)" },
-      { name: "description", content: "Contact the top Bangalore escorts agency for discreet booking. We offer genuine call girls with 100% Cash on Delivery (COD) and zero advance payment. Telegram @Sonal_0101." },
+      { name: "description", content: "Contact the top Bangalore escorts agency for discreet booking. We offer genuine call girls with 100% Direct Cash Payment and zero advance payment. Telegram @Sonal_0101." },
       { name: "keywords", content: "contact escort service Bangalore, call girls in Bangalore contact, Bangalore escort service contact, Koramangala spa contact" },
     ],
   }),
