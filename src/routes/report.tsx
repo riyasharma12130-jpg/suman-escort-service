@@ -182,13 +182,7 @@ export default function ReportPage() {
         </div>
       </section>
 
-      <footer className="border-t border-border bg-card py-12">
-        <div className="mx-auto max-w-7xl px-6 text-center text-muted-foreground">
-          <p className="font-display text-lg text-gold-gradient mb-2">Kavya Escort Service Bangalore</p>
-          <p className="text-sm mb-6">Premium Companionship • Unmatched Discretion</p>
-          <p>© {new Date().getFullYear()} Kavya Escort Service & Companion Services · All bookings by appointment</p>
-        </div>
-      </footer>
+      
     </div>
   );
 }

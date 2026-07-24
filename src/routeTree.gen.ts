@@ -16,8 +16,10 @@ import { Route as AreasRouteImport } from './routes/areas'
 import { Route as BookRouteImport } from './routes/book'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as EscortsRouteImport } from './routes/escorts'
+import { Route as HelpRouteImport } from './routes/help'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as PricingRouteImport } from './routes/pricing'
+import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as ReportRouteImport } from './routes/report'
 import { Route as WhyUsRouteImport } from './routes/why-us'
 import { Route as GuidesIndexRouteImport } from './routes/guides/index'
@@ -60,6 +62,11 @@ const EscortsRoute = EscortsRouteImport.update({
   path: '/escorts',
   getParentRoute: () => rootRouteImport,
 } as any)
+const HelpRoute = HelpRouteImport.update({
+  id: '/help',
+  path: '/help',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const LoginRoute = LoginRouteImport.update({
   id: '/login',
   path: '/login',
@@ -68,6 +75,11 @@ const LoginRoute = LoginRouteImport.update({
 const PricingRoute = PricingRouteImport.update({
   id: '/pricing',
   path: '/pricing',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PrivacyRoute = PrivacyRouteImport.update({
+  id: '/privacy',
+  path: '/privacy',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ReportRoute = ReportRouteImport.update({
@@ -109,8 +121,10 @@ export interface FileRoutesByFullPath {
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
   '/escorts': typeof EscortsRoute
+  '/help': typeof HelpRoute
   '/login': typeof LoginRoute
   '/pricing': typeof PricingRoute
+  '/privacy': typeof PrivacyRoute
   '/report': typeof ReportRoute
   '/why-us': typeof WhyUsRoute
   '/guides/first-time-booking': typeof GuidesFirstTimeBookingRoute
@@ -126,8 +140,10 @@ export interface FileRoutesByTo {
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
   '/escorts': typeof EscortsRoute
+  '/help': typeof HelpRoute
   '/login': typeof LoginRoute
   '/pricing': typeof PricingRoute
+  '/privacy': typeof PrivacyRoute
   '/report': typeof ReportRoute
   '/why-us': typeof WhyUsRoute
   '/guides/first-time-booking': typeof GuidesFirstTimeBookingRoute
@@ -144,8 +160,10 @@ export interface FileRoutesById {
   '/book': typeof BookRoute
   '/contact': typeof ContactRoute
   '/escorts': typeof EscortsRoute
+  '/help': typeof HelpRoute
   '/login': typeof LoginRoute
   '/pricing': typeof PricingRoute
+  '/privacy': typeof PrivacyRoute
   '/report': typeof ReportRoute
   '/why-us': typeof WhyUsRoute
   '/guides/first-time-booking': typeof GuidesFirstTimeBookingRoute
@@ -163,8 +181,10 @@ export interface FileRouteTypes {
     | '/book'
     | '/contact'
     | '/escorts'
+    | '/help'
     | '/login'
     | '/pricing'
+    | '/privacy'
     | '/report'
     | '/why-us'
     | '/guides/first-time-booking'
@@ -180,8 +200,10 @@ export interface FileRouteTypes {
     | '/book'
     | '/contact'
     | '/escorts'
+    | '/help'
     | '/login'
     | '/pricing'
+    | '/privacy'
     | '/report'
     | '/why-us'
     | '/guides/first-time-booking'
@@ -197,8 +219,10 @@ export interface FileRouteTypes {
     | '/book'
     | '/contact'
     | '/escorts'
+    | '/help'
     | '/login'
     | '/pricing'
+    | '/privacy'
     | '/report'
     | '/why-us'
     | '/guides/first-time-booking'
@@ -215,8 +239,10 @@ export interface RootRouteChildren {
   BookRoute: typeof BookRoute
   ContactRoute: typeof ContactRoute
   EscortsRoute: typeof EscortsRoute
+  HelpRoute: typeof HelpRoute
   LoginRoute: typeof LoginRoute
   PricingRoute: typeof PricingRoute
+  PrivacyRoute: typeof PrivacyRoute
   ReportRoute: typeof ReportRoute
   WhyUsRoute: typeof WhyUsRoute
   GuidesFirstTimeBookingRoute: typeof GuidesFirstTimeBookingRoute
@@ -276,6 +302,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EscortsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/help': {
+      id: '/help'
+      path: '/help'
+      fullPath: '/help'
+      preLoaderRoute: typeof HelpRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/login': {
       id: '/login'
       path: '/login'
@@ -288,6 +321,13 @@ declare module '@tanstack/react-router' {
       path: '/pricing'
       fullPath: '/pricing'
       preLoaderRoute: typeof PricingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/privacy': {
+      id: '/privacy'
+      path: '/privacy'
+      fullPath: '/privacy'
+      preLoaderRoute: typeof PrivacyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/report': {
@@ -343,8 +383,10 @@ const rootRouteChildren: RootRouteChildren = {
   BookRoute: BookRoute,
   ContactRoute: ContactRoute,
   EscortsRoute: EscortsRoute,
+  HelpRoute: HelpRoute,
   LoginRoute: LoginRoute,
   PricingRoute: PricingRoute,
+  PrivacyRoute: PrivacyRoute,
   ReportRoute: ReportRoute,
   WhyUsRoute: WhyUsRoute,
   GuidesFirstTimeBookingRoute: GuidesFirstTimeBookingRoute,

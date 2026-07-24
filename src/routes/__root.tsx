@@ -11,6 +11,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { Footer } from "../components/Footer";
 
 function NotFoundComponent() {
   return (
@@ -268,8 +269,11 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <div className="pb-[60px] md:pb-0">
-        <Outlet />
+      <div className="pb-[60px] md:pb-0 flex flex-col min-h-screen">
+        <div className="flex-grow">
+          <Outlet />
+        </div>
+        <Footer />
       </div>
       <MobileActionBar />
       <DesktopContactWidget />

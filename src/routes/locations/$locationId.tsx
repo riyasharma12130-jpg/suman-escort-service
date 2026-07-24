@@ -14,7 +14,7 @@ export const Route = createFileRoute("/locations/$locationId")({
       meta: [
         { title: `${formattedLocation} | Premium Escort Service from ₹3,000/hr` },
         { name: "description", content: `Book verified ${formattedLocation} from ₹3,000/hr. 500+ real profiles, 100% privacy, 24/7 escort service. Cash payment, no advance.` },
-        { name: "keywords", content: `${formattedLocation}, ${formattedLocation.toLowerCase()} bangalore, escort service in ${formattedLocation.split(' ')[0]}, call girls near ${formattedLocation.split(' ')[0]}` },
+        { name: "keywords", content: `${formattedLocation}, ${formattedLocation.toLowerCase()}, escort service in ${formattedLocation.split(' ')[0]}, call girls near ${formattedLocation.split(' ')[0]}` },
       ],
     };
   },
