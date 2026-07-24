@@ -16,7 +16,7 @@ const imageList = [
 ];
 
 // Hero image
-const heroImg = "https://images.unsplash.com/photo-1563804825944-d8de63d42b93?auto=format&fit=crop&q=80&w=2000";
+const heroImg = "/images/hero-neon-model.png";
 
 export const Route = createFileRoute("/")({
   component: Landing,
