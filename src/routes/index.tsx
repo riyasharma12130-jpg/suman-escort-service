@@ -41,7 +41,7 @@ const escortNames = [
 
 // Service offerings
 const services = [
-  { name: "Incall Service", desc: "Discreet service at our premium location in Koramangala, Bangalore. Booking confirm with advance payment.", duration: "Available 24/7", price: "₹5,000", img: imageList[1] },
+  { name: "Incall Service", desc: "Discreet service at our premium location in Koramangala, Bangalore. Booking confirm with zero advance payment.", duration: "Available 24/7", price: "₹5,000", img: imageList[1] },
   { name: "Outcall Service", desc: "Service at your hotel or residence in Bangalore. Complete privacy guaranteed.", duration: "Available 24/7", price: "₹8,000", img: imageList[2] },
   { name: "VIP Service", desc: "Exclusive premium service with top escorts. Ultimate satisfaction assured.", duration: "By appointment", price: "₹15,000", img: imageList[3] },
 ];
@@ -192,7 +192,7 @@ export default function Landing() {
                 For those who prefer the comfort of their own surroundings, our <strong>escort service Bangalore</strong> offers a highly reliable outcall option. Whether you are staying in a 5-star hotel in Indiranagar, a luxury resort in Manyata Tech Park, or a private residence in Whitefield or Electronic City, our companions will travel directly to your doorstep. We prioritize your privacy above all else; our escorts arrive in unmarked vehicles and conduct themselves with the utmost professionalism.
               </p>
               <p className="text-sm md:text-base leading-relaxed">
-                Our outcall booking process is highly streamlined. Once you verify your location and complete the advance booking confirmation, your chosen companion is immediately dispatched. We understand the value of your time, which is why we guarantee prompt arrivals and transparent communication throughout the process. Experience the luxury of Kavya Escort Service without ever leaving your room.
+                Our outcall booking process is highly streamlined. Once you verify your location and complete the quick booking confirmation, your chosen companion is immediately dispatched. We understand the value of your time, which is why we guarantee prompt arrivals and transparent communication throughout the process. Experience the luxury of Kavya Escort Service without ever leaving your room.
               </p>
             </div>
           </div>
@@ -416,7 +416,7 @@ export default function Landing() {
               <li>Visit our official Kavya Escort Service website.</li>
               <li>Explore our massive gallery and choose girls and services according to your taste.</li>
               <li>Use the Telegram and Calling options mentioned on our site.</li>
-              <li>Finalize the profile, confirm with a token advance, and share your hotel/room details.</li>
+              <li>Finalize the profile, confirm your booking without any advance token, and share your hotel/room details.</li>
               <li>Enjoy maximum satisfaction!</li>
             </ol>
           </div>
@@ -441,7 +441,7 @@ export default function Landing() {
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
               <h3 className="font-display text-xl mb-2 text-gold-gradient">How do I book an escort service in Bangalore with you?</h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">Booking is extremely simple and discreet. Just contact us via Telegram at @Sonal_0101. Browse our gallery, select your preferred companion, provide your location (for outcall) or choose to visit us in Koramangala (for incall). After a small advance payment to confirm your genuine intent, your booking is locked in.</p>
+              <p className="text-sm text-muted-foreground leading-relaxed">Booking is extremely simple and discreet. Just contact us via Telegram at @Sonal_0101. Browse our gallery, select your preferred companion, provide your location (for outcall) or choose to visit us in Koramangala (for incall). Once you share your location, your booking is locked in—with absolutely no advance payment required.</p>
             </div>
             <div className="bg-card border border-border p-6 rounded-lg">
               <h3 className="font-display text-xl mb-2 text-gold-gradient">Are the photos of the call girls in Bangalore 100% genuine?</h3>

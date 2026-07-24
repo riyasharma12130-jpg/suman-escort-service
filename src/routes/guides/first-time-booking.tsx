@@ -62,9 +62,9 @@ function FirstTimeBookingPage() {
               The easiest and most discreet way to book is via Telegram. Send us a message stating the companion you are interested in, the duration you want, and your location preference. We respond promptly and will confirm availability.
             </p>
 
-            <h2>Step 4: The Advance Token</h2>
+            <h2>Step 4: Booking Confirmation</h2>
             <p>
-              To filter out non-serious inquiries and ensure the safety of our girls, we require a small token advance payment to confirm the booking. The remaining balance is paid directly to the companion in cash when you meet. This protects both you and the agency.
+              Unlike scam agencies, we do not require any advance token. You simply verify your location, and you pay directly in cash when you meet the companion. This protects both you and the agency.
             </p>
 
             <h2>Etiquette Tips for First-Timers</h2>

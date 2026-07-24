@@ -59,7 +59,7 @@ export default function BookPage() {
                 </li>
                 <li className="flex gap-3">
                   <span className="font-display text-primary text-lg">2.</span>
-                  <span>Confirm your booking with advance payment (₹299)</span>
+                  <span>Confirm your booking with zero advance payment</span>
                 </li>
                 <li className="flex gap-3">
                   <span className="font-display text-primary text-lg">3.</span>
@@ -101,7 +101,7 @@ export default function BookPage() {
               </p>
               <ul className="list-disc pl-5 space-y-2">
                 <li><strong>Age Verification:</strong> You must be at least 18 years of old to use our services. Valid ID may be required upon request.</li>
-                <li><strong>Advance Payment:</strong> A nominal advance payment is required to confirm all outcall bookings. This ensures the genuine intent of the client and secures the companion's time. The remaining balance is to be paid directly to the companion upon arrival.</li>
+                <li><strong>Zero Advance Payment:</strong> We have a strict no-advance policy. The full balance is paid directly to the companion upon arrival in cash.</li>
                 <li><strong>Respect and Decency:</strong> We have a zero-tolerance policy for abuse, harassment, or non-consensual behavior. Our companions are professionals and expect to be treated with utmost respect. Any violation of this will result in immediate termination of the service without refund.</li>
                 <li><strong>Substance Policy:</strong> The use of illegal narcotics during the service is strictly prohibited. Intoxicated clients may be refused service at the discretion of the companion.</li>
                 <li><strong>Privacy:</strong> We guarantee 100% discretion. In return, we expect our clients to respect the privacy of our companions. No unauthorized photography or recording is permitted under any circumstances.</li>
