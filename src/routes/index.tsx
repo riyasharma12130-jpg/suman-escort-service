@@ -85,14 +85,14 @@ export default function Landing() {
         <img src={heroImg} alt="Premium escort service in Bangalore" width={1920} height={1200} className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center animate-fade-in">
-          <p className="mb-6 text-xs uppercase tracking-[0.4em] text-primary">𝗕𝗔𝗡𝗚𝗔𝗟𝗢𝗥𝗘 • 𝗞𝗔𝗥𝗡𝗔𝗧𝗔𝗞𝗔 • 𝗘𝗫𝗖𝗟𝗨𝗦𝗜𝗩𝗘</p>
+          <p className="mb-6 text-xs uppercase tracking-[0.4em] text-primary">𝗛𝗔𝗦𝗦𝗔𝗡 • 𝗠𝗬𝗦𝗢𝗥𝗘 • 𝗗𝗜𝗚𝗛𝗔</p>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-light leading-[1.05]">
-            Bangalore & Karnataka Escorts <span className="italic text-gold-gradient">&</span>
+            Hassan, Mysore & Digha Escorts <span className="italic text-gold-gradient">&</span>
             <br />
             Premium Call Girls
           </h1>
           <p className="mt-8 mx-auto max-w-xl text-base md:text-lg text-muted-foreground leading-relaxed">
-            Looking for independent <strong>escort girls in Bangalore, Hassan, Mysore, and Digha</strong>? We offer 100% verified, premium discreet companion services across Karnataka and beyond with real photos. Available 24/7.
+            Looking for independent <strong>escort girls in Hassan, Mysore, and Digha</strong>? We offer 100% verified, premium discreet companion services with real photos. Available 24/7.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <a href="/book" className="rounded-full bg-primary px-8 py-3.5 text-sm font-medium text-primary-foreground hover:bg-primary/80 transition shadow-[0_0_40px_-10px_var(--color-primary)]">Book Your Escort</a>
