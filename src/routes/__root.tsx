@@ -235,13 +235,29 @@ function RootShell({ children }: { children: ReactNode }) {
   );
 }
 
+
+function MobileActionBar() {
+  return (
+    <div className="fixed bottom-0 left-0 right-0 z-50 flex md:hidden h-[60px] font-medium text-white shadow-[0_-4px_20px_rgba(0,0,0,0.5)]">
+      <a href="https://t.me/Sonal_0101" target="_blank" rel="noreferrer" className="flex-1 flex items-center justify-center bg-[#0088cc] hover:bg-[#0088cc]/90 transition text-lg tracking-wide">
+        Telegram
+      </a>
+      <a href="https://wa.me/919928561640" target="_blank" rel="noreferrer" className="flex-1 flex items-center justify-center bg-[#25D366] hover:bg-[#25D366]/90 transition text-lg tracking-wide">
+        WhatsApp
+      </a>
+    </div>
+  );
+}
+
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <Outlet />
+      <div className="pb-[60px] md:pb-0">
+        <Outlet />
+      </div>
+      <MobileActionBar />
     </QueryClientProvider>
   );
 }
