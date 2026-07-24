@@ -670,7 +670,6 @@ export default function Landing() {
                 text: "If you need premium VIP call girls in Bangalore, just text Kavya Escorts on Telegram. Zero advance payment and 100% genuine girls. Best experience I've had in the city.",
                 package: "VIP Elite Package - Jayanagar"
               }
-            ]
             ].map((review, i) => (
               <div key={i} className="bg-card/40 border border-border/50 p-6 rounded-xl flex flex-col justify-between">
                 <div>
