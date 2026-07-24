@@ -124,7 +124,7 @@ function RootShell({ children }: { children: ReactNode }) {
       {
         "@type": "LocalBusiness",
         "name": "Kavya Escort Service Bangalore",
-        "telephone": "+917414838654",
+        "telephone": "+919928561640",
         "email": "kavyaescortservice@gmail.com",
         "priceRange": "₹₹₹",
         "image": "/images/photo_2026-07-23_23-02-09.jpg",

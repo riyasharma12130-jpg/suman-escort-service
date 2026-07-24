@@ -59,7 +59,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-display text-lg mb-2">Telegram</h3>
                   <a href={telegramLink} target="_blank" rel="noreferrer" className="text-primary hover:text-gold transition">
-                    +91 74148 38654
+                    +91 99285 61640
                   </a>
                 </div>
                 <div>
