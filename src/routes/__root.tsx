@@ -250,6 +250,19 @@ function MobileActionBar() {
   );
 }
 
+function DesktopContactWidget() {
+  return (
+    <div className="fixed bottom-8 right-8 z-50 hidden md:flex flex-col gap-4">
+      <a href="https://wa.me/919928561640" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-full shadow-[0_4px_15px_rgba(0,0,0,0.3)] hover:bg-[#25D366]/90 transition transform hover:scale-105 font-medium text-lg">
+        WhatsApp
+      </a>
+      <a href="https://t.me/Sonal_0101" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 bg-[#0088cc] text-white px-6 py-3 rounded-full shadow-[0_4px_15px_rgba(0,0,0,0.3)] hover:bg-[#0088cc]/90 transition transform hover:scale-105 font-medium text-lg">
+        Telegram
+      </a>
+    </div>
+  );
+}
+
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
@@ -259,6 +272,7 @@ function RootComponent() {
         <Outlet />
       </div>
       <MobileActionBar />
+      <DesktopContactWidget />
     </QueryClientProvider>
   );
 }
