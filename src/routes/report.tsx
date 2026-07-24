@@ -16,6 +16,7 @@ export default function ReportPage() {
   const [formData, setFormData] = useState({
     name: "",
     phone: "",
+    email: "",
     issue: ""
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -42,6 +43,7 @@ export default function ReportPage() {
             _template: "table",
             Name: formData.name,
             Phone: formData.phone,
+            Email: formData.email,
             Issue: formData.issue
         })
       });
@@ -80,7 +82,7 @@ export default function ReportPage() {
                   Thank you for bringing this to our attention. Our management team will review your report immediately.
                 </p>
                 <button 
-                  onClick={() => { setIsSuccess(false); setFormData({ name: '', phone: '', issue: '' }); }}
+                  onClick={() => { setIsSuccess(false); setFormData({ name: '', phone: '', email: '', issue: '' }); }}
                   className="rounded-full border border-primary/40 px-8 py-3 text-sm text-primary hover:bg-primary hover:text-primary-foreground transition"
                 >
                   Submit Another Report
@@ -102,6 +104,22 @@ export default function ReportPage() {
                     required
                     className="w-full bg-background border border-border rounded-md px-4 py-3 text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition"
                     placeholder="How should we address you?"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="email" className="block text-sm font-medium text-muted-foreground mb-2">
+                    Email Address
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                    className="w-full bg-background border border-border rounded-md px-4 py-3 text-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition"
+                    placeholder="your@email.com"
                   />
                 </div>
 
