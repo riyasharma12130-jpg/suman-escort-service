@@ -224,6 +224,7 @@ function RootShell({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
+        <meta name="google-site-verification" content="-Is-JQ0w7h9-zQk0MNZJG7A5OnqOH2lDrTBGR29yQy8" />
         <HeadContent />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       </head>
