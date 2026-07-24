@@ -1,4 +1,6 @@
-import { createFileRoute } from "@tanstack/react-router";
+import os
+
+content = """import { createFileRoute } from "@tanstack/react-router";
 import { Header } from '../components/Header';
 
 export const Route = createFileRoute("/areas")({
@@ -113,3 +115,8 @@ export default function AreasPage() {
     </div>
   );
 }
+"""
+
+with open('src/routes/areas.tsx', 'w', encoding='utf-8') as f:
+    f.write(content)
+print("Updated areas.tsx")
