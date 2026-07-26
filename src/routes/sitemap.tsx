@@ -6,7 +6,7 @@ export const Route = createFileRoute("/sitemap")({
   head: () => ({
     meta: [
       { title: "Sitemap | Suman Escorts Jaipur" },
-      { name: "description", content: "Complete directory of Suman Escorts Jaipur. Find links to all our Jaipur, Hassan, Mysore, and Digha escort location pages." },
+      { name: "description", content: "Complete directory of Suman Escorts Jaipur. Find links to all our Jaipur, Vaishali Nagar, Malviya Nagar, and C-Scheme escort location pages." },
     ],
   }),
 });
@@ -16,11 +16,11 @@ export default function SitemapPage() {
     { id: 'vaishali-nagar-call-girls', label: 'Vaishali Nagar Call Girls' },
     { id: 'malviya-nagar-call-girls', label: 'Malviya Nagar Call Girls' },
     { id: 'c-scheme-escorts', label: 'C-Scheme Escorts' },
-    { id: 'mangalore-call-girls', label: 'Mangalore Escorts' },
-    { id: 'hubli-call-girls', label: 'Hubli Escorts' },
+    { id: 'Jagatpura-call-girls', label: 'Jagatpura Escorts' },
+    { id: 'Civil Lines-call-girls', label: 'Civil Lines Escorts' },
     { id: 'mansarovar-escorts', label: 'Mansarovar Escorts' },
     { id: 'raja-park-escorts', label: 'Raja Park Escorts' },
-    { id: 'whitefield-call-girls', label: 'Whitefield Escorts' },
+    { id: 'Raja Park-call-girls', label: 'Raja Park Escorts' },
     { id: 'mg-road-escorts', label: 'MI Road Escorts' },
     { id: 'hsr-layout-call-girls', label: 'HSR Layout Call Girls' },
     { id: 'jp-nagar-call-girls', label: 'JP Nagar Call Girls' },

@@ -13,7 +13,7 @@ export const Route = createFileRoute("/contact")({
     meta: [
       { title: "Contact Us | Book Jaipur Call Girls (No Advance Payment)" },
       { name: "description", content: "Contact the top Jaipur escorts agency for discreet booking. We offer genuine call girls with 100% Direct Cash Payment and zero advance payment. Telegram @Sonal_0101." },
-      { name: "keywords", content: "contact escort service Jaipur, call girls in Jaipur contact, Jaipur escort service contact, Koramangala spa contact" },
+      { name: "keywords", content: "contact escort service Jaipur, call girls in Jaipur contact, Jaipur escort service contact, Mansarovar spa contact" },
     ],
   }),
 });
@@ -46,7 +46,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-display text-lg mb-2">Business Address</h3>
-                  <p className="text-muted-foreground">Suman Escorts Jaipur<br />Koramangala, Jaipur<br />Rajasthan 560001, IN</p>
+                  <p className="text-muted-foreground">Suman Escorts Jaipur<br />Mansarovar, Jaipur<br />Rajasthan 560001, IN</p>
                 </div>
                 <div>
                   <h3 className="font-display text-lg mb-2">Availability</h3>
@@ -110,7 +110,7 @@ export default function ContactPage() {
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Google Map Location of Suman Escorts Jaipur in Koramangala, Jaipur"
+              title="Google Map Location of Suman Escorts Jaipur in Mansarovar, Jaipur"
             ></iframe>
           </div>
 
@@ -124,7 +124,7 @@ export default function ContactPage() {
                 <strong>Confidentiality Guarantee:</strong> Every Telegram message, phone call, and inquiry is treated with strict confidentiality. We never store your contact information for marketing purposes, nor do we share it with third parties. Once your service is completed, your chat history on our end is routinely cleared to protect your identity.
               </p>
               <p>
-                <strong>Response Time:</strong> Our customer support team is available 24/7. When you want to <strong>book call girls in Jaipur</strong>, we know that time is of the essence. We strive to respond to all Telegram inquiries within minutes, providing you with real-time updates on companion availability, recent photos, and travel times for outcall services to areas like Indiranagar, Whitefield, and Koramangala.
+                <strong>Response Time:</strong> Our customer support team is available 24/7. When you want to <strong>book call girls in Jaipur</strong>, we know that time is of the essence. We strive to respond to all Telegram inquiries within minutes, providing you with real-time updates on companion availability, recent photos, and travel times for outcall services to areas like Bani Park, Raja Park, and Mansarovar.
               </p>
               <p>
                 Please note that we do not entertain time-wasters, bargainers, or individuals looking for explicit chat services. Our communication lines are dedicated solely to serious clients looking to book genuine, premium companions for real-world encounters.

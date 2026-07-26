@@ -82,8 +82,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "google-site-verification", content: "jxESRVjN5XoFAcmwonYhi6dzJ8GzTTLfTxW2jthxhlE" },
       { title: "Jaipur Escorts | ₹3,000/Hr | Suman Escorts Jaipur" },
-      { name: "description", content: "Book verified call girls in Jaipur, Hassan, Mysore, and Rajasthan from ₹3,000/hr. 500+ real profiles, 100% privacy, 24/7 escort service. Cash payment, no advance." },
-      { name: "keywords", content: "karnataka escort service, hassan escorts, mysore call girls, digha escorts, bangalore escort service, bangalore call girls, call girls in bangalore, escort service in bangalore, koramangala call girls, indiranagar escorts, whitefield call girls, kannada call girl, independent call girls bangalore, russian escorts bangalore, VIP call girls, hotel call girl, call girl near me, call girl service karnataka, cheap call girl, cash payment call girls, best escort service, call girl number, escort near me, independent escort, bangalore escort girls, call girls, call girl service, bangalore independent call girls, escort agency, celebrity escorts, model escorts, massage service, full night escort, incall escort, outcall escort, कॉल गर्ल, एस्कॉर्ट सर्विस, कॉल गर्ल नंबर, कॉल गर्ल नियर मी" },
+      { name: "description", content: "Book verified call girls in Jaipur, Vaishali Nagar, Malviya Nagar, and Rajasthan from ₹3,000/hr. 500+ real profiles, 100% privacy, 24/7 escort service. Cash payment, no advance." },
+      { name: "keywords", content: "karnataka escort service, Vaishali Nagar escorts, Malviya Nagar call girls, C-Scheme escorts, bangalore escort service, bangalore call girls, call girls in bangalore, escort service in bangalore, Mansarovar call girls, Bani Park escorts, Raja Park call girls, kannada call girl, independent call girls bangalore, russian escorts bangalore, VIP call girls, hotel call girl, call girl near me, call girl service karnataka, cheap call girl, cash payment call girls, best escort service, call girl number, escort near me, independent escort, bangalore escort girls, call girls, call girl service, bangalore independent call girls, escort agency, celebrity escorts, model escorts, massage service, full night escort, incall escort, outcall escort, कॉल गर्ल, एस्कॉर्ट सर्विस, कॉल गर्ल नंबर, कॉल गर्ल नियर मी" },
       { name: "robots", content: "index, follow, max-snippet:-1, max-image-preview:large" },
       { name: "author", content: "Suman Escorts Jaipur" },
       { property: "og:site_name", content: "Suman Escorts Jaipur Rajasthan" },
@@ -114,7 +114,7 @@ function RootShell({ children }: { children: ReactNode }) {
     "@graph": [
       {
         "@type": "WebSite",
-        "name": "Suman Escorts Jaipur Jaipur",
+        "name": "Suman Escorts Jaipur",
         "url": "https://kavyaescortservice.com/",
         "description": "Jaipur's most trusted escort service agency with 500+ verified call girls. Available 24/7 across all Jaipur areas.",
         "potentialAction": {
@@ -125,7 +125,7 @@ function RootShell({ children }: { children: ReactNode }) {
       },
       {
         "@type": "LocalBusiness",
-        "name": "Suman Escorts Jaipur Jaipur",
+        "name": "Suman Escorts Jaipur",
         "telephone": "+919928561640",
         "email": "sumanescortservice@gmail.com",
         "priceRange": "₹₹₹",
@@ -144,9 +144,9 @@ function RootShell({ children }: { children: ReactNode }) {
           "longitude": 77.5946
         },
         "areaServed": [
-          "Koramangala, Jaipur",
-          "Indiranagar, Jaipur",
-          "Whitefield, Jaipur",
+          "Mansarovar, Jaipur",
+          "Bani Park, Jaipur",
+          "Raja Park, Jaipur",
           "MI Road, Jaipur",
           "Electronic City, Jaipur",
           "HSR Layout, Jaipur",
@@ -164,11 +164,11 @@ function RootShell({ children }: { children: ReactNode }) {
           "Brigade Road, Jaipur",
           "UB City, Jaipur",
           "Jaipur",
-          "Hassan",
-          "Mysore",
-          "Mangalore",
-          "Hubli",
-          "Digha",
+          "Vaishali Nagar",
+          "Malviya Nagar",
+          "Jagatpura",
+          "Civil Lines",
+          "C-Scheme",
           "Rajasthan"
         ],
         "openingHoursSpecification": {
@@ -205,7 +205,7 @@ function RootShell({ children }: { children: ReactNode }) {
             "name": "What areas of Jaipur do you cover?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We cover ALL of Jaipur — Koramangala, Indiranagar, Whitefield, MI Road, Electronic City, HSR Layout, BTM Layout, Marathahalli, Hebbal, JP Nagar, Jayanagar, Sarjapur, Bellandur, Yelahanka, and 50+ more areas."
+              "text": "We cover ALL of Jaipur — Mansarovar, Bani Park, Raja Park, MI Road, Electronic City, HSR Layout, BTM Layout, Marathahalli, Hebbal, JP Nagar, Jayanagar, Sarjapur, Bellandur, Yelahanka, and 50+ more areas."
             }
           },
           {

@@ -13,7 +13,7 @@ export const Route = createFileRoute("/book")({
     meta: [
       { title: "Book VIP Jaipur Escorts | Direct Cash Payment Call Girls" },
       { name: "description", content: "Book genuine Jaipur call girls & VIP escorts safely. 24/7 booking available for hotel outcalls and incalls with complete privacy and Direct Cash Payment." },
-      { name: "keywords", content: "book escort service Jaipur, Suman Escorts Jaipur booking, call girl booking Jaipur, escort service booking in Koramangala" },
+      { name: "keywords", content: "book escort service Jaipur, Suman Escorts Jaipur booking, call girl booking Jaipur, escort service booking in Mansarovar" },
     ],
   }),
 });

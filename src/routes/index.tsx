@@ -23,7 +23,7 @@ export const Route = createFileRoute("/")({
   component: Landing,
   head: () => ({
     meta: [
-      { title: "Jaipur Call Girls | ₹3,000/Hr | Suman Escorts Jaipur Jaipur 24/7" },
+      { title: "Jaipur Call Girls | ₹3,000/Hr | Suman Escorts Jaipur 24/7" },
       { name: "description", content: "Book verified call girls in jaipur from ₹3,000/hr. 500+ real profiles, 100% privacy, 24/7 escort service across Vaishali Nagar, Malviya Nagar, C-Scheme & all Jaipur areas. Cash payment, no advance." },
       { name: "keywords", content: "jaipur escort service, Jaipur Call Girls, call girls in jaipur, escort service in jaipur, Vaishali Nagar call girls, Malviya Nagar escorts, C-Scheme call girls, MI Road escorts, Mansarovar call girls, Rajasthani call girl, independent call girls Jaipur, russian escorts Jaipur, VIP call girls Jaipur, housewife escorts Jaipur, college call girls Jaipur, air hostess escorts Jaipur, hotel call girl Jaipur, call girl near me, call girl service Jaipur, cheap call girl Jaipur, cash payment call girls Jaipur, night call girl Jaipur, best escort service Jaipur, Jaipur Call Girl number, escort near me, call girl service near me, independent escort Jaipur, model escorts Jaipur, celebrity escorts Jaipur, massage service Jaipur, full night escort Jaipur, incall escort Jaipur, outcall escort Jaipur, Raja Park call girls, Bani Park call girls, Jagatpura escorts, Tonk Road call girls, Sodala escorts, Jhotwara call girls, Vidhyadhar Nagar escorts, Ajmer Road call girls, Sitapura escorts, Mahindra SEZ call girls, Delhi Bypass escorts, Gaurav Tower call girls, Sindhi Camp escorts, Jaipur escort agency, कॉल गर्ल जयपुर, जयपुर एस्कॉर्ट सर्विस, जयपुर कॉल गर्ल नंबर, कॉल गर्ल नियर मी" },
     ],
@@ -135,7 +135,7 @@ export default function Landing() {
 
       <section className="py-16 bg-card/20 border-b border-border">
         <div className="mx-auto max-w-5xl px-6 text-muted-foreground leading-relaxed">
-          <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-4 text-center">Welcome to Suman Escorts Jaipur Jaipur: Your #1 jaipur escort service</h2>
+          <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-4 text-center">Welcome to Suman Escorts Jaipur: Your #1 jaipur escort service</h2>
           
           <div className="flex items-center justify-center gap-4 mb-10 text-xs uppercase tracking-widest text-primary/80 border-b border-border/50 pb-4 max-w-2xl mx-auto">
             <span className="flex items-center gap-2">
@@ -161,13 +161,13 @@ export default function Landing() {
 
           <div className="space-y-6 text-sm md:text-base">
             <p>
-              When you are seeking the absolute pinnacle of luxury companionship, you need the most reliable and genuine <strong>escort service Jaipur</strong> has to offer. At Suman Escorts Jaipur Jaipur, located in the prestigious heart of Vaishali Nagar, we pride ourselves on delivering an unparalleled experience that transcends the ordinary. Whether you are a business traveler unwinding after a long conference, a tourist looking to add a spark to your vacation, or a local gentleman seeking a discreet and beautiful companion, our agency is your ultimate destination to <strong>book call girls in jaipur</strong>.
+              When you are seeking the absolute pinnacle of luxury companionship, you need the most reliable and genuine <strong>escort service Jaipur</strong> has to offer. At Suman Escorts Jaipur, located in the prestigious heart of Vaishali Nagar, we pride ourselves on delivering an unparalleled experience that transcends the ordinary. Whether you are a business traveler unwinding after a long conference, a tourist looking to add a spark to your vacation, or a local gentleman seeking a discreet and beautiful companion, our agency is your ultimate destination to <strong>book call girls in jaipur</strong>.
             </p>
             <p>
               Our establishment is not just an agency; it is a sanctuary of premium relaxation. We understand that our elite clients demand perfection, which is why every single profile in our gallery represents a stunning, educated, and verified companion. Unlike other services, we do not use fake photos or misleading descriptions. When you search for the best <strong>Jaipur escort girls</strong>, you expect transparency, hygiene, and absolute discretion—and that is exactly what we guarantee. From our luxurious incall facilities in Vaishali Nagar to our swift and discreet outcall services across Malviya Nagar, C-Scheme, and Mansarovar, we have meticulously designed every aspect of our service to ensure your complete satisfaction.
             </p>
             <p>
-              What truly sets us apart as the top-ranking <strong>escort service Jaipur</strong> is our holistic approach. We combine the therapeutic, stress-relieving benefits of a high-end spa with the thrilling, intimate companionship of Jaipur's most beautiful women. Our VIP companions are trained to be the perfect dates, whether you need an elegant partner for a corporate dinner, an adventurous guide for exploring the Garden City, or a passionate lover for a private evening behind closed doors. Booking with Suman Escorts Jaipur Jaipur is not just a transaction; it is an investment in an unforgettable memory.
+              What truly sets us apart as the top-ranking <strong>escort service Jaipur</strong> is our holistic approach. We combine the therapeutic, stress-relieving benefits of a high-end spa with the thrilling, intimate companionship of Jaipur's most beautiful women. Our VIP companions are trained to be the perfect dates, whether you need an elegant partner for a corporate dinner, an adventurous guide for exploring the Garden City, or a passionate lover for a private evening behind closed doors. Booking with Suman Escorts Jaipur is not just a transaction; it is an investment in an unforgettable memory.
             </p>
           </div>
         </div>
@@ -192,7 +192,7 @@ export default function Landing() {
                 For those who prefer the comfort of their own surroundings, our <strong>escort service Jaipur</strong> offers a highly reliable outcall option. Whether you are staying in a 5-star hotel in Malviya Nagar, a luxury resort in Mahindra SEZ, or a private residence in C-Scheme or Mansarovar, our companions will travel directly to your doorstep. We prioritize your privacy above all else; our escorts arrive in unmarked vehicles and conduct themselves with the utmost professionalism.
               </p>
               <p className="text-sm md:text-base leading-relaxed">
-                Our outcall booking process is highly streamlined. Once you verify your location and complete the quick booking confirmation, your chosen companion is immediately dispatched. We understand the value of your time, which is why we guarantee prompt arrivals and transparent communication throughout the process. Experience the luxury of Suman Escorts Jaipur Jaipur without ever leaving your room.
+                Our outcall booking process is highly streamlined. Once you verify your location and complete the quick booking confirmation, your chosen companion is immediately dispatched. We understand the value of your time, which is why we guarantee prompt arrivals and transparent communication throughout the process. Experience the luxury of Suman Escorts Jaipur without ever leaving your room.
               </p>
             </div>
           </div>
@@ -201,7 +201,7 @@ export default function Landing() {
 
       <section className="py-16 bg-card/10">
         <div className="mx-auto max-w-5xl px-6">
-          <h2 className="font-display text-3xl md:text-5xl font-light text-center mb-12">8 Reasons to Choose Suman Escorts Jaipur Jaipur</h2>
+          <h2 className="font-display text-3xl md:text-5xl font-light text-center mb-12">8 Reasons to Choose Suman Escorts Jaipur</h2>
           <div className="grid md:grid-cols-2 gap-8 text-muted-foreground">
             <div>
               <h3 className="font-display text-xl text-gold-gradient mb-2">1. Verified Independent Call Girls</h3>
@@ -413,7 +413,7 @@ export default function Landing() {
             <h2 className="font-display text-3xl md:text-5xl font-light text-gold-gradient mb-6">How to Book call girls in jaipur?</h2>
             <ol className="list-decimal list-inside space-y-2 ml-4">
               <li>Open Google on your smartphone and search for our services.</li>
-              <li>Visit our official Suman Escorts Jaipur Jaipur website.</li>
+              <li>Visit our official Suman Escorts Jaipur website.</li>
               <li>Explore our massive gallery and choose girls and services according to your taste.</li>
               <li>Use the Telegram and Calling options mentioned on our site.</li>
               <li>Finalize the profile, confirm your booking without any advance token, and share your hotel/room details.</li>
@@ -483,7 +483,7 @@ export default function Landing() {
         <div className="mx-auto max-w-5xl px-6 text-sm text-muted-foreground leading-relaxed space-y-4">
           <h2 className="font-display text-2xl text-gold-gradient mb-4">The Ultimate Guide to jaipur escort services</h2>
           <p>
-            Finding a reliable <strong>escort service Jaipur</strong> can often feel overwhelming due to the sheer number of unreliable agencies operating online. However, by choosing Suman Escorts Jaipur Jaipur, you are opting for the most verified, trusted, and premium agency in the state of Rajasthan. Our expansive network of high-class independent escorts, college girls, models, and air hostesses ensures that regardless of your specific tastes or fantasies, we have the perfect companion waiting for you. When men search to <strong>book call girls in jaipur</strong>, they are looking for more than just physical intimacy; they seek emotional connection, intellectual stimulation, and a truly girlfriend-like experience (GFE). We rigorously train our companions to provide exactly this, elevating your encounter from a mere transaction to a memorable, deeply satisfying relationship.
+            Finding a reliable <strong>escort service Jaipur</strong> can often feel overwhelming due to the sheer number of unreliable agencies operating online. However, by choosing Suman Escorts Jaipur, you are opting for the most verified, trusted, and premium agency in the state of Rajasthan. Our expansive network of high-class independent escorts, college girls, models, and air hostesses ensures that regardless of your specific tastes or fantasies, we have the perfect companion waiting for you. When men search to <strong>book call girls in jaipur</strong>, they are looking for more than just physical intimacy; they seek emotional connection, intellectual stimulation, and a truly girlfriend-like experience (GFE). We rigorously train our companions to provide exactly this, elevating your encounter from a mere transaction to a memorable, deeply satisfying relationship.
           </p>
           <p>
             Our strategic location in <strong>Vaishali Nagar</strong> gives us a massive logistical advantage. It allows us to manage our incall facilities with unparalleled efficiency while simultaneously dispatching our outcall companions to any corner of the city within minutes. Whether you are craving a soothing full-body massage to relieve tension or desire a wild, passionate night to remember, our versatile companions are ready to fulfill your every whim. Do not settle for subpar services when the best <strong>Jaipur escort girls</strong> are just a Telegram message away. We guarantee 100% satisfaction, uncompromising hygiene, and a level of luxury that has made us the undisputed leaders in the Jaipur adult entertainment and spa industry.
@@ -588,7 +588,7 @@ export default function Landing() {
               {
                 initial: "R", bg: "bg-pink-600",
                 name: "Rahul M.", date: "July 2026 - Vaishali Nagar",
-                text: "Booked Priya for an evening through Suman Escorts Jaipur Jaipur and the experience was top notch. Very professional, discreet, and punctual. Profile photos were 100% real. Will book again through Suman Escorts Jaipur Escort!",
+                text: "Booked Priya for an evening through Suman Escorts Jaipur and the experience was top notch. Very professional, discreet, and punctual. Profile photos were 100% real. Will book again through Suman Escorts Jaipur Escort!",
                 package: "Incall Service - Vaishali Nagar, Jaipur"
               },
               {
@@ -606,7 +606,7 @@ export default function Landing() {
               {
                 initial: "S", bg: "bg-blue-500",
                 name: "Suresh T.", date: "June 2026 - MI Road",
-                text: "Using Suman Escorts Jaipur Jaipur 2 years now. Always reliable, always discreet. Full night ₹12,000 totally worth it. Best independent call girl service in Jaipur!",
+                text: "Using Suman Escorts Jaipur 2 years now. Always reliable, always discreet. Full night ₹12,000 totally worth it. Best independent call girl service in Jaipur!",
                 package: "Full Night Package - MI Road"
               },
               {
@@ -624,7 +624,7 @@ export default function Landing() {
               {
                 initial: "N", bg: "bg-teal-500",
                 name: "Naveen P.", date: "April 2026 - Bani Park",
-                text: "I was looking for Rajasthani call girls in jaipur and Suman Escorts Jaipur Jaipur provided exactly what I asked for. The lady was very cooperative and beautiful. Thank you Suman!",
+                text: "I was looking for Rajasthani call girls in jaipur and Suman Escorts Jaipur provided exactly what I asked for. The lady was very cooperative and beautiful. Thank you Suman!",
                 package: "Incall Service - Bani Park"
               },
               {
@@ -636,7 +636,7 @@ export default function Landing() {
               {
                 initial: "P", bg: "bg-indigo-500",
                 name: "Prateek J.", date: "March 2026 - Jhotwara",
-                text: "Tried Suman Escorts Jaipur Jaipur for a weekend getaway. The Russian model was breathtaking. The agency is very transparent with their pricing, no hidden charges at all.",
+                text: "Tried Suman Escorts Jaipur for a weekend getaway. The Russian model was breathtaking. The agency is very transparent with their pricing, no hidden charges at all.",
                 package: "Weekend Package - Jhotwara"
               },
               {

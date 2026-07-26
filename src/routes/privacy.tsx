@@ -52,7 +52,7 @@ export default function PrivacyPage() {
 
             <h2 className="font-display text-2xl text-white mt-12 mb-6">4. Hotel & Outcall Discretion</h2>
             <p className="mb-6 leading-relaxed">
-              When providing outcall services to hotels, resorts, or private residences in areas like Hassan, Mysore, Digha, or Jaipur, our companions are trained to arrive discreetly. They do not carry branded agency material and conduct themselves as regular guests or acquaintances, ensuring that hotel staff or neighbors are unaware of the nature of the visit.
+              When providing outcall services to hotels, resorts, or private residences in areas like Vaishali Nagar, Malviya Nagar, C-Scheme, or Jaipur, our companions are trained to arrive discreetly. They do not carry branded agency material and conduct themselves as regular guests or acquaintances, ensuring that hotel staff or neighbors are unaware of the nature of the visit.
             </p>
 
             <h2 className="font-display text-2xl text-white mt-12 mb-6">5. Confidentiality of Companions</h2>

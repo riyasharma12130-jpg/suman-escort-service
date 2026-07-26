@@ -26,7 +26,7 @@ export function Header() {
     <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-background/90 border-b border-border">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
         <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient relative z-50">
-          Suman Escorts Jaipur Jaipur
+          Suman Escorts Jaipur
         </a>
         
         {/* Desktop Nav */}

@@ -48,7 +48,7 @@ export default function HelpPage() {
                 <strong>Incall:</strong> You visit our discreet, luxurious, and highly secure private apartments or spas. We provide a safe, fully equipped environment.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                <strong>Outcall:</strong> The companion visits you at your location (such as a 5-star hotel, resort, or private residence). We guarantee prompt 30-45 minute arrivals to all major areas like Koramangala, Indiranagar, Hassan, and Mysore.
+                <strong>Outcall:</strong> The companion visits you at your location (such as a 5-star hotel, resort, or private residence). We guarantee prompt 30-45 minute arrivals to all major areas like Mansarovar, Bani Park, Vaishali Nagar, and Malviya Nagar.
               </p>
             </div>
 

@@ -13,7 +13,7 @@ export const Route = createFileRoute("/about")({
     meta: [
       { title: "About Us | Jaipur Escorts Agency & Independent Call Girls" },
       { name: "description", content: "Learn more about Suman Escorts Jaipur, the most trusted and genuine Jaipur escorts agency. We provide 100% independent call girls with real pics and no advance payment." },
-      { name: "keywords", content: "about escort service Jaipur, Suman Escorts Jaipur history, genuine call girls in Jaipur, premium spa Jaipur, Koramangala spa" },
+      { name: "keywords", content: "about escort service Jaipur, Suman Escorts Jaipur history, genuine call girls in Jaipur, premium spa Jaipur, Mansarovar spa" },
     ],
   }),
 });
@@ -51,7 +51,7 @@ export default function AboutPage() {
                 For years, Suman Escorts Jaipur has stood as the gold standard for luxury companionship and premium relaxation in the Garden City. When you are looking for an <strong>escort service Jaipur</strong>, you are not just looking for a meeting; you are seeking a meticulously curated experience that prioritizes your satisfaction, privacy, and safety.
               </p>
               <p>
-                Located conveniently in the heart of the city at <strong>Koramangala</strong>, our establishment serves as a sanctuary for those looking to escape the mundane. Our deep understanding of what constitutes a truly premium service has allowed us to become the most sought-after destination for gentlemen and travelers alike who want to book call girls in Jaipur.
+                Located conveniently in the heart of the city at <strong>Mansarovar</strong>, our establishment serves as a sanctuary for those looking to escape the mundane. Our deep understanding of what constitutes a truly premium service has allowed us to become the most sought-after destination for gentlemen and travelers alike who want to book call girls in Jaipur.
               </p>
             </div>
 
@@ -61,14 +61,14 @@ export default function AboutPage() {
                 What sets our escort service in Jaipur apart is our uncompromising dedication to quality. Every profile you see is 100% genuine and verified. We maintain a rigorous selection process to ensure that our companions are not only stunningly beautiful but also intellectually engaging, elegant, and sophisticated.
               </p>
               <p className="mb-4">
-                We understand that discretion is the cornerstone of our industry. Whether you choose our premium incall services at our luxurious Koramangala location or opt for an outcall service at a five-star hotel in Indiranagar or Whitefield, your privacy is our absolute highest priority. Our booking process is streamlined, confidential, and designed to provide you with peace of mind.
+                We understand that discretion is the cornerstone of our industry. Whether you choose our premium incall services at our luxurious Mansarovar location or opt for an outcall service at a five-star hotel in Bani Park or Raja Park, your privacy is our absolute highest priority. Our booking process is streamlined, confidential, and designed to provide you with peace of mind.
               </p>
             </div>
 
             <div>
               <h2 className="font-display text-3xl text-gold-gradient mb-4">A Premium Spa Experience</h2>
               <p className="mb-4">
-                Beyond being a premier escort service Jaipur, we are a holistic relaxation destination. Our facilities in Koramangala are equipped to provide you with a transcendent spa experience. From the moment you step through our doors, you will be enveloped in an atmosphere of luxury and tranquility. 
+                Beyond being a premier escort service Jaipur, we are a holistic relaxation destination. Our facilities in Mansarovar are equipped to provide you with a transcendent spa experience. From the moment you step through our doors, you will be enveloped in an atmosphere of luxury and tranquility. 
               </p>
               <p>
                 Our services are tailored to melt away stress and leave you rejuvenated. By combining the therapeutic benefits of a premium spa with the enchanting company of our exclusive call girls in Jaipur, we guarantee an experience that satisfies both body and mind. It is this unique synthesis of wellness and companionship that has cemented our reputation at the very top.
@@ -80,7 +80,7 @@ export default function AboutPage() {
               <h2 className="font-display text-3xl text-gold-gradient mb-4">Our Strict Screening & Verification Methodology</h2>
               <p className="mb-4 text-primary font-medium">Yes, we really have met and tested the service of every single companion.</p>
               <p className="mb-4">
-                What truly distinguishes our <strong>escort service Jaipur</strong> from others is our relentless commitment to quality through a stringent 4-step vetting process. We do not accept just anyone into our agency. Every model, college girl, and independent companion undergoes a thorough background check and in-person verification at our Koramangala office.
+                What truly distinguishes our <strong>escort service Jaipur</strong> from others is our relentless commitment to quality through a stringent 4-step vetting process. We do not accept just anyone into our agency. Every model, college girl, and independent companion undergoes a thorough background check and in-person verification at our Mansarovar office.
               </p>
               <ul className="list-disc list-inside mb-4 space-y-2 text-sm">
                 <li><strong>ID & Age Verification:</strong> We ensure all companions are strictly over 18 with valid documentation.</li>
@@ -89,14 +89,14 @@ export default function AboutPage() {
                 <li><strong>Health & Hygiene Check:</strong> Regular health screenings are mandatory for all our active escorts.</li>
               </ul>
               <p className="mb-4">
-                When you <strong>book call girls in Jaipur</strong> through us, you are guaranteed to meet a companion who can hold her own in any social setting—from a high-profile corporate dinner in Indiranagar to a relaxed, intimate evening in Koramangala. We ensure that our escorts are polite, articulate, and dedicated to providing a Girlfriend Experience (GFE) that feels incredibly natural and unforced.
+                When you <strong>book call girls in Jaipur</strong> through us, you are guaranteed to meet a companion who can hold her own in any social setting—from a high-profile corporate dinner in Bani Park to a relaxed, intimate evening in Mansarovar. We ensure that our escorts are polite, articulate, and dedicated to providing a Girlfriend Experience (GFE) that feels incredibly natural and unforced.
               </p>
             </div>
 
             <div className="bg-card border border-border p-8 rounded-lg">
               <h2 className="font-display text-3xl text-gold-gradient mb-4">Uncompromising Hygiene & Safety Standards</h2>
               <p className="mb-4">
-                In the luxury adult entertainment and premium spa industry, health and hygiene are non-negotiable. At Suman Escorts Jaipur, we have instituted the highest health protocols for both our clients and our companions. Our incall facility in <strong>Koramangala</strong> is sanitized daily, and fresh linens, premium toiletries, and a completely immaculate environment are guaranteed for every single booking.
+                In the luxury adult entertainment and premium spa industry, health and hygiene are non-negotiable. At Suman Escorts Jaipur, we have instituted the highest health protocols for both our clients and our companions. Our incall facility in <strong>Mansarovar</strong> is sanitized daily, and fresh linens, premium toiletries, and a completely immaculate environment are guaranteed for every single booking.
               </p>
               <p className="mb-4">
                 Furthermore, we prioritize the safety and well-being of our <strong>Jaipur escort girls</strong> just as much as our clients. We operate a secure, verified booking system that protects the identities of everyone involved. This mutual respect creates a stress-free environment where both you and your companion can truly relax and enjoy the moment without any underlying anxieties.
@@ -106,7 +106,7 @@ export default function AboutPage() {
             <div>
               <h2 className="font-display text-3xl text-gold-gradient mb-4">A Premium Spa Experience</h2>
               <p className="mb-4">
-                Beyond being a premier escort service Jaipur, we are a holistic relaxation destination. Our facilities in Koramangala are equipped to provide you with a transcendent spa experience. From the moment you step through our doors, you will be enveloped in an atmosphere of luxury and tranquility. 
+                Beyond being a premier escort service Jaipur, we are a holistic relaxation destination. Our facilities in Mansarovar are equipped to provide you with a transcendent spa experience. From the moment you step through our doors, you will be enveloped in an atmosphere of luxury and tranquility. 
               </p>
               <p>
                 Our services are tailored to melt away stress and leave you rejuvenated. By combining the therapeutic benefits of a premium spa with the enchanting company of our exclusive call girls in Jaipur, we guarantee an experience that satisfies both body and mind. It is this unique synthesis of wellness and companionship that has cemented our reputation at the very top.
@@ -124,12 +124,12 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <h2 className="font-display text-3xl text-gold-gradient mb-4">Why Koramangala?</h2>
+              <h2 className="font-display text-3xl text-gold-gradient mb-4">Why Mansarovar?</h2>
               <p className="mb-4">
-                We chose Koramangala as our primary hub for a very strategic reason: accessibility. As the central transit and commercial nexus of Jaipur, Koramangala allows us to swiftly and efficiently serve clients arriving from all over the country and the world. 
+                We chose Mansarovar as our primary hub for a very strategic reason: accessibility. As the central transit and commercial nexus of Jaipur, Mansarovar allows us to swiftly and efficiently serve clients arriving from all over the country and the world. 
               </p>
               <p>
-                Being based in Koramangala means our incall facilities are easily reachable, and our outcall companions can navigate to any major hotel or residence in Jaipur with minimal delay. When you book with us, you are booking a service that is deeply rooted in the local infrastructure, ensuring promptness and reliability every single time.
+                Being based in Mansarovar means our incall facilities are easily reachable, and our outcall companions can navigate to any major hotel or residence in Jaipur with minimal delay. When you book with us, you are booking a service that is deeply rooted in the local infrastructure, ensuring promptness and reliability every single time.
               </p>
             </div>
 
