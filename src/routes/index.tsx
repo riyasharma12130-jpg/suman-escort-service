@@ -85,7 +85,7 @@ export default function Landing() {
         <img src={heroImg} alt="Premium escort service in jaipur" width={1920} height={1200} className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
         <div className="relative z-10 mx-auto max-w-4xl px-6 text-center animate-fade-in">
-          <p className="mb-6 text-xs uppercase tracking-[0.4em] text-primary">𝗛𝗔𝗦𝗦𝗔𝗡 • 𝗠𝗬𝗦𝗢𝗥𝗘 • 𝗗𝗜𝗚𝗛𝗔</p>
+          <p className="mb-6 text-xs uppercase tracking-[0.4em] text-primary">VAISHALI NAGAR • MALVIYA NAGAR • C-SCHEME</p>
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-light leading-[1.05]">
             Jaipur Escorts <span className="italic text-gold-gradient">&</span>
             <br />
