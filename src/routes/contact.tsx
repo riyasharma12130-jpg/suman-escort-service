@@ -46,7 +46,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-display text-lg mb-2">Business Address</h3>
-                  <p className="text-muted-foreground">Suman Escort Service<br />Koramangala, Jaipur<br />Rajasthan 560001, IN</p>
+                  <p className="text-muted-foreground">Suman Varma Call Girls<br />Koramangala, Jaipur<br />Rajasthan 560001, IN</p>
                 </div>
                 <div>
                   <h3 className="font-display text-lg mb-2">Availability</h3>
@@ -110,7 +110,7 @@ export default function ContactPage() {
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Google Map Location of Suman Escort Service in Koramangala, Jaipur"
+              title="Google Map Location of Suman Varma Call Girls in Koramangala, Jaipur"
             ></iframe>
           </div>
 
@@ -118,7 +118,7 @@ export default function ContactPage() {
             <h2 className="font-display text-2xl mb-6 text-gold-gradient text-center">Communication Policy & Privacy</h2>
             <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
               <p>
-                When you contact Suman Escort Service, you are engaging with the most professional <strong>escort service Jaipur</strong> has to offer. We understand that reaching out for adult companionship requires a high degree of trust, which is why our communication policy is built entirely around your privacy and discretion.
+                When you contact Suman Varma Call Girls, you are engaging with the most professional <strong>escort service Jaipur</strong> has to offer. We understand that reaching out for adult companionship requires a high degree of trust, which is why our communication policy is built entirely around your privacy and discretion.
               </p>
               <p>
                 <strong>Confidentiality Guarantee:</strong> Every Telegram message, phone call, and inquiry is treated with strict confidentiality. We never store your contact information for marketing purposes, nor do we share it with third parties. Once your service is completed, your chat history on our end is routinely cleared to protect your identity.

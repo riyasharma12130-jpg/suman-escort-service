@@ -6,8 +6,8 @@ export const Route = createFileRoute("/report")({
   component: ReportPage,
   head: () => ({
     meta: [
-      { title: "Report an Issue | Suman Escort Service" },
-      { name: "description", content: "Report any issues or concerns to Suman Escort Service management. We take your privacy and satisfaction seriously." },
+      { title: "Report an Issue | Suman Varma Call Girls" },
+      { name: "description", content: "Report any issues or concerns to Suman Varma Call Girls management. We take your privacy and satisfaction seriously." },
     ],
   }),
 });
@@ -39,7 +39,7 @@ export default function ReportPage() {
             'Accept': 'application/json'
         },
         body: JSON.stringify({
-            _subject: "New Issue Report - Suman Escort Service",
+            _subject: "New Issue Report - Suman Varma Call Girls",
             _template: "table",
             Name: formData.name,
             Phone: formData.phone,

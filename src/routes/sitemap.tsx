@@ -5,8 +5,8 @@ export const Route = createFileRoute("/sitemap")({
   component: SitemapPage,
   head: () => ({
     meta: [
-      { title: "Sitemap | Suman Escort Service" },
-      { name: "description", content: "Complete directory of Suman Escort Service. Find links to all our Jaipur, Hassan, Mysore, and Digha escort location pages." },
+      { title: "Sitemap | Suman Varma Call Girls" },
+      { name: "description", content: "Complete directory of Suman Varma Call Girls. Find links to all our Jaipur, Hassan, Mysore, and Digha escort location pages." },
     ],
   }),
 });
