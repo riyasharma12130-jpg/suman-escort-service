@@ -13,7 +13,7 @@ export const Route = createFileRoute("/areas")({
 });
 
 export default function AreasPage() {
-  const telegramLink = "https://t.me/Sonal_0101";
+  const telegramLink = "https://t.me/SUMAN_VARMA_SPA";
 
   return (
     <div className="min-h-screen bg-background text-foreground">

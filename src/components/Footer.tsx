@@ -12,7 +12,7 @@ export function Footer() {
               Premium companionship agency providing 100% verified independent call girls. We strictly operate on a Zero Advance Payment model. Direct cash only.
             </p>
             <div className="flex gap-4">
-              <a href="https://t.me/Sonal_0101" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition">
+              <a href="https://t.me/SUMAN_VARMA_SPA" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-primary transition">
                 Telegram
               </a>
             </div>

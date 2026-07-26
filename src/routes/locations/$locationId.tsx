@@ -22,7 +22,7 @@ export const Route = createFileRoute("/locations/$locationId")({
 
 function LocationPage() {
   const { locationId } = Route.useParams();
-  const telegramLink = "https://t.me/Sonal_0101";
+  const telegramLink = "https://t.me/SUMAN_VARMA_SPA";
   
   // Format locationId for display
   const formattedLocation = locationId

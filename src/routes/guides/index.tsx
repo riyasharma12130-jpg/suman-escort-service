@@ -18,8 +18,8 @@ export const Route = createFileRoute("/guides/")({
 });
 
 function GuidesPage() {
-  const telegramHandle = "@Sonal_0101";
-  const telegramLink = "https://t.me/Sonal_0101";
+  const telegramHandle = "@SUMAN_VARMA_SPA";
+  const telegramLink = "https://t.me/SUMAN_VARMA_SPA";
 
   const articles = [
     {

@@ -26,10 +26,10 @@ function AdminRoute() {
     const savedTelegramHandle = localStorage.getItem("telegramHandle");
     
     if (savedTelegramLink) setTelegramLink(savedTelegramLink);
-    else setTelegramLink("https://t.me/Sonal_0101"); // Default fallback
+    else setTelegramLink("https://t.me/SUMAN_VARMA_SPA"); // Default fallback
     
     if (savedTelegramHandle) setTelegramHandle(savedTelegramHandle);
-    else setTelegramHandle("@Sonal_0101"); // Default fallback
+    else setTelegramHandle("@SUMAN_VARMA_SPA"); // Default fallback
   }, [navigate]);
 
   const handleSave = (e: React.FormEvent) => {
