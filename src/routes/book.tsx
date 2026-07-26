@@ -11,9 +11,9 @@ export const Route = createFileRoute("/book")({
   component: BookPage,
   head: () => ({
     meta: [
-      { title: "Book VIP Bangalore Escorts | Direct Cash Payment Call Girls" },
-      { name: "description", content: "Book genuine Bangalore call girls & VIP escorts safely. 24/7 booking available for hotel outcalls and incalls with complete privacy and Direct Cash Payment." },
-      { name: "keywords", content: "book escort service Bangalore, kavya escort service booking, call girl booking Bangalore, escort service booking in Koramangala" },
+      { title: "Book VIP Jaipur Escorts | Direct Cash Payment Call Girls" },
+      { name: "description", content: "Book genuine Jaipur call girls & VIP escorts safely. 24/7 booking available for hotel outcalls and incalls with complete privacy and Direct Cash Payment." },
+      { name: "keywords", content: "book escort service Jaipur, Suman Escort Service booking, call girl booking Jaipur, escort service booking in Koramangala" },
     ],
   }),
 });
@@ -31,7 +31,7 @@ export default function BookPage() {
         <div className="mx-auto max-w-4xl px-6">
           <div className="text-center mb-16">
             <p className="text-xs uppercase tracking-[0.4em] text-primary mb-4">Booking</p>
-            <h1 className="font-display text-4xl md:text-6xl font-light">Book Your Bangalore Escort</h1>
+            <h1 className="font-display text-4xl md:text-6xl font-light">Book Your Jaipur Escort</h1>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12">
@@ -97,7 +97,7 @@ export default function BookPage() {
             <h2 className="font-display text-2xl mb-6 text-gold-gradient">Important Booking Guidelines</h2>
             <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
               <p>
-                As the leading <strong>escort service Bangalore</strong>, we maintain strict guidelines to ensure the safety and satisfaction of both our clients and our companions. Please read these terms carefully before proceeding with your booking.
+                As the leading <strong>escort service Jaipur</strong>, we maintain strict guidelines to ensure the safety and satisfaction of both our clients and our companions. Please read these terms carefully before proceeding with your booking.
               </p>
               <ul className="list-disc pl-5 space-y-2">
                 <li><strong>Age Verification:</strong> You must be at least 18 years of old to use our services. Valid ID may be required upon request.</li>
@@ -107,7 +107,7 @@ export default function BookPage() {
                 <li><strong>Privacy:</strong> We guarantee 100% discretion. In return, we expect our clients to respect the privacy of our companions. No unauthorized photography or recording is permitted under any circumstances.</li>
               </ul>
               <p className="mt-4">
-                By contacting us to <strong>book call girls in Bangalore</strong>, you automatically agree to abide by these guidelines. We are committed to providing a safe, luxurious, and unforgettable experience for all parties involved.
+                By contacting us to <strong>book call girls in Jaipur</strong>, you automatically agree to abide by these guidelines. We are committed to providing a safe, luxurious, and unforgettable experience for all parties involved.
               </p>
             </div>
           </div>

@@ -81,18 +81,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "google-site-verification", content: "jxESRVjN5XoFAcmwonYhi6dzJ8GzTTLfTxW2jthxhlE" },
-      { title: "Bangalore & Karnataka Escorts | ₹3,000/Hr | Kavya Escort Service" },
-      { name: "description", content: "Book verified call girls in Bangalore, Hassan, Mysore, and Karnataka from ₹3,000/hr. 500+ real profiles, 100% privacy, 24/7 escort service. Cash payment, no advance." },
+      { title: "Jaipur Escorts | ₹3,000/Hr | Suman Escort Service" },
+      { name: "description", content: "Book verified call girls in Jaipur, Hassan, Mysore, and Rajasthan from ₹3,000/hr. 500+ real profiles, 100% privacy, 24/7 escort service. Cash payment, no advance." },
       { name: "keywords", content: "karnataka escort service, hassan escorts, mysore call girls, digha escorts, bangalore escort service, bangalore call girls, call girls in bangalore, escort service in bangalore, koramangala call girls, indiranagar escorts, whitefield call girls, kannada call girl, independent call girls bangalore, russian escorts bangalore, VIP call girls, hotel call girl, call girl near me, call girl service karnataka, cheap call girl, cash payment call girls, best escort service, call girl number, escort near me, independent escort, bangalore escort girls, call girls, call girl service, bangalore independent call girls, escort agency, celebrity escorts, model escorts, massage service, full night escort, incall escort, outcall escort, कॉल गर्ल, एस्कॉर्ट सर्विस, कॉल गर्ल नंबर, कॉल गर्ल नियर मी" },
       { name: "robots", content: "index, follow, max-snippet:-1, max-image-preview:large" },
-      { name: "author", content: "Kavya Escort Service" },
-      { property: "og:site_name", content: "Kavya Escort Service Karnataka" },
-      { property: "og:title", content: "Bangalore & Karnataka Escorts | ₹3,000/Hr | Verified Call Girls" },
-      { property: "og:description", content: "Book verified call girls across Karnataka from ₹3,000/hr. 500+ real profiles, 100% privacy, 24/7 escort service." },
+      { name: "author", content: "Suman Escort Service" },
+      { property: "og:site_name", content: "Suman Escort Service Rajasthan" },
+      { property: "og:title", content: "Jaipur Escorts | ₹3,000/Hr | Verified Call Girls" },
+      { property: "og:description", content: "Book verified call girls across Rajasthan from ₹3,000/hr. 500+ real profiles, 100% privacy, 24/7 escort service." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Bangalore & Karnataka Escorts | ₹3,000/Hr | Verified Call Girls" },
-      { name: "twitter:description", content: "Book verified call girls across Karnataka from ₹3,000/hr. 500+ real profiles, 100% privacy." },
+      { name: "twitter:title", content: "Jaipur Escorts | ₹3,000/Hr | Verified Call Girls" },
+      { name: "twitter:description", content: "Book verified call girls across Rajasthan from ₹3,000/hr. 500+ real profiles, 100% privacy." },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -114,9 +114,9 @@ function RootShell({ children }: { children: ReactNode }) {
     "@graph": [
       {
         "@type": "WebSite",
-        "name": "Kavya Escort Service Bangalore",
+        "name": "Suman Escort Service Jaipur",
         "url": "https://kavyaescortservice.com/",
-        "description": "Bangalore's most trusted escort service agency with 500+ verified call girls. Available 24/7 across all Bangalore areas.",
+        "description": "Jaipur's most trusted escort service agency with 500+ verified call girls. Available 24/7 across all Jaipur areas.",
         "potentialAction": {
           "@type": "SearchAction",
           "target": "https://kavyaescortservice.com/?q={search_term_string}",
@@ -125,16 +125,16 @@ function RootShell({ children }: { children: ReactNode }) {
       },
       {
         "@type": "LocalBusiness",
-        "name": "Kavya Escort Service Bangalore",
+        "name": "Suman Escort Service Jaipur",
         "telephone": "+919928561640",
-        "email": "kavyaescortservice@gmail.com",
+        "email": "sumanescortservice@gmail.com",
         "priceRange": "₹₹₹",
         "image": "/images/photo_2026-07-23_23-02-09.jpg",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "MG Road",
-          "addressLocality": "Bangalore",
-          "addressRegion": "Karnataka",
+          "streetAddress": "MI Road",
+          "addressLocality": "Jaipur",
+          "addressRegion": "Rajasthan",
           "postalCode": "560001",
           "addressCountry": "IN"
         },
@@ -144,32 +144,32 @@ function RootShell({ children }: { children: ReactNode }) {
           "longitude": 77.5946
         },
         "areaServed": [
-          "Koramangala, Bangalore",
-          "Indiranagar, Bangalore",
-          "Whitefield, Bangalore",
-          "MG Road, Bangalore",
-          "Electronic City, Bangalore",
-          "HSR Layout, Bangalore",
-          "BTM Layout, Bangalore",
-          "Marathahalli, Bangalore",
-          "JP Nagar, Bangalore",
-          "Jayanagar, Bangalore",
-          "Hebbal, Bangalore",
-          "Bellandur, Bangalore",
-          "Sarjapur Road, Bangalore",
-          "Yelahanka, Bangalore",
-          "Manyata Tech Park, Bangalore",
-          "Bannerghatta Road, Bangalore",
-          "Majestic, Bangalore",
-          "Brigade Road, Bangalore",
-          "UB City, Bangalore",
-          "Bangalore",
+          "Koramangala, Jaipur",
+          "Indiranagar, Jaipur",
+          "Whitefield, Jaipur",
+          "MI Road, Jaipur",
+          "Electronic City, Jaipur",
+          "HSR Layout, Jaipur",
+          "BTM Layout, Jaipur",
+          "Marathahalli, Jaipur",
+          "JP Nagar, Jaipur",
+          "Jayanagar, Jaipur",
+          "Hebbal, Jaipur",
+          "Bellandur, Jaipur",
+          "Sarjapur Road, Jaipur",
+          "Yelahanka, Jaipur",
+          "Manyata Tech Park, Jaipur",
+          "Bannerghatta Road, Jaipur",
+          "Majestic, Jaipur",
+          "Brigade Road, Jaipur",
+          "UB City, Jaipur",
+          "Jaipur",
           "Hassan",
           "Mysore",
           "Mangalore",
           "Hubli",
           "Digha",
-          "Karnataka"
+          "Rajasthan"
         ],
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
@@ -194,23 +194,23 @@ function RootShell({ children }: { children: ReactNode }) {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "How to book call girls in Bangalore?",
+            "name": "How to book call girls in Jaipur?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Simply call or Telegram @Sonal_0101. Share your preferred time, location, and companion preference. Our team responds within minutes and arranges a verified companion at your location within 30-45 minutes."
+              "text": "Simply call or Telegram @SUMAN_VARMA_SPA. Share your preferred time, location, and companion preference. Our team responds within minutes and arranges a verified companion at your location within 30-45 minutes."
             }
           },
           {
             "@type": "Question",
-            "name": "What areas of Bangalore do you cover?",
+            "name": "What areas of Jaipur do you cover?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We cover ALL of Bangalore — Koramangala, Indiranagar, Whitefield, MG Road, Electronic City, HSR Layout, BTM Layout, Marathahalli, Hebbal, JP Nagar, Jayanagar, Sarjapur, Bellandur, Yelahanka, and 50+ more areas."
+              "text": "We cover ALL of Jaipur — Koramangala, Indiranagar, Whitefield, MI Road, Electronic City, HSR Layout, BTM Layout, Marathahalli, Hebbal, JP Nagar, Jayanagar, Sarjapur, Bellandur, Yelahanka, and 50+ more areas."
             }
           },
           {
             "@type": "Question",
-            "name": "Are the photos of call girls in Bangalore 100% genuine?",
+            "name": "Are the photos of call girls in Jaipur 100% genuine?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "Absolutely. Every profile photo is verified directly with the companion. No stock images, no fake profiles. What you see is exactly who arrives — guaranteed."
@@ -248,10 +248,10 @@ function RootShell({ children }: { children: ReactNode }) {
 function MobileActionBar() {
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 flex md:hidden h-[60px] font-medium text-white shadow-[0_-4px_20px_rgba(0,0,0,0.5)]">
-      <a href="https://t.me/Sonal_0101" target="_blank" rel="noreferrer" className="flex-1 flex items-center justify-center bg-[#0088cc] hover:bg-[#0088cc]/90 transition text-lg tracking-wide">
+      <a href="https://t.me/SUMAN_VARMA_SPA" target="_blank" rel="noreferrer" className="flex-1 flex items-center justify-center bg-[#0088cc] hover:bg-[#0088cc]/90 transition text-lg tracking-wide">
         Telegram
       </a>
-      <a href="https://wa.me/919928561640" target="_blank" rel="noreferrer" className="flex-1 flex items-center justify-center bg-[#25D366] hover:bg-[#25D366]/90 transition text-lg tracking-wide">
+      <a href="#" target="_blank" rel="noreferrer" className="flex-1 flex items-center justify-center bg-[#25D366] hover:bg-[#25D366]/90 transition text-lg tracking-wide">
         WhatsApp
       </a>
     </div>
@@ -261,10 +261,10 @@ function MobileActionBar() {
 function DesktopContactWidget() {
   return (
     <div className="fixed bottom-8 right-8 z-50 hidden md:flex flex-col gap-4">
-      <a href="https://wa.me/919928561640" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-full shadow-[0_4px_15px_rgba(0,0,0,0.3)] hover:bg-[#25D366]/90 transition transform hover:scale-105 font-medium text-lg">
+      <a href="#" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-full shadow-[0_4px_15px_rgba(0,0,0,0.3)] hover:bg-[#25D366]/90 transition transform hover:scale-105 font-medium text-lg">
         WhatsApp
       </a>
-      <a href="https://t.me/Sonal_0101" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 bg-[#0088cc] text-white px-6 py-3 rounded-full shadow-[0_4px_15px_rgba(0,0,0,0.3)] hover:bg-[#0088cc]/90 transition transform hover:scale-105 font-medium text-lg">
+      <a href="https://t.me/SUMAN_VARMA_SPA" target="_blank" rel="noreferrer" className="flex items-center justify-center gap-2 bg-[#0088cc] text-white px-6 py-3 rounded-full shadow-[0_4px_15px_rgba(0,0,0,0.3)] hover:bg-[#0088cc]/90 transition transform hover:scale-105 font-medium text-lg">
         Telegram
       </a>
     </div>

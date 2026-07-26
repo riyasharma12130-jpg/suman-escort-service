@@ -11,9 +11,9 @@ export const Route = createFileRoute("/contact")({
   component: ContactPage,
   head: () => ({
     meta: [
-      { title: "Contact Us | Book Bangalore Call Girls (No Advance Payment)" },
-      { name: "description", content: "Contact the top Bangalore escorts agency for discreet booking. We offer genuine call girls with 100% Direct Cash Payment and zero advance payment. Telegram @Sonal_0101." },
-      { name: "keywords", content: "contact escort service Bangalore, call girls in Bangalore contact, Bangalore escort service contact, Koramangala spa contact" },
+      { title: "Contact Us | Book Jaipur Call Girls (No Advance Payment)" },
+      { name: "description", content: "Contact the top Jaipur escorts agency for discreet booking. We offer genuine call girls with 100% Direct Cash Payment and zero advance payment. Telegram @Sonal_0101." },
+      { name: "keywords", content: "contact escort service Jaipur, call girls in Jaipur contact, Jaipur escort service contact, Koramangala spa contact" },
     ],
   }),
 });
@@ -46,7 +46,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-display text-lg mb-2">Business Address</h3>
-                  <p className="text-muted-foreground">Kavya Escort Service<br />Koramangala, Bangalore<br />Karnataka 560001, IN</p>
+                  <p className="text-muted-foreground">Suman Escort Service<br />Koramangala, Jaipur<br />Rajasthan 560001, IN</p>
                 </div>
                 <div>
                   <h3 className="font-display text-lg mb-2">Availability</h3>
@@ -84,7 +84,7 @@ export default function ContactPage() {
                 </li>
                 <li className="flex gap-3">
                   <span className="text-primary">✓</span>
-                  <span>Discreet Hotel Outcall service across Bangalore</span>
+                  <span>Discreet Hotel Outcall service across Jaipur</span>
                 </li>
               </ul>
             </div>
@@ -103,14 +103,14 @@ export default function ContactPage() {
 
           <div className="bg-card border border-border rounded-lg p-2 mt-8 overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124409.68916327344!2d77.53123842106392!3d12.983944605994263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1704200000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124409.68916327344!2d77.53123842106392!3d12.983944605994263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1704200000000!5m2!1sen!2sin"
               width="100%"
               height="350"
               style={{ border: 0, borderRadius: '0.5rem' }}
               allowFullScreen={true}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Google Map Location of Kavya Escort Service in Koramangala, Bangalore"
+              title="Google Map Location of Suman Escort Service in Koramangala, Jaipur"
             ></iframe>
           </div>
 
@@ -118,13 +118,13 @@ export default function ContactPage() {
             <h2 className="font-display text-2xl mb-6 text-gold-gradient text-center">Communication Policy & Privacy</h2>
             <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
               <p>
-                When you contact Kavya Escort Service, you are engaging with the most professional <strong>escort service Bangalore</strong> has to offer. We understand that reaching out for adult companionship requires a high degree of trust, which is why our communication policy is built entirely around your privacy and discretion.
+                When you contact Suman Escort Service, you are engaging with the most professional <strong>escort service Jaipur</strong> has to offer. We understand that reaching out for adult companionship requires a high degree of trust, which is why our communication policy is built entirely around your privacy and discretion.
               </p>
               <p>
                 <strong>Confidentiality Guarantee:</strong> Every Telegram message, phone call, and inquiry is treated with strict confidentiality. We never store your contact information for marketing purposes, nor do we share it with third parties. Once your service is completed, your chat history on our end is routinely cleared to protect your identity.
               </p>
               <p>
-                <strong>Response Time:</strong> Our customer support team is available 24/7. When you want to <strong>book call girls in Bangalore</strong>, we know that time is of the essence. We strive to respond to all Telegram inquiries within minutes, providing you with real-time updates on companion availability, recent photos, and travel times for outcall services to areas like Indiranagar, Whitefield, and Koramangala.
+                <strong>Response Time:</strong> Our customer support team is available 24/7. When you want to <strong>book call girls in Jaipur</strong>, we know that time is of the essence. We strive to respond to all Telegram inquiries within minutes, providing you with real-time updates on companion availability, recent photos, and travel times for outcall services to areas like Indiranagar, Whitefield, and Koramangala.
               </p>
               <p>
                 Please note that we do not entertain time-wasters, bargainers, or individuals looking for explicit chat services. Our communication lines are dedicated solely to serious clients looking to book genuine, premium companions for real-world encounters.

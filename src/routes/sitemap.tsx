@@ -5,23 +5,23 @@ export const Route = createFileRoute("/sitemap")({
   component: SitemapPage,
   head: () => ({
     meta: [
-      { title: "Sitemap | Kavya Escort Service" },
-      { name: "description", content: "Complete directory of Kavya Escort Service. Find links to all our Bangalore, Hassan, Mysore, and Digha escort location pages." },
+      { title: "Sitemap | Suman Escort Service" },
+      { name: "description", content: "Complete directory of Suman Escort Service. Find links to all our Jaipur, Hassan, Mysore, and Digha escort location pages." },
     ],
   }),
 });
 
 export default function SitemapPage() {
   const locations = [
-    { id: 'hassan-call-girls', label: 'Hassan Call Girls' },
-    { id: 'mysore-call-girls', label: 'Mysore Call Girls' },
-    { id: 'digha-call-girls', label: 'Digha Escorts' },
+    { id: 'vaishali-nagar-call-girls', label: 'Vaishali Nagar Call Girls' },
+    { id: 'malviya-nagar-call-girls', label: 'Malviya Nagar Call Girls' },
+    { id: 'c-scheme-escorts', label: 'C-Scheme Escorts' },
     { id: 'mangalore-call-girls', label: 'Mangalore Escorts' },
     { id: 'hubli-call-girls', label: 'Hubli Escorts' },
-    { id: 'koramangala-call-girls', label: 'Koramangala Escorts' },
-    { id: 'indiranagar-call-girls', label: 'Indiranagar Escorts' },
+    { id: 'mansarovar-escorts', label: 'Mansarovar Escorts' },
+    { id: 'raja-park-escorts', label: 'Raja Park Escorts' },
     { id: 'whitefield-call-girls', label: 'Whitefield Escorts' },
-    { id: 'mg-road-escorts', label: 'MG Road Escorts' },
+    { id: 'mg-road-escorts', label: 'MI Road Escorts' },
     { id: 'hsr-layout-call-girls', label: 'HSR Layout Call Girls' },
     { id: 'jp-nagar-call-girls', label: 'JP Nagar Call Girls' },
     { id: 'jayanagar-escorts', label: 'Jayanagar Escorts' },
@@ -38,7 +38,7 @@ export default function SitemapPage() {
             <p className="text-xs uppercase tracking-[0.4em] text-primary mb-4">Directory</p>
             <h1 className="font-display text-4xl md:text-6xl font-light mb-6">HTML Sitemap</h1>
             <p className="text-lg text-muted-foreground">
-              A complete guide to our services, locations, and policies across Karnataka and beyond.
+              A complete guide to our services, locations, and policies across Rajasthan and beyond.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export default function SitemapPage() {
             </div>
 
             <div className="bg-card border border-border p-8 rounded-lg md:col-span-2">
-              <h2 className="font-display text-2xl text-gold-gradient mb-6 border-b border-border/50 pb-4">Service Locations (Karnataka & Beyond)</h2>
+              <h2 className="font-display text-2xl text-gold-gradient mb-6 border-b border-border/50 pb-4">Service Locations (Rajasthan & Beyond)</h2>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {locations.map((loc) => (
                   <Link 

@@ -9,7 +9,7 @@ const TelegramIcon = ({ className }: { className?: string }) => (
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const telegramLink = "https://t.me/Sonal_0101";
+  const telegramLink = "https://t.me/SUMAN_VARMA_SPA";
 
   const navLinks = [
     { href: "/", label: "HOME" },
@@ -26,7 +26,7 @@ export function Header() {
     <header className="fixed top-0 z-50 w-full backdrop-blur-md bg-background/90 border-b border-border">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
         <a href="/" className="font-display text-2xl tracking-wide text-gold-gradient relative z-50">
-          Kavya Escort Service
+          Suman Escorts Jaipur
         </a>
         
         {/* Desktop Nav */}

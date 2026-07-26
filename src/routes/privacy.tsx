@@ -5,7 +5,7 @@ export const Route = createFileRoute("/privacy")({
   component: PrivacyPage,
   head: () => ({
     meta: [
-      { title: "Privacy Policy | Kavya Escort Service" },
+      { title: "Privacy Policy | Suman Escort Service" },
       { name: "description", content: "Read our strict privacy policy. We guarantee 100% confidentiality, no data retention, and untraceable Direct Cash Payments for all escort bookings." },
     ],
   }),
@@ -29,7 +29,7 @@ export default function PrivacyPage() {
           <div className="prose prose-invert max-w-none text-muted-foreground">
             
             <p className="text-lg leading-relaxed mb-8">
-              At Kavya Escort Service, we understand that discretion and confidentiality are the most important factors for our clients. This Privacy Policy outlines our strict data handling practices and our commitment to ensuring that your interactions with our agency remain completely private and untraceable.
+              At Suman Escort Service, we understand that discretion and confidentiality are the most important factors for our clients. This Privacy Policy outlines our strict data handling practices and our commitment to ensuring that your interactions with our agency remain completely private and untraceable.
             </p>
 
             <h2 className="font-display text-2xl text-white mt-12 mb-6">1. Zero Data Retention Policy</h2>
@@ -52,7 +52,7 @@ export default function PrivacyPage() {
 
             <h2 className="font-display text-2xl text-white mt-12 mb-6">4. Hotel & Outcall Discretion</h2>
             <p className="mb-6 leading-relaxed">
-              When providing outcall services to hotels, resorts, or private residences in areas like Hassan, Mysore, Digha, or Bangalore, our companions are trained to arrive discreetly. They do not carry branded agency material and conduct themselves as regular guests or acquaintances, ensuring that hotel staff or neighbors are unaware of the nature of the visit.
+              When providing outcall services to hotels, resorts, or private residences in areas like Hassan, Mysore, Digha, or Jaipur, our companions are trained to arrive discreetly. They do not carry branded agency material and conduct themselves as regular guests or acquaintances, ensuring that hotel staff or neighbors are unaware of the nature of the visit.
             </p>
 
             <h2 className="font-display text-2xl text-white mt-12 mb-6">5. Confidentiality of Companions</h2>
