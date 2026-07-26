@@ -6,8 +6,8 @@ export const Route = createFileRoute("/report")({
   component: ReportPage,
   head: () => ({
     meta: [
-      { title: "Report an Issue | Suman Escorts Jaipur" },
-      { name: "description", content: "Report any issues or concerns to Suman Escorts Jaipur management. We take your privacy and satisfaction seriously." },
+      { title: "Report an Issue | Suman Escorts" },
+      { name: "description", content: "Report any issues or concerns to Suman Escorts management. We take your privacy and satisfaction seriously." },
     ],
   }),
 });
@@ -39,7 +39,7 @@ export default function ReportPage() {
             'Accept': 'application/json'
         },
         body: JSON.stringify({
-            _subject: "New Issue Report - Suman Escorts Jaipur",
+            _subject: "New Issue Report - Suman Escorts",
             _template: "table",
             Name: formData.name,
             Phone: formData.phone,

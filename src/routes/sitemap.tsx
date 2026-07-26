@@ -5,8 +5,8 @@ export const Route = createFileRoute("/sitemap")({
   component: SitemapPage,
   head: () => ({
     meta: [
-      { title: "Sitemap | Suman Escorts Jaipur" },
-      { name: "description", content: "Complete directory of Suman Escorts Jaipur. Find links to all our Jaipur, Vaishali Nagar, Malviya Nagar, and C-Scheme escort location pages." },
+      { title: "Sitemap | Suman Escorts" },
+      { name: "description", content: "Complete directory of Suman Escorts. Find links to all our Jaipur, Vaishali Nagar, Malviya Nagar, and C-Scheme escort location pages." },
     ],
   }),
 });
@@ -38,7 +38,7 @@ export default function SitemapPage() {
             <p className="text-xs uppercase tracking-[0.4em] text-primary mb-4">Directory</p>
             <h1 className="font-display text-4xl md:text-6xl font-light mb-6">HTML Sitemap</h1>
             <p className="text-lg text-muted-foreground">
-              A complete guide to our services, locations, and policies across Rajasthan and beyond.
+              A complete guide to our services, locations, and policies across India and beyond.
             </p>
           </div>
 

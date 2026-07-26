@@ -5,7 +5,7 @@ export const Route = createFileRoute("/help")({
   component: HelpPage,
   head: () => ({
     meta: [
-      { title: "Help & FAQ | Suman Escorts Jaipur Booking Guide" },
+      { title: "Help & FAQ | Suman Escorts Booking Guide" },
       { name: "description", content: "Frequently asked questions about booking call girls. Learn about our strict Direct Cash Payment policy, incall/outcall differences, and privacy guarantees." },
     ],
   }),

@@ -6,8 +6,8 @@ export const Route = createFileRoute("/areas")({
   head: () => ({
     meta: [
       { title: "Rajasthan Escorts Locations | Jaipur, Vaishali Nagar, Malviya Nagar & C-Scheme" },
-      { name: "description", content: "Looking for independent call girls near you? We serve all major areas across Rajasthan including Jaipur, Vaishali Nagar, Malviya Nagar, Jagatpura, Civil Lines, and C-Scheme." },
-      { name: "keywords", content: "karnataka escort service, Vaishali Nagar escorts, Malviya Nagar call girls, C-Scheme escorts, Jagatpura call girls, Civil Lines escorts, escort service Jaipur" },
+      { name: "description", content: "Looking for independent call girls near you? We serve all major areas across India including Jaipur, Vaishali Nagar, Malviya Nagar, Jagatpura, Civil Lines, and C-Scheme." },
+      { name: "keywords", content: "karnataka escort service, Vaishali Nagar escorts, Malviya Nagar call girls, C-Scheme escorts, Jagatpura call girls, Civil Lines escorts, escort service India" },
     ],
   }),
 });
@@ -22,9 +22,9 @@ export default function AreasPage() {
       <section className="pt-32 pb-16 bg-radial-glow">
         <div className="mx-auto max-w-4xl px-6 text-center">
           <p className="text-xs uppercase tracking-[0.4em] text-primary mb-4">Locations</p>
-          <h1 className="font-display text-4xl md:text-6xl font-light mb-8">Locations in Rajasthan & Beyond</h1>
+          <h1 className="font-display text-4xl md:text-6xl font-light mb-8">Locations in India & Beyond</h1>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            As a leading premium escort agency, we provide incall and outcall services across all major localities in Jaipur, major cities in Rajasthan (like Vaishali Nagar and Malviya Nagar), and exclusive coastal destinations like C-Scheme.
+            As a leading premium escort agency, we provide incall and outcall services across all major localities in India, major cities in India (like Vaishali Nagar and Malviya Nagar), and exclusive coastal destinations like C-Scheme.
           </p>
         </div>
       </section>
@@ -81,7 +81,7 @@ export default function AreasPage() {
             <h2 className="font-display text-3xl text-gold-gradient mb-6 text-center">State-Wide Logistics & Delivery</h2>
             <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
               <p>
-                As the most prominent <strong>Rajasthan escort service</strong>, we have established a highly efficient logistics network to ensure our companions can reach you across the state promptly and safely. From luxury resorts on the outskirts of Vaishali Nagar to business hotels in Jaipur's city center, premium companionship is just a booking away.
+                As the most prominent <strong>Rajasthan escort service</strong>, we have established a highly efficient logistics network to ensure our companions can reach you across the state promptly and safely. From luxury resorts on the outskirts of Vaishali Nagar to business hotels in India's city center, premium companionship is just a booking away.
               </p>
               <p>
                 <strong>Fast City Arrivals:</strong> For clients in major metropolitan areas, we guarantee extremely fast arrival times (usually 30-45 minutes). We understand that businessmen often have tight schedules.

@@ -81,18 +81,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "google-site-verification", content: "jxESRVjN5XoFAcmwonYhi6dzJ8GzTTLfTxW2jthxhlE" },
-      { title: "Jaipur Escorts | ₹3,000/Hr | Suman Escorts Jaipur" },
-      { name: "description", content: "Book verified call girls in Jaipur, Vaishali Nagar, Malviya Nagar, and Rajasthan from ₹3,000/hr. 500+ real profiles, 100% privacy, 24/7 escort service. Cash payment, no advance." },
-      { name: "keywords", content: "karnataka escort service, Vaishali Nagar escorts, Malviya Nagar call girls, C-Scheme escorts, bangalore escort service, bangalore call girls, call girls in bangalore, escort service in bangalore, Mansarovar call girls, Bani Park escorts, Raja Park call girls, kannada call girl, independent call girls bangalore, russian escorts bangalore, VIP call girls, hotel call girl, call girl near me, call girl service karnataka, cheap call girl, cash payment call girls, best escort service, call girl number, escort near me, independent escort, bangalore escort girls, call girls, call girl service, bangalore independent call girls, escort agency, celebrity escorts, model escorts, massage service, full night escort, incall escort, outcall escort, कॉल गर्ल, एस्कॉर्ट सर्विस, कॉल गर्ल नंबर, कॉल गर्ल नियर मी" },
+      { title: "Indian Escorts | ₹3,000/Hr | Suman Escorts" },
+      { name: "description", content: "Book verified call girls across India, Mumbai, Delhi, Bangalore, and all major cities from ₹3,000/hr. 500+ real profiles, 100% privacy, 24/7 escort service. Cash payment, no advance." },
+      { name: "keywords", content: "indian escort service, mumbai escorts, delhi call girls, bangalore escorts, goa escort service, pune call girls, call girls in india, escort service in india, kolkata call girls, hyderabad escorts, chennai call girls, indian call girl, independent call girls india, russian escorts india, VIP call girls, hotel call girl, call girl near me, call girl service india, cheap call girl, cash payment call girls, best escort service, call girl number, escort near me, independent escort, indian escort girls, call girls, call girl service, india independent call girls, escort agency, celebrity escorts, model escorts, massage service, full night escort, incall escort, outcall escort, कॉल गर्ल, एस्कॉर्ट सर्विस, कॉल गर्ल नंबर, कॉल गर्ल नियर मी" },
       { name: "robots", content: "index, follow, max-snippet:-1, max-image-preview:large" },
-      { name: "author", content: "Suman Escorts Jaipur" },
-      { property: "og:site_name", content: "Suman Escorts Jaipur Rajasthan" },
-      { property: "og:title", content: "Jaipur Escorts | ₹3,000/Hr | Verified Call Girls" },
-      { property: "og:description", content: "Book verified call girls across Rajasthan from ₹3,000/hr. 500+ real profiles, 100% privacy, 24/7 escort service." },
+      { name: "author", content: "Suman Escorts" },
+      { property: "og:site_name", content: "Suman Escorts India" },
+      { property: "og:title", content: "Indian Escorts | ₹3,000/Hr | Verified Call Girls" },
+      { property: "og:description", content: "Book verified call girls across India from ₹3,000/hr. 500+ real profiles, 100% privacy, 24/7 escort service." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Jaipur Escorts | ₹3,000/Hr | Verified Call Girls" },
-      { name: "twitter:description", content: "Book verified call girls across Rajasthan from ₹3,000/hr. 500+ real profiles, 100% privacy." },
+      { name: "twitter:title", content: "Indian Escorts | ₹3,000/Hr | Verified Call Girls" },
+      { name: "twitter:description", content: "Book verified call girls across India from ₹3,000/hr. 500+ real profiles, 100% privacy." },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -114,9 +114,9 @@ function RootShell({ children }: { children: ReactNode }) {
     "@graph": [
       {
         "@type": "WebSite",
-        "name": "Suman Escorts Jaipur",
+        "name": "Suman Escorts",
         "url": "https://kavyaescortservice.com/",
-        "description": "Jaipur's most trusted escort service agency with 500+ verified call girls. Available 24/7 across all Jaipur areas.",
+        "description": "India's most trusted escort service agency with 500+ verified call girls. Available 24/7 across all major Indian cities.",
         "potentialAction": {
           "@type": "SearchAction",
           "target": "https://kavyaescortservice.com/?q={search_term_string}",
@@ -125,105 +125,39 @@ function RootShell({ children }: { children: ReactNode }) {
       },
       {
         "@type": "LocalBusiness",
-        "name": "Suman Escorts Jaipur",
+        "name": "Suman Escorts",
         "telephone": "+919928561640",
         "email": "sumanescortservice@gmail.com",
         "priceRange": "₹₹₹",
         "image": "/images/photo_2026-07-23_23-02-09.jpg",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "MI Road",
-          "addressLocality": "Jaipur",
-          "addressRegion": "Rajasthan",
-          "postalCode": "560001",
+          "streetAddress": "Connaught Place",
+          "addressLocality": "New Delhi",
+          "addressRegion": "Delhi",
+          "postalCode": "110001",
           "addressCountry": "IN"
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 12.9716,
-          "longitude": 77.5946
+          "latitude": 28.6139,
+          "longitude": 77.2090
         },
         "areaServed": [
-          "Mansarovar, Jaipur",
-          "Bani Park, Jaipur",
-          "Raja Park, Jaipur",
-          "MI Road, Jaipur",
-          "Electronic City, Jaipur",
-          "HSR Layout, Jaipur",
-          "BTM Layout, Jaipur",
-          "Marathahalli, Jaipur",
-          "JP Nagar, Jaipur",
-          "Jayanagar, Jaipur",
-          "Hebbal, Jaipur",
-          "Bellandur, Jaipur",
-          "Sarjapur Road, Jaipur",
-          "Yelahanka, Jaipur",
-          "Manyata Tech Park, Jaipur",
-          "Bannerghatta Road, Jaipur",
-          "Majestic, Jaipur",
-          "Brigade Road, Jaipur",
-          "UB City, Jaipur",
-          "Jaipur",
-          "Vaishali Nagar",
-          "Malviya Nagar",
-          "Jagatpura",
-          "Civil Lines",
-          "C-Scheme",
-          "Rajasthan"
-        ],
-        "openingHoursSpecification": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-          "opens": "00:00",
-          "closes": "23:59"
-        },
-        "url": "https://kavyaescortservice.com",
-        "sameAs": [
-          "https://www.facebook.com/kavyaescortservice",
-          "https://www.instagram.com/kavyaescortservice"
-        ],
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "bestRating": "5",
-          "ratingCount": "2100"
-        }
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "How to book call girls in Jaipur?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Simply call or Telegram @SUMAN_VARMA_SPA. Share your preferred time, location, and companion preference. Our team responds within minutes and arranges a verified companion at your location within 30-45 minutes."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What areas of Jaipur do you cover?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "We cover ALL of Jaipur — Mansarovar, Bani Park, Raja Park, MI Road, Electronic City, HSR Layout, BTM Layout, Marathahalli, Hebbal, JP Nagar, Jayanagar, Sarjapur, Bellandur, Yelahanka, and 50+ more areas."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are the photos of call girls in Jaipur 100% genuine?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Absolutely. Every profile photo is verified directly with the companion. No stock images, no fake profiles. What you see is exactly who arrives — guaranteed."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is advance payment required?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "No. We have a strict no-advance-payment policy. You pay only after the companion arrives and you are satisfied. Cash payment accepted."
-            }
-          }
+          "Mumbai, Maharashtra",
+          "New Delhi, Delhi",
+          "Bangalore, Karnataka",
+          "Kolkata, West Bengal",
+          "Chennai, Tamil Nadu",
+          "Hyderabad, Telangana",
+          "Pune, Maharashtra",
+          "Ahmedabad, Gujarat",
+          "Goa, India",
+          "Jaipur, Rajasthan",
+          "Lucknow, Uttar Pradesh",
+          "Chandigarh, India",
+          "Indore, Madhya Pradesh",
+          "Surat, Gujarat"
         ]
       }
     ]
