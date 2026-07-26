@@ -12,8 +12,8 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About Us | Jaipur Escorts Agency & Independent Call Girls" },
-      { name: "description", content: "Learn more about Suman Varma Call Girls, the most trusted and genuine Jaipur escorts agency. We provide 100% independent call girls with real pics and no advance payment." },
-      { name: "keywords", content: "about escort service Jaipur, Suman Varma Call Girls history, genuine call girls in Jaipur, premium spa Jaipur, Koramangala spa" },
+      { name: "description", content: "Learn more about Suman Escorts Jaipur, the most trusted and genuine Jaipur escorts agency. We provide 100% independent call girls with real pics and no advance payment." },
+      { name: "keywords", content: "about escort service Jaipur, Suman Escorts Jaipur history, genuine call girls in Jaipur, premium spa Jaipur, Koramangala spa" },
     ],
   }),
 });
@@ -29,7 +29,7 @@ export default function AboutPage() {
       <section className="pt-32 pb-16 bg-radial-glow">
         <div className="mx-auto max-w-4xl px-6 text-center">
           <p className="text-xs uppercase tracking-[0.4em] text-primary mb-4">Our Story</p>
-          <h1 className="font-display text-4xl md:text-6xl font-light mb-6">About Suman Varma Call Girls</h1>
+          <h1 className="font-display text-4xl md:text-6xl font-light mb-6">About Suman Escorts Jaipur</h1>
           <div className="flex items-center justify-center gap-4 mb-8 text-xs uppercase tracking-widest text-primary/80">
             <span className="flex items-center gap-2">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
@@ -48,7 +48,7 @@ export default function AboutPage() {
             <div>
               <h2 className="font-display text-3xl text-gold-gradient mb-4">The Most Trusted Escort Service Jaipur</h2>
               <p className="mb-4">
-                For years, Suman Varma Call Girls has stood as the gold standard for luxury companionship and premium relaxation in the Garden City. When you are looking for an <strong>escort service Jaipur</strong>, you are not just looking for a meeting; you are seeking a meticulously curated experience that prioritizes your satisfaction, privacy, and safety.
+                For years, Suman Escorts Jaipur has stood as the gold standard for luxury companionship and premium relaxation in the Garden City. When you are looking for an <strong>escort service Jaipur</strong>, you are not just looking for a meeting; you are seeking a meticulously curated experience that prioritizes your satisfaction, privacy, and safety.
               </p>
               <p>
                 Located conveniently in the heart of the city at <strong>Koramangala</strong>, our establishment serves as a sanctuary for those looking to escape the mundane. Our deep understanding of what constitutes a truly premium service has allowed us to become the most sought-after destination for gentlemen and travelers alike who want to book call girls in Jaipur.
@@ -96,7 +96,7 @@ export default function AboutPage() {
             <div className="bg-card border border-border p-8 rounded-lg">
               <h2 className="font-display text-3xl text-gold-gradient mb-4">Uncompromising Hygiene & Safety Standards</h2>
               <p className="mb-4">
-                In the luxury adult entertainment and premium spa industry, health and hygiene are non-negotiable. At Suman Varma Call Girls, we have instituted the highest health protocols for both our clients and our companions. Our incall facility in <strong>Koramangala</strong> is sanitized daily, and fresh linens, premium toiletries, and a completely immaculate environment are guaranteed for every single booking.
+                In the luxury adult entertainment and premium spa industry, health and hygiene are non-negotiable. At Suman Escorts Jaipur, we have instituted the highest health protocols for both our clients and our companions. Our incall facility in <strong>Koramangala</strong> is sanitized daily, and fresh linens, premium toiletries, and a completely immaculate environment are guaranteed for every single booking.
               </p>
               <p className="mb-4">
                 Furthermore, we prioritize the safety and well-being of our <strong>Jaipur escort girls</strong> just as much as our clients. We operate a secure, verified booking system that protects the identities of everyone involved. This mutual respect creates a stress-free environment where both you and your companion can truly relax and enjoy the moment without any underlying anxieties.
@@ -116,7 +116,7 @@ export default function AboutPage() {
             <div className="bg-card border border-border p-8 rounded-lg">
               <h2 className="font-display text-3xl text-gold-gradient mb-4">Our Philosophy of Luxury Companionship</h2>
               <p className="mb-4">
-                At Suman Varma Call Girls, we believe that true luxury lies in the details and the personalization of service. We reject the "one-size-fits-all" approach that plagues the industry. Instead, we take the time to understand your specific desires, preferences, and fantasies. Whether you seek a dominant, passionate encounter or a sweet, submissive romance, our diverse roster of companions can cater to your exact requirements.
+                At Suman Escorts Jaipur, we believe that true luxury lies in the details and the personalization of service. We reject the "one-size-fits-all" approach that plagues the industry. Instead, we take the time to understand your specific desires, preferences, and fantasies. Whether you seek a dominant, passionate encounter or a sweet, submissive romance, our diverse roster of companions can cater to your exact requirements.
               </p>
               <p>
                 We view ourselves not just as a booking agency, but as facilitators of extraordinary experiences. By continuously adapting to the feedback of our elite clientele and maintaining our unwavering standards, we remain the definitive choice for anyone looking to experience the finest <strong>escort service in Jaipur</strong>.
@@ -136,7 +136,7 @@ export default function AboutPage() {
             <div className="bg-card border border-border p-8 rounded-lg">
               <h2 className="font-display text-3xl text-gold-gradient mb-4">Our Diverse Companionship Types</h2>
               <p className="mb-4">
-                We understand that every client has unique desires. Suman Varma Call Girls boasts the most diverse gallery in Rajasthan. We offer:
+                We understand that every client has unique desires. Suman Escorts Jaipur boasts the most diverse gallery in Rajasthan. We offer:
               </p>
               <ul className="list-disc pl-5 space-y-2 text-sm text-muted-foreground">
                 <li><strong>High Profile Models:</strong> Perfect for high-end corporate events, elite parties, or when you simply want the absolute best.</li>

@@ -5,7 +5,7 @@ export const Route = createFileRoute("/privacy")({
   component: PrivacyPage,
   head: () => ({
     meta: [
-      { title: "Privacy Policy | Suman Varma Call Girls" },
+      { title: "Privacy Policy | Suman Escorts Jaipur" },
       { name: "description", content: "Read our strict privacy policy. We guarantee 100% confidentiality, no data retention, and untraceable Direct Cash Payments for all escort bookings." },
     ],
   }),
@@ -29,7 +29,7 @@ export default function PrivacyPage() {
           <div className="prose prose-invert max-w-none text-muted-foreground">
             
             <p className="text-lg leading-relaxed mb-8">
-              At Suman Varma Call Girls, we understand that discretion and confidentiality are the most important factors for our clients. This Privacy Policy outlines our strict data handling practices and our commitment to ensuring that your interactions with our agency remain completely private and untraceable.
+              At Suman Escorts Jaipur, we understand that discretion and confidentiality are the most important factors for our clients. This Privacy Policy outlines our strict data handling practices and our commitment to ensuring that your interactions with our agency remain completely private and untraceable.
             </p>
 
             <h2 className="font-display text-2xl text-white mt-12 mb-6">1. Zero Data Retention Policy</h2>

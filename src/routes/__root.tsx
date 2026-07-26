@@ -81,12 +81,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "google-site-verification", content: "jxESRVjN5XoFAcmwonYhi6dzJ8GzTTLfTxW2jthxhlE" },
-      { title: "Jaipur Escorts | ₹3,000/Hr | Suman Varma Call Girls" },
+      { title: "Jaipur Escorts | ₹3,000/Hr | Suman Escorts Jaipur" },
       { name: "description", content: "Book verified call girls in Jaipur, Hassan, Mysore, and Rajasthan from ₹3,000/hr. 500+ real profiles, 100% privacy, 24/7 escort service. Cash payment, no advance." },
       { name: "keywords", content: "karnataka escort service, hassan escorts, mysore call girls, digha escorts, bangalore escort service, bangalore call girls, call girls in bangalore, escort service in bangalore, koramangala call girls, indiranagar escorts, whitefield call girls, kannada call girl, independent call girls bangalore, russian escorts bangalore, VIP call girls, hotel call girl, call girl near me, call girl service karnataka, cheap call girl, cash payment call girls, best escort service, call girl number, escort near me, independent escort, bangalore escort girls, call girls, call girl service, bangalore independent call girls, escort agency, celebrity escorts, model escorts, massage service, full night escort, incall escort, outcall escort, कॉल गर्ल, एस्कॉर्ट सर्विस, कॉल गर्ल नंबर, कॉल गर्ल नियर मी" },
       { name: "robots", content: "index, follow, max-snippet:-1, max-image-preview:large" },
-      { name: "author", content: "Suman Varma Call Girls" },
-      { property: "og:site_name", content: "Suman Varma Call Girls Rajasthan" },
+      { name: "author", content: "Suman Escorts Jaipur" },
+      { property: "og:site_name", content: "Suman Escorts Jaipur Rajasthan" },
       { property: "og:title", content: "Jaipur Escorts | ₹3,000/Hr | Verified Call Girls" },
       { property: "og:description", content: "Book verified call girls across Rajasthan from ₹3,000/hr. 500+ real profiles, 100% privacy, 24/7 escort service." },
       { property: "og:type", content: "website" },
@@ -114,7 +114,7 @@ function RootShell({ children }: { children: ReactNode }) {
     "@graph": [
       {
         "@type": "WebSite",
-        "name": "Suman Varma Call Girls Jaipur",
+        "name": "Suman Escorts Jaipur Jaipur",
         "url": "https://kavyaescortservice.com/",
         "description": "Jaipur's most trusted escort service agency with 500+ verified call girls. Available 24/7 across all Jaipur areas.",
         "potentialAction": {
@@ -125,7 +125,7 @@ function RootShell({ children }: { children: ReactNode }) {
       },
       {
         "@type": "LocalBusiness",
-        "name": "Suman Varma Call Girls Jaipur",
+        "name": "Suman Escorts Jaipur Jaipur",
         "telephone": "+919928561640",
         "email": "sumanescortservice@gmail.com",
         "priceRange": "₹₹₹",
